@@ -1,0 +1,52 @@
+{
+ "config": {
+  "n": 600,
+  "unit": 15,
+  "B": 40,
+  "super1": 2,
+  "super2": 1,
+  "half": 10,
+  "K_in": 99,
+  "B_out": 99,
+  "strata": 4,
+  "alpha": 0.05
+ },
+ "cells": {
+  "null_ar": {
+   "reps": 200,
+   "reject_fullperm": 0.045,
+   "se_fullperm": 0.014658615214269049,
+   "reject_nominal": 0.015,
+   "se_nominal": 0.008595056718835542,
+   "stage1_fire_rate_obs": 0.085,
+   "stage1_fire_rate_perm": 0.06575757575757576,
+   "n_beta_at_grid_edge": 0,
+   "reject_cond_pooled_descriptive": 0.015,
+   "se_cond": 0.008595056718835542
+  },
+  "M1_s1.6": {
+   "reps": 200,
+   "reject_fullperm": 0.575,
+   "se_fullperm": 0.03495532863527391,
+   "reject_nominal": 0.065,
+   "se_nominal": 0.017432010784760317,
+   "stage1_fire_rate_obs": 0.93,
+   "stage1_fire_rate_perm": 0.08333333333333334,
+   "n_beta_at_grid_edge": 0,
+   "reject_cond_pooled_descriptive": 0.015,
+   "se_cond": 0.008595056718835542
+  },
+  "D2_a0.9": {
+   "reps": 200,
+   "reject_fullperm": 0.75,
+   "se_fullperm": 0.030618621784789725,
+   "reject_nominal": 0.53,
+   "se_nominal": 0.03529164207004259,
+   "stage1_fire_rate_obs": 0.885,
+   "stage1_fire_rate_perm": 0.07944444444444444,
+   "n_beta_at_grid_edge": 0,
+   "reject_cond_pooled_descriptive": 0.17,
+   "se_cond": 0.02656124997058685
+  }
+ }
+}

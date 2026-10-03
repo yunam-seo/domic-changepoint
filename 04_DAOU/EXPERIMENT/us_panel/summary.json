@@ -1,0 +1,203 @@
+{
+ "SPX-GLD": {
+  "diag": {
+   "n": 3770,
+   "first": "20110823",
+   "last": "20260820",
+   "decision": "block",
+   "block": 134,
+   "n_blocks": 28,
+   "pvalues": {
+    "lb_level_x": 0.02,
+    "lb_level_y": 0.42,
+    "lb_scale_x": 0.005,
+    "lb_scale_y": 0.005,
+    "lb_cross": 0.735
+   }
+  },
+  "primary_statistic": "DOMI-diff",
+  "p": {
+   "DOMI-diff": 0.008,
+   "HSIC-diff": 0.0225,
+   "Spearman-diff": 0.2289,
+   "CopulaCvM": 0.0806,
+   "combined": 0.008
+  },
+  "tau_date": {
+   "DOMI-diff": "20130312",
+   "HSIC-diff": "20130225",
+   "Spearman-diff": "20200622",
+   "CopulaCvM": "20190530",
+   "combined": "20130312"
+  },
+  "primary_p": 0.008,
+  "bh_q": 0.012,
+  "survives_bh": true,
+  "sensitivity": {
+   "DOMI-diff": {
+    "median": 0.009,
+    "min": 0.004,
+    "max": 0.015,
+    "n_draws": 20
+   },
+   "HSIC-diff": {
+    "median": 0.0225,
+    "min": 0.013,
+    "max": 0.038,
+    "n_draws": 20
+   },
+   "Spearman-diff": {
+    "median": 0.222,
+    "min": 0.194,
+    "max": 0.264,
+    "n_draws": 20
+   },
+   "CopulaCvM": {
+    "median": 0.0895,
+    "min": 0.05,
+    "max": 0.097,
+    "n_draws": 20
+   },
+   "combined": {
+    "median": 0.009,
+    "min": 0.004,
+    "max": 0.016,
+    "n_draws": 20
+   }
+  }
+ },
+ "SPX-TNX": {
+  "diag": {
+   "n": 3769,
+   "first": "20110823",
+   "last": "20260820",
+   "decision": "block",
+   "block": 173,
+   "n_blocks": 21,
+   "pvalues": {
+    "lb_level_x": 0.01,
+    "lb_level_y": 0.14,
+    "lb_scale_x": 0.005,
+    "lb_scale_y": 0.005,
+    "lb_cross": 0.06
+   }
+  },
+  "primary_statistic": "combined",
+  "p": {
+   "DOMI-diff": 0.0226,
+   "HSIC-diff": 0.0243,
+   "Spearman-diff": 0.0001,
+   "CopulaCvM": 0.0001,
+   "combined": 0.0204
+  },
+  "tau_date": {
+   "DOMI-diff": "20130508",
+   "HSIC-diff": "20130508",
+   "Spearman-diff": "20201207",
+   "CopulaCvM": "20200310",
+   "combined": "20201207"
+  },
+  "primary_p": 0.0204,
+  "bh_q": 0.0204,
+  "survives_bh": true,
+  "sensitivity": {
+   "DOMI-diff": {
+    "median": 0.0235,
+    "min": 0.007,
+    "max": 0.028,
+    "n_draws": 20
+   },
+   "HSIC-diff": {
+    "median": 0.024,
+    "min": 0.014,
+    "max": 0.037,
+    "n_draws": 20
+   },
+   "Spearman-diff": {
+    "median": 0.001,
+    "min": 0.001,
+    "max": 0.001,
+    "n_draws": 20
+   },
+   "CopulaCvM": {
+    "median": 0.001,
+    "min": 0.001,
+    "max": 0.001,
+    "n_draws": 20
+   },
+   "combined": {
+    "median": 0.019,
+    "min": 0.007,
+    "max": 0.024,
+    "n_draws": 20
+   }
+  }
+ },
+ "SPX-DXY": {
+  "diag": {
+   "n": 3768,
+   "first": "20110823",
+   "last": "20260820",
+   "decision": "block",
+   "block": 133,
+   "n_blocks": 28,
+   "pvalues": {
+    "lb_level_x": 0.02,
+    "lb_level_y": 0.01,
+    "lb_scale_x": 0.005,
+    "lb_scale_y": 0.005,
+    "lb_cross": 0.61
+   }
+  },
+  "primary_statistic": "combined",
+  "p": {
+   "DOMI-diff": 0.0053,
+   "HSIC-diff": 0.0096,
+   "Spearman-diff": 0.0227,
+   "CopulaCvM": 0.1963,
+   "combined": 0.0053
+  },
+  "tau_date": {
+   "DOMI-diff": "20130401",
+   "HSIC-diff": "20130401",
+   "Spearman-diff": "20130226",
+   "CopulaCvM": "20200310",
+   "combined": "20130401"
+  },
+  "primary_p": 0.0053,
+  "bh_q": 0.012,
+  "survives_bh": true,
+  "sensitivity": {
+   "DOMI-diff": {
+    "median": 0.0075,
+    "min": 0.002,
+    "max": 0.015,
+    "n_draws": 20
+   },
+   "HSIC-diff": {
+    "median": 0.0135,
+    "min": 0.003,
+    "max": 0.021,
+    "n_draws": 20
+   },
+   "Spearman-diff": {
+    "median": 0.025,
+    "min": 0.016,
+    "max": 0.034,
+    "n_draws": 20
+   },
+   "CopulaCvM": {
+    "median": 0.207,
+    "min": 0.163,
+    "max": 0.228,
+    "n_draws": 20
+   },
+   "combined": {
+    "median": 0.0075,
+    "min": 0.002,
+    "max": 0.015,
+    "n_draws": 20
+   }
+  }
+ }
+}

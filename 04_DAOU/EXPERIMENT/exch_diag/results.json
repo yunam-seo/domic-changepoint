@@ -1,0 +1,1289 @@
+{
+ "protocol": {
+  "tests": [
+   "LB(rank levels) x2",
+   "LB(rank squares) x2",
+   "cross-portmanteau"
+  ],
+  "bonferroni_alpha": 0.05,
+  "block_length_rule": "b_hat = ceil(5 * tau_int), tau_int = initial-positive-sequence integrated autocorrelation time, max over the 4 univariate rank sequences"
+ },
+ "synthetic": {
+  "iid": {
+   "reps": 200,
+   "block_rate": 0.01,
+   "reject_rates_by_test": {
+    "lb_level_x": 0.005,
+    "lb_level_y": 0.0,
+    "lb_scale_x": 0.0,
+    "lb_scale_y": 0.0,
+    "lb_cross": 0.005
+   },
+   "b_hat_median": 6.5,
+   "b_hat_iqr": [
+    6.25,
+    6.75
+   ]
+  },
+  "ar1": {
+   "reps": 200,
+   "block_rate": 1.0,
+   "reject_rates_by_test": {
+    "lb_level_x": 1.0,
+    "lb_level_y": 1.0,
+    "lb_scale_x": 0.975,
+    "lb_scale_y": 0.98,
+    "lb_cross": 1.0
+   },
+   "b_hat_median": 22.0,
+   "b_hat_iqr": [
+    19.0,
+    25.0
+   ]
+  },
+  "garch": {
+   "reps": 200,
+   "block_rate": 0.965,
+   "reject_rates_by_test": {
+    "lb_level_x": 0.005,
+    "lb_level_y": 0.005,
+    "lb_scale_x": 0.78,
+    "lb_scale_y": 0.75,
+    "lb_cross": 0.015
+   },
+   "b_hat_median": 21.0,
+   "b_hat_iqr": [
+    15.0,
+    28.0
+   ]
+  }
+ },
+ "weather": {
+  "summary": {
+   "n_analyses": 36,
+   "all_block": true,
+   "max_pvalue_any_test": 0.005,
+   "b_hat_hours_min": 677,
+   "b_hat_hours_median": 1105.5,
+   "b_hat_hours_max": 3727,
+   "b_hat_weeks_median": 6.580357142857143,
+   "b_hat_weeks_max": 22.18452380952381
+  },
+  "rows": [
+   {
+    "station": "Gangneung",
+    "pair": "ta-hm",
+    "n": 70076,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 209.87250045456489,
+    "b_hat": 1050
+   },
+   {
+    "station": "Gangneung",
+    "pair": "ta-ws",
+    "n": 70063,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 205.72084966124365,
+    "b_hat": 1029
+   },
+   {
+    "station": "Gangneung",
+    "pair": "hm-ws",
+    "n": 70089,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 194.85616995282376,
+    "b_hat": 975
+   },
+   {
+    "station": "Seoul",
+    "pair": "ta-hm",
+    "n": 70069,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 628.8708060713715,
+    "b_hat": 3145
+   },
+   {
+    "station": "Seoul",
+    "pair": "ta-ws",
+    "n": 70027,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 744.7371734929422,
+    "b_hat": 3724
+   },
+   {
+    "station": "Seoul",
+    "pair": "hm-ws",
+    "n": 70049,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 745.3460630227462,
+    "b_hat": 3727
+   },
+   {
+    "station": "Incheon",
+    "pair": "ta-hm",
+    "n": 70100,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 284.0397035732822,
+    "b_hat": 1421
+   },
+   {
+    "station": "Incheon",
+    "pair": "ta-ws",
+    "n": 70092,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 284.42069152954554,
+    "b_hat": 1423
+   },
+   {
+    "station": "Incheon",
+    "pair": "hm-ws",
+    "n": 70120,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 196.55494362960542,
+    "b_hat": 983
+   },
+   {
+    "station": "Suwon",
+    "pair": "ta-hm",
+    "n": 69980,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 225.1261546656603,
+    "b_hat": 1126
+   },
+   {
+    "station": "Suwon",
+    "pair": "ta-ws",
+    "n": 70073,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 222.4034202558766,
+    "b_hat": 1113
+   },
+   {
+    "station": "Suwon",
+    "pair": "hm-ws",
+    "n": 70028,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 163.51468535611514,
+    "b_hat": 818
+   },
+   {
+    "station": "Seosan",
+    "pair": "ta-hm",
+    "n": 70017,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 219.55819651022645,
+    "b_hat": 1098
+   },
+   {
+    "station": "Seosan",
+    "pair": "ta-ws",
+    "n": 70024,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 219.49494599777088,
+    "b_hat": 1098
+   },
+   {
+    "station": "Seosan",
+    "pair": "hm-ws",
+    "n": 70032,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 135.26312371737257,
+    "b_hat": 677
+   },
+   {
+    "station": "Daejeon",
+    "pair": "ta-hm",
+    "n": 70101,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 181.69793067060763,
+    "b_hat": 909
+   },
+   {
+    "station": "Daejeon",
+    "pair": "ta-ws",
+    "n": 70090,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 312.6503200210416,
+    "b_hat": 1564
+   },
+   {
+    "station": "Daejeon",
+    "pair": "hm-ws",
+    "n": 70105,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 312.9084533743156,
+    "b_hat": 1565
+   },
+   {
+    "station": "Daegu",
+    "pair": "ta-hm",
+    "n": 70113,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 154.35324711245335,
+    "b_hat": 772
+   },
+   {
+    "station": "Daegu",
+    "pair": "ta-ws",
+    "n": 70116,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 155.94852014132192,
+    "b_hat": 780
+   },
+   {
+    "station": "Daegu",
+    "pair": "hm-ws",
+    "n": 70122,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 171.45634298166857,
+    "b_hat": 858
+   },
+   {
+    "station": "Jeonju",
+    "pair": "ta-hm",
+    "n": 70091,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 222.45827858687994,
+    "b_hat": 1113
+   },
+   {
+    "station": "Jeonju",
+    "pair": "ta-ws",
+    "n": 70106,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 210.67652513660187,
+    "b_hat": 1054
+   },
+   {
+    "station": "Jeonju",
+    "pair": "hm-ws",
+    "n": 70102,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 222.6047135918323,
+    "b_hat": 1114
+   },
+   {
+    "station": "Gwangju",
+    "pair": "ta-hm",
+    "n": 70113,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 245.76576016134382,
+    "b_hat": 1229
+   },
+   {
+    "station": "Gwangju",
+    "pair": "ta-ws",
+    "n": 70054,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 204.18550763723985,
+    "b_hat": 1021
+   },
+   {
+    "station": "Gwangju",
+    "pair": "hm-ws",
+    "n": 70059,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 245.17186073388996,
+    "b_hat": 1226
+   },
+   {
+    "station": "Busan",
+    "pair": "ta-hm",
+    "n": 70061,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 264.7323801327568,
+    "b_hat": 1324
+   },
+   {
+    "station": "Busan",
+    "pair": "ta-ws",
+    "n": 70051,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 264.4881647150002,
+    "b_hat": 1323
+   },
+   {
+    "station": "Busan",
+    "pair": "hm-ws",
+    "n": 70014,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 207.04295379519198,
+    "b_hat": 1036
+   },
+   {
+    "station": "Mokpo",
+    "pair": "ta-hm",
+    "n": 70098,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 241.83202654271383,
+    "b_hat": 1210
+   },
+   {
+    "station": "Mokpo",
+    "pair": "ta-ws",
+    "n": 70095,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 241.8909314854802,
+    "b_hat": 1210
+   },
+   {
+    "station": "Mokpo",
+    "pair": "hm-ws",
+    "n": 70082,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 234.5805276611925,
+    "b_hat": 1173
+   },
+   {
+    "station": "Jeju",
+    "pair": "ta-hm",
+    "n": 70103,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 218.43153278087067,
+    "b_hat": 1093
+   },
+   {
+    "station": "Jeju",
+    "pair": "ta-ws",
+    "n": 70091,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 218.39784146308727,
+    "b_hat": 1092
+   },
+   {
+    "station": "Jeju",
+    "pair": "hm-ws",
+    "n": 70094,
+    "L": 168,
+    "alpha": 0.05,
+    "K": 199,
+    "pvalues": {
+     "lb_level_x": 0.005,
+     "lb_level_y": 0.005,
+     "lb_scale_x": 0.005,
+     "lb_scale_y": 0.005,
+     "lb_cross": 0.005
+    },
+    "pvalues_asymptotic": {
+     "lb_level_x": 0.0,
+     "lb_level_y": 0.0,
+     "lb_scale_x": 0.0,
+     "lb_scale_y": 0.0,
+     "lb_cross": 0.0
+    },
+    "reject": {
+     "lb_level_x": true,
+     "lb_level_y": true,
+     "lb_scale_x": true,
+     "lb_scale_y": true,
+     "lb_cross": true
+    },
+    "decision": "block",
+    "tau_hat": 214.56109901941707,
+    "b_hat": 1073
+   }
+  ]
+ },
+ "finance": {
+  "daily_2021_2022": {
+   "n": 503,
+   "L": 20,
+   "alpha": 0.05,
+   "K": 199,
+   "pvalues": {
+    "lb_level_x": 0.81,
+    "lb_level_y": 0.025,
+    "lb_scale_x": 0.005,
+    "lb_scale_y": 0.005,
+    "lb_cross": 0.01
+   },
+   "pvalues_asymptotic": {
+    "lb_level_x": 0.824568693780348,
+    "lb_level_y": 0.03292216199172481,
+    "lb_scale_x": 3.2228783860200617e-37,
+    "lb_scale_y": 4.903792661490554e-48,
+    "lb_cross": 0.009618350528389706
+   },
+   "reject": {
+    "lb_level_x": false,
+    "lb_level_y": false,
+    "lb_scale_x": true,
+    "lb_scale_y": true,
+    "lb_cross": true
+   },
+   "decision": "block",
+   "tau_hat": 23.36626257859864,
+   "b_hat": 117
+  },
+  "weekly_full": {
+   "n": 753,
+   "L": 20,
+   "alpha": 0.05,
+   "K": 199,
+   "pvalues": {
+    "lb_level_x": 0.825,
+    "lb_level_y": 0.135,
+    "lb_scale_x": 0.005,
+    "lb_scale_y": 0.005,
+    "lb_cross": 0.36
+   },
+   "pvalues_asymptotic": {
+    "lb_level_x": 0.874320622903765,
+    "lb_level_y": 0.13953709434962167,
+    "lb_scale_x": 8.459882944926637e-23,
+    "lb_scale_y": 9.76283231494228e-19,
+    "lb_cross": 0.3351261897594564
+   },
+   "reject": {
+    "lb_level_x": false,
+    "lb_level_y": false,
+    "lb_scale_x": true,
+    "lb_scale_y": true,
+    "lb_cross": false
+   },
+   "decision": "block",
+   "tau_hat": 8.743757894468185,
+   "b_hat": 44
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "n": 600,
+ "tau": 300,
+ "w": 60,
+ "tol": 30,
+ "D": 8,
+ "fpr": 0.05,
+ "reps": 500,
+ "chunk": 50,
+ "levels": [
+  0.35,
+  0.7
+ ],
+ "base_seed": 20260928,
+ "statistics": [
+  "DOMI-diff",
+  "matmi-a1",
+  "HSIC-diff",
+  "dCor-diff",
+  "Spearman-diff",
+  "CvM-sub",
+  "CorrCUSUM",
+  "CopulaCvM"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scen": "D4",
+ "level": 0.7,
+ "reps": 500,
+ "null_draws": "fresh base seeds",
+ "calibrations": [
+  {
+   "calibration": "base_seed=20260825 (matched null, as in Table 1)",
+   "DOMI-diff|gs": 0.086,
+   "dCor-diff|gs": 0.012,
+   "HSIC-diff|gs": 0.014,
+   "Spearman-diff|g": 0.002,
+   "GaussLR|g": 0.004
+  },
+  {
+   "calibration": "base_seed=20260901",
+   "DOMI-diff|gs": 0.124,
+   "dCor-diff|gs": 0.016,
+   "HSIC-diff|gs": 0.0,
+   "Spearman-diff|g": 0.002,
+   "GaussLR|g": 0.006
+  },
+  {
+   "calibration": "base_seed=20260902",
+   "DOMI-diff|gs": 0.15,
+   "dCor-diff|gs": 0.02,
+   "HSIC-diff|gs": 0.026,
+   "Spearman-diff|g": 0.002,
+   "GaussLR|g": 0.004
+  }
+ ],
+ "spread": {
+  "DOMI-diff|gs": 0.064,
+  "dCor-diff|gs": 0.008,
+  "HSIC-diff|gs": 0.026,
+  "Spearman-diff|g": 0.0,
+  "GaussLR|g": 0.002
+ }
+}

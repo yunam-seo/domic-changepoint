@@ -1,0 +1,362 @@
+{
+ "config": {
+  "n": 1800,
+  "taus": [
+   450,
+   900,
+   1350
+  ],
+  "reps": 200,
+  "grid_step": 10,
+  "base_seed": 20260825,
+  "kcp": {
+   "kernel": "Gaussian exp(-d^2/median(d^2))",
+   "betas": [
+    0.25,
+    20.0,
+    0.25
+   ],
+   "calibration": "smallest beta with <=5% null replicates showing any change"
+  },
+  "edivisive": {
+   "alpha": 1,
+   "sig": 0.05,
+   "R": 99,
+   "min_size": 60,
+   "step": 10
+  },
+  "retest": {
+   "statistic": "DOMI difference (run_domi_binseg.split_test)",
+   "calibration": "pair permutation",
+   "K": 99,
+   "bh_q": 0.1,
+   "window": "centred, half-width = distance to nearer neighbour"
+  },
+  "holevo_partition": "stored e2 records at beta=10.285714285714286 (MB, null); recomputed for M1",
+  "m1_like": {
+   "scale": 1.6,
+   "breaks": [
+    450,
+    900,
+    1350
+   ]
+  }
+ },
+ "kcp_penalty": {
+  "raw": {
+   "beta": 2.5,
+   "null_any": 0.05
+  },
+  "rank": {
+   "beta": 2.75,
+   "null_any": 0.05
+  }
+ },
+ "table": [
+  {
+   "design": "null",
+   "level": "",
+   "method": "Holevo-partition",
+   "reps": 200,
+   "any_detection": 0.0,
+   "mean_k": 0.0
+  },
+  {
+   "design": "null",
+   "level": "",
+   "method": "Holevo-partition+DOMI",
+   "reps": 200,
+   "any_detection": 0.0,
+   "mean_k": 0.0
+  },
+  {
+   "design": "null",
+   "level": "",
+   "method": "KCP-rank",
+   "reps": 200,
+   "any_detection": 0.05,
+   "mean_k": 0.06
+  },
+  {
+   "design": "null",
+   "level": "",
+   "method": "KCP-rank+DOMI",
+   "reps": 200,
+   "any_detection": 0.005,
+   "mean_k": 0.005
+  },
+  {
+   "design": "null",
+   "level": "",
+   "method": "KCP-raw",
+   "reps": 200,
+   "any_detection": 0.05,
+   "mean_k": 0.06
+  },
+  {
+   "design": "null",
+   "level": "",
+   "method": "edivisive-rank",
+   "reps": 200,
+   "any_detection": 0.06,
+   "mean_k": 0.085
+  },
+  {
+   "design": "null",
+   "level": "",
+   "method": "edivisive-rank+DOMI",
+   "reps": 200,
+   "any_detection": 0.005,
+   "mean_k": 0.005
+  },
+  {
+   "design": "null",
+   "level": "",
+   "method": "edivisive-raw",
+   "reps": 200,
+   "any_detection": 0.055,
+   "mean_k": 0.075
+  },
+  {
+   "design": "MB",
+   "level": 0.8,
+   "method": "Holevo-partition",
+   "reps": 200,
+   "any_detection": 1.0,
+   "mean_k": 1.045,
+   "k_correct": 0.01,
+   "hausdorff_median": 900.0,
+   "ari_mean": 0.3310706401949809
+  },
+  {
+   "design": "MB",
+   "level": 0.8,
+   "method": "Holevo-partition+DOMI",
+   "reps": 200,
+   "any_detection": 1.0,
+   "mean_k": 1.04,
+   "k_correct": 0.01,
+   "hausdorff_median": 900.0,
+   "ari_mean": 0.33048581751557704
+  },
+  {
+   "design": "MB",
+   "level": 0.8,
+   "method": "KCP-rank",
+   "reps": 200,
+   "any_detection": 1.0,
+   "mean_k": 1.085,
+   "k_correct": 0.01,
+   "hausdorff_median": 900.0,
+   "ari_mean": 0.32286926985397413
+  },
+  {
+   "design": "MB",
+   "level": 0.8,
+   "method": "KCP-rank+DOMI",
+   "reps": 200,
+   "any_detection": 0.975,
+   "mean_k": 0.995,
+   "k_correct": 0.0,
+   "hausdorff_median": 900.0,
+   "ari_mean": 0.31515432038393265
+  },
+  {
+   "design": "MB",
+   "level": 0.8,
+   "method": "KCP-raw",
+   "reps": 200,
+   "any_detection": 0.97,
+   "mean_k": 1.14,
+   "k_correct": 0.025,
+   "hausdorff_median": 900.0,
+   "ari_mean": 0.3312452880168946
+  },
+  {
+   "design": "MB",
+   "level": 0.8,
+   "method": "edivisive-rank",
+   "reps": 200,
+   "any_detection": 0.415,
+   "mean_k": 0.46,
+   "k_correct": 0.0,
+   "hausdorff_median": 1800.0,
+   "ari_mean": 0.12557216511746463
+  },
+  {
+   "design": "MB",
+   "level": 0.8,
+   "method": "edivisive-rank+DOMI",
+   "reps": 200,
+   "any_detection": 0.395,
+   "mean_k": 0.41,
+   "k_correct": 0.0,
+   "hausdorff_median": 1800.0,
+   "ari_mean": 0.12448109572787427
+  },
+  {
+   "design": "MB",
+   "level": 0.8,
+   "method": "edivisive-raw",
+   "reps": 200,
+   "any_detection": 0.215,
+   "mean_k": 0.275,
+   "k_correct": 0.005,
+   "hausdorff_median": 1800.0,
+   "ari_mean": 0.05785912072957583
+  },
+  {
+   "design": "MB",
+   "level": 0.9,
+   "method": "Holevo-partition",
+   "reps": 200,
+   "any_detection": 1.0,
+   "mean_k": 1.965,
+   "k_correct": 0.475,
+   "hausdorff_median": 665.0,
+   "ari_mean": 0.6198707372996154
+  },
+  {
+   "design": "MB",
+   "level": 0.9,
+   "method": "Holevo-partition+DOMI",
+   "reps": 200,
+   "any_detection": 1.0,
+   "mean_k": 1.96,
+   "k_correct": 0.47,
+   "hausdorff_median": 665.0,
+   "ari_mean": 0.6197846308560463
+  },
+  {
+   "design": "MB",
+   "level": 0.9,
+   "method": "KCP-rank",
+   "reps": 200,
+   "any_detection": 0.995,
+   "mean_k": 1.165,
+   "k_correct": 0.03,
+   "hausdorff_median": 900.0,
+   "ari_mean": 0.33275231473376876
+  },
+  {
+   "design": "MB",
+   "level": 0.9,
+   "method": "KCP-rank+DOMI",
+   "reps": 200,
+   "any_detection": 0.975,
+   "mean_k": 1.045,
+   "k_correct": 0.015,
+   "hausdorff_median": 900.0,
+   "ari_mean": 0.3239805177910941
+  },
+  {
+   "design": "MB",
+   "level": 0.9,
+   "method": "KCP-raw",
+   "reps": 200,
+   "any_detection": 1.0,
+   "mean_k": 1.555,
+   "k_correct": 0.175,
+   "hausdorff_median": 890.0,
+   "ari_mean": 0.44399965440648687
+  },
+  {
+   "design": "MB",
+   "level": 0.9,
+   "method": "edivisive-rank",
+   "reps": 200,
+   "any_detection": 0.42,
+   "mean_k": 0.485,
+   "k_correct": 0.0,
+   "hausdorff_median": 1800.0,
+   "ari_mean": 0.11802104018271456
+  },
+  {
+   "design": "MB",
+   "level": 0.9,
+   "method": "edivisive-rank+DOMI",
+   "reps": 200,
+   "any_detection": 0.385,
+   "mean_k": 0.4,
+   "k_correct": 0.005,
+   "hausdorff_median": 1800.0,
+   "ari_mean": 0.11579932028358918
+  },
+  {
+   "design": "MB",
+   "level": 0.9,
+   "method": "edivisive-raw",
+   "reps": 200,
+   "any_detection": 0.25,
+   "mean_k": 0.355,
+   "k_correct": 0.015,
+   "hausdorff_median": 1800.0,
+   "ari_mean": 0.07065324559667321
+  },
+  {
+   "design": "M1",
+   "level": 1.6,
+   "method": "Holevo-partition",
+   "reps": 200,
+   "any_detection": 0.975,
+   "mean_k": 2.6
+  },
+  {
+   "design": "M1",
+   "level": 1.6,
+   "method": "Holevo-partition+DOMI",
+   "reps": 200,
+   "any_detection": 0.13,
+   "mean_k": 0.145
+  },
+  {
+   "design": "M1",
+   "level": 1.6,
+   "method": "KCP-rank",
+   "reps": 200,
+   "any_detection": 0.69,
+   "mean_k": 1.4
+  },
+  {
+   "design": "M1",
+   "level": 1.6,
+   "method": "KCP-rank+DOMI",
+   "reps": 200,
+   "any_detection": 0.09,
+   "mean_k": 0.095
+  },
+  {
+   "design": "M1",
+   "level": 1.6,
+   "method": "KCP-raw",
+   "reps": 200,
+   "any_detection": 1.0,
+   "mean_k": 3.085
+  },
+  {
+   "design": "M1",
+   "level": 1.6,
+   "method": "edivisive-rank",
+   "reps": 200,
+   "any_detection": 0.145,
+   "mean_k": 0.225
+  },
+  {
+   "design": "M1",
+   "level": 1.6,
+   "method": "edivisive-rank+DOMI",
+   "reps": 200,
+   "any_detection": 0.02,
+   "mean_k": 0.02
+  },
+  {
+   "design": "M1",
+   "level": 1.6,
+   "method": "edivisive-raw",
+   "reps": 200,
+   "any_detection": 0.865,
+   "mean_k": 2.26
+  }
+ ],
+ "wall_clock_s": 3238.8
+}

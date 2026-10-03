@@ -1,0 +1,25 @@
+{
+ "phase": "bias_constant",
+ "procs": 4,
+ "reps": 2000,
+ "perm_reps": 500,
+ "power_reps": 500,
+ "mc_draws": 2000,
+ "timing_reps": 3,
+ "NS": [
+  600,
+  2400,
+  9600,
+  38400
+ ],
+ "PERM_NS": [
+  600,
+  2400
+ ],
+ "BASE": 20260925,
+ "ALPHA": 0.05,
+ "N_DRAW": 2000,
+ "K": 99,
+ "grid": "t=round(n*l), l=0.100:0.005:0.900",
+ "D": 8
+}

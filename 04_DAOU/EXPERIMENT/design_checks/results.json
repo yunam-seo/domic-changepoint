@@ -1,0 +1,117 @@
+{
+ "config": {
+  "n": 600,
+  "w": 60,
+  "D": 8,
+  "alpha": 0.05,
+  "seeds": [
+   [
+    2026,
+    2027
+   ],
+   [
+    11,
+    12
+   ],
+   [
+    777,
+    778
+   ],
+   [
+    31415,
+    31416
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    98765,
+    98766
+   ]
+  ],
+  "reps": 200
+ },
+ "H2_break_location": {
+  "tau/n=0.2": {
+   "reject": 0.95,
+   "loc_studentised": 0.0,
+   "loc_raw_weighted": 0.02,
+   "loc_centred_weighted": 0.0,
+   "loc_centred_unweighted": 0.01
+  },
+  "tau/n=0.33": {
+   "reject": 1.0,
+   "loc_studentised": 0.0,
+   "loc_raw_weighted": 0.065,
+   "loc_centred_weighted": 0.06,
+   "loc_centred_unweighted": 0.07
+  },
+  "tau/n=0.5": {
+   "reject": 1.0,
+   "loc_studentised": 0.87,
+   "loc_raw_weighted": 0.09,
+   "loc_centred_weighted": 0.265,
+   "loc_centred_unweighted": 0.135
+  },
+  "tau/n=0.67": {
+   "reject": 1.0,
+   "loc_studentised": 0.51,
+   "loc_raw_weighted": 0.195,
+   "loc_centred_weighted": 0.49,
+   "loc_centred_unweighted": 0.225
+  },
+  "tau/n=0.8": {
+   "reject": 0.79,
+   "loc_studentised": 0.6,
+   "loc_raw_weighted": 0.34,
+   "loc_centred_weighted": 0.57,
+   "loc_centred_unweighted": 0.37
+  }
+ },
+ "H2_break_location_pelt": {
+  "beta": 8.0,
+  "tau/n=0.2": {
+   "found_within_30": 0.32,
+   "exactly_one": 0.36
+  },
+  "tau/n=0.33": {
+   "found_within_30": 0.57,
+   "exactly_one": 0.66
+  },
+  "tau/n=0.5": {
+   "found_within_30": 0.64,
+   "exactly_one": 0.75
+  },
+  "tau/n=0.67": {
+   "found_within_30": 0.5,
+   "exactly_one": 0.69
+  },
+  "tau/n=0.8": {
+   "found_within_30": 0.23,
+   "exactly_one": 0.26
+  }
+ },
+ "H1_feature_draw": {
+  "power_by_seed": {
+   "2026/2027": 0.84,
+   "11/12": 0.865,
+   "777/778": 0.675,
+   "31415/31416": 0.81,
+   "5/6": 0.955,
+   "98765/98766": 0.915
+  },
+  "unanimous_fraction": 0.625,
+  "power_min": 0.675,
+  "power_max": 0.955
+ },
+ "H1_ensemble_power": 0.915,
+ "H1_real_weather": {
+  "2026/2027": 0.49,
+  "11/12": 0.54,
+  "777/778": 0.76,
+  "31415/31416": 0.62,
+  "5/6": 0.86,
+  "98765/98766": 0.37
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "timing": [
+  {
+   "n": 600,
+   "form": "r2-stream",
+   "grid": 481,
+   "setup_sec": 0.0299,
+   "curve_sec": 0.006,
+   "scan_sec": 0.036,
+   "peak_rss_MiB": 110.8,
+   "rss_before_curve_MiB": 110.8,
+   "curve_max": 0.499722191900625,
+   "argmax": 530
+  },
+  {
+   "n": 600,
+   "form": "r2-prefix2d",
+   "grid": 481,
+   "setup_sec": 0.0298,
+   "curve_sec": 0.009,
+   "scan_sec": 0.039,
+   "peak_rss_MiB": 111.0,
+   "rss_before_curve_MiB": 111.0,
+   "curve_max": 0.49972219190198497,
+   "argmax": 530
+  },
+  {
+   "n": 1200,
+   "form": "r2-stream",
+   "grid": 1081,
+   "setup_sec": 0.0871,
+   "curve_sec": 0.026,
+   "scan_sec": 0.113,
+   "peak_rss_MiB": 149.1,
+   "rss_before_curve_MiB": 149.1,
+   "curve_max": 1.2011782753482423,
+   "argmax": 1136
+  },
+  {
+   "n": 1200,
+   "form": "r2-prefix2d",
+   "grid": 1081,
+   "setup_sec": 0.0854,
+   "curve_sec": 0.034,
+   "scan_sec": 0.119,
+   "peak_rss_MiB": 148.9,
+   "rss_before_curve_MiB": 148.9,
+   "curve_max": 1.2011782753521607,
+   "argmax": 1136
+  },
+  {
+   "n": 2400,
+   "form": "r2-stream",
+   "grid": 2281,
+   "setup_sec": 0.202,
+   "curve_sec": 0.087,
+   "scan_sec": 0.289,
+   "peak_rss_MiB": 226.2,
+   "rss_before_curve_MiB": 226.2,
+   "curve_max": 0.9201545984998717,
+   "argmax": 1239
+  },
+  {
+   "n": 2400,
+   "form": "r2-prefix2d",
+   "grid": 2281,
+   "setup_sec": 0.2038,
+   "curve_sec": 0.137,
+   "scan_sec": 0.341,
+   "peak_rss_MiB": 226.2,
+   "rss_before_curve_MiB": 226.2,
+   "curve_max": 0.9201545984997822,
+   "argmax": 1239
+  },
+  {
+   "n": 4800,
+   "form": "r2-stream",
+   "grid": 4681,
+   "setup_sec": 0.4385,
+   "curve_sec": 0.341,
+   "scan_sec": 0.779,
+   "peak_rss_MiB": 380.4,
+   "rss_before_curve_MiB": 380.4,
+   "curve_max": 1.5257503071200695,
+   "argmax": 4611
+  },
+  {
+   "n": 4800,
+   "form": "r2-prefix2d",
+   "grid": 4681,
+   "setup_sec": 0.4351,
+   "curve_sec": 0.729,
+   "scan_sec": 1.164,
+   "peak_rss_MiB": 611.7,
+   "rss_before_curve_MiB": 380.5,
+   "curve_max": 1.5257503071121015,
+   "argmax": 4611
+  },
+  {
+   "n": 9600,
+   "form": "r2-stream",
+   "grid": 9481,
+   "setup_sec": 0.8591,
+   "curve_sec": 1.286,
+   "scan_sec": 2.145,
+   "peak_rss_MiB": 536.6,
+   "rss_before_curve_MiB": 536.6,
+   "curve_max": 1.9060433073688416,
+   "argmax": 4806
+  },
+  {
+   "n": 9600,
+   "form": "r2-prefix2d",
+   "grid": 9481,
+   "setup_sec": 0.8645,
+   "curve_sec": 2.959,
+   "scan_sec": 3.824,
+   "peak_rss_MiB": 2202.2,
+   "rss_before_curve_MiB": 536.4,
+   "curve_max": 1.9060433073670393,
+   "argmax": 4806
+  },
+  {
+   "n": 19200,
+   "form": "r2-stream",
+   "grid": 19081,
+   "setup_sec": 1.7077,
+   "curve_sec": 6.709,
+   "scan_sec": 8.417,
+   "peak_rss_MiB": 848.0,
+   "rss_before_curve_MiB": 848.0,
+   "curve_max": 2.6642114483014763,
+   "argmax": 9789
+  },
+  {
+   "n": 19200,
+   "form": "r2-prefix2d",
+   "grid": 19081,
+   "setup_sec": 1.7095,
+   "curve_sec": 14.349,
+   "scan_sec": 16.059,
+   "peak_rss_MiB": 8546.9,
+   "rss_before_curve_MiB": 847.8,
+   "curve_max": 2.664211448298516,
+   "argmax": 9789
+  }
+ ],
+ "memory": {
+  "bytes_per_nxn_float64": "8 n^2",
+  "n_one_array_exceeds_16GiB": 46340,
+  "n_three_arrays_exceed_16GiB": 26754,
+  "note": "prefix2d holds three n x n float64 prefix arrays; the stream form holds O(n x chunk)."
+ }
+}

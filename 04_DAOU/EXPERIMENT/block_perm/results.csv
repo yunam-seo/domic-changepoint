@@ -1,0 +1,10 @@
+null,scheme,K,D,reps,fpr
+iid,pair,99,8,200,0.035
+iid,block20,99,8,200,0.035
+iid,block50,99,8,200,0.055
+ar1,pair,99,8,200,0.245
+ar1,block20,99,8,200,0.05
+ar1,block50,99,8,200,0.035
+garch,pair,99,8,200,0.085
+garch,block20,99,8,200,0.05
+garch,block50,99,8,200,0.045

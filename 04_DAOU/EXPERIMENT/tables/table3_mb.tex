@@ -1,0 +1,22 @@
+\begin{table}[!t]
+\centering
+\caption{Three-break benchmark MB (200 replicates). Null: achieved null detection rate after calibration to a nominal 5\%. At $a=0.9$: probability of exactly three breaks, of all three within 90 time points of the true breaks, and mean adjusted Rand index (ARI); last column: exactly three at $a=0.8$. --: not computed. More in Supplementary Table B.7.}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{l ccccc}
+\toprule
+Method & Null & $P(\hat K{=}3)$ & All three & ARI & $a{=}0.8$ \\
+\midrule
+Holevo partitioning & 0.000 & 0.475 & 0.450 & 0.62 & 0.010 \\
+Rank-Gaussian PELT & 0.020 & 0.010 & 0.000 & 0.32 & 0.010 \\
+Kernel binary seg. & 0.050 & 0.115 & 0.050 & 0.48 & 0.015 \\
+KCP, raw values & 0.050 & 0.175 & 0.115 & 0.44 & 0.025 \\
+KCP, ranks & 0.050 & 0.030 & 0.015 & 0.33 & 0.010 \\
+e.divisive, raw values & 0.055 & 0.015 & 0.000 & 0.07 & 0.005 \\
+e.divisive, ranks & 0.060 & 0.000 & 0.000 & 0.12 & 0.000 \\
+BMCTC, $\alpha{=}1.01$ & 0.050 & 0.190 & 0.115 & 0.27 & 0.055 \\
+DOMI binary seg. & 0.040 & 0.040 & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\label{tab:mb}
+\end{table}

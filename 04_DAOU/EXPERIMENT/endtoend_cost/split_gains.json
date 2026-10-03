@@ -1,0 +1,23 @@
+{
+ "uncorrected": {
+  "triples": 1521520,
+  "min_gain": 11.026020721874545,
+  "max_gain": 2036.7459974841622,
+  "fraction_negative": 0.0,
+  "min_gain_relative_to_max_cost": 6.893903335819026e-05
+ },
+ "bias_corrected": {
+  "triples": 1521520,
+  "min_gain": -716.9599934114194,
+  "max_gain": 1685.1869621302903,
+  "fraction_negative": 0.42969464745780533,
+  "min_gain_relative_to_max_cost": -0.38368757124972513
+ },
+ "one_permuted_copy_uncorrected": {
+  "triples": 1521520,
+  "min_gain": 11.026020721873351,
+  "max_gain": 1211.5042044676375,
+  "fraction_negative": 0.0,
+  "min_gain_relative_to_max_cost": 6.893903335818276e-05
+ }
+}

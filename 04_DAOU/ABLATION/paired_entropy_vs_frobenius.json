@@ -1,0 +1,42 @@
+{
+ "config": {
+  "reps": 200,
+  "base_seed": 20260822,
+  "test": "McNemar exact, two-sided, on per-replicate localised detections",
+  "note": "cells where Frobenius power >= entropy power; in the other cells the entropy power is higher"
+ },
+ "cells": [
+  {
+   "scen": "N1",
+   "level": 0.6,
+   "level_idx": 0,
+   "power_entropy": 0.0,
+   "power_frobenius": 0.005,
+   "entropy_only": 0,
+   "frobenius_only": 1,
+   "mcnemar_p": 1.0
+  },
+  {
+   "scen": "N2",
+   "level": 2.5,
+   "level_idx": 2,
+   "power_entropy": 0.99,
+   "power_frobenius": 0.995,
+   "entropy_only": 0,
+   "frobenius_only": 1,
+   "mcnemar_p": 1.0
+  },
+  {
+   "scen": "N2",
+   "level": 3.0,
+   "level_idx": 1,
+   "power_entropy": 0.88,
+   "power_frobenius": 0.93,
+   "entropy_only": 5,
+   "frobenius_only": 15,
+   "mcnemar_p": 0.0414
+  }
+ ],
+ "min_p": 0.0414,
+ "min_p_above_0_05": false
+}

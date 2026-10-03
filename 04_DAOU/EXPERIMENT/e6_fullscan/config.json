@@ -1,0 +1,14 @@
+{
+ "D": 8,
+ "window_w": 60,
+ "window_K": 999,
+ "window_blocks": [
+  20,
+  50
+ ],
+ "full_K": 199,
+ "full_w_frac": 0.1,
+ "diag_L": 20,
+ "diag_K": 199,
+ "seed": 20260928
+}

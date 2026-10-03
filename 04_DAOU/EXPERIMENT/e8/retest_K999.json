@@ -1,0 +1,229 @@
+{
+ "config": {
+  "K": 999,
+  "unit_hours": 336,
+  "super_blocks": 3,
+  "n_candidates": 27
+ },
+ "n_p_le_05": 5,
+ "n_bh_le_10": 2,
+ "n_bh_le_05": 1,
+ "results": [
+  {
+   "stn": "146",
+   "pair": "ta-hm",
+   "date": "20191021",
+   "interval": 47,
+   "p_block": 0.001,
+   "bh_q": 0.027
+  },
+  {
+   "stn": "119",
+   "pair": "hm-ws",
+   "date": "20190826",
+   "interval": 43,
+   "p_block": 0.004,
+   "bh_q": 0.054
+  },
+  {
+   "stn": "184",
+   "pair": "ta-hm",
+   "date": "20230612",
+   "interval": 142,
+   "p_block": 0.032,
+   "bh_q": 0.2475
+  },
+  {
+   "stn": "112",
+   "pair": "ta-ws",
+   "date": "20221115",
+   "interval": 127,
+   "p_block": 0.038,
+   "bh_q": 0.2475
+  },
+  {
+   "stn": "146",
+   "pair": "hm-ws",
+   "date": "20191021",
+   "interval": 47,
+   "p_block": 0.047,
+   "bh_q": 0.2475
+  },
+  {
+   "stn": "184",
+   "pair": "ta-ws",
+   "date": "20210111",
+   "interval": 79,
+   "p_block": 0.055,
+   "bh_q": 0.2475
+  },
+  {
+   "stn": "108",
+   "pair": "ta-ws",
+   "date": "20190909",
+   "interval": 44,
+   "p_block": 0.104,
+   "bh_q": 0.4011
+  },
+  {
+   "stn": "165",
+   "pair": "ta-hm",
+   "date": "20180522",
+   "interval": 10,
+   "p_block": 0.125,
+   "bh_q": 0.4219
+  },
+  {
+   "stn": "108",
+   "pair": "ta-hm",
+   "date": "20200420",
+   "interval": 60,
+   "p_block": 0.144,
+   "bh_q": 0.432
+  },
+  {
+   "stn": "156",
+   "pair": "ta-ws",
+   "date": "20210111",
+   "interval": 79,
+   "p_block": 0.164,
+   "bh_q": 0.4428
+  },
+  {
+   "stn": "105",
+   "pair": "ta-ws",
+   "date": "20180716",
+   "interval": 14,
+   "p_block": 0.184,
+   "bh_q": 0.4516
+  },
+  {
+   "stn": "143",
+   "pair": "ta-hm",
+   "date": "20190715",
+   "interval": 40,
+   "p_block": 0.224,
+   "bh_q": 0.504
+  },
+  {
+   "stn": "119",
+   "pair": "hm-ws",
+   "date": "20200921",
+   "interval": 71,
+   "p_block": 0.257,
+   "bh_q": 0.5338
+  },
+  {
+   "stn": "108",
+   "pair": "hm-ws",
+   "date": "20200406",
+   "interval": 59,
+   "p_block": 0.291,
+   "bh_q": 0.5612
+  },
+  {
+   "stn": "112",
+   "pair": "ta-hm",
+   "date": "20230515",
+   "interval": 140,
+   "p_block": 0.372,
+   "bh_q": 0.6362
+  },
+  {
+   "stn": "133",
+   "pair": "ta-ws",
+   "date": "20211213",
+   "interval": 103,
+   "p_block": 0.377,
+   "bh_q": 0.6362
+  },
+  {
+   "stn": "165",
+   "pair": "ta-hm",
+   "date": "20231017",
+   "interval": 151,
+   "p_block": 0.411,
+   "bh_q": 0.648
+  },
+  {
+   "stn": "156",
+   "pair": "hm-ws",
+   "date": "20240514",
+   "interval": 166,
+   "p_block": 0.432,
+   "bh_q": 0.648
+  },
+  {
+   "stn": "143",
+   "pair": "hm-ws",
+   "date": "20190603",
+   "interval": 37,
+   "p_block": 0.467,
+   "bh_q": 0.6636
+  },
+  {
+   "stn": "184",
+   "pair": "hm-ws",
+   "date": "20230612",
+   "interval": 142,
+   "p_block": 0.54,
+   "bh_q": 0.7277
+  },
+  {
+   "stn": "105",
+   "pair": "hm-ws",
+   "date": "20190603",
+   "interval": 37,
+   "p_block": 0.566,
+   "bh_q": 0.7277
+  },
+  {
+   "stn": "112",
+   "pair": "hm-ws",
+   "date": "20220613",
+   "interval": 116,
+   "p_block": 0.686,
+   "bh_q": 0.8206
+  },
+  {
+   "stn": "165",
+   "pair": "hm-ws",
+   "date": "20230404",
+   "interval": 137,
+   "p_block": 0.699,
+   "bh_q": 0.8206
+  },
+  {
+   "stn": "133",
+   "pair": "hm-ws",
+   "date": "20211227",
+   "interval": 104,
+   "p_block": 0.862,
+   "bh_q": 0.9418
+  },
+  {
+   "stn": "156",
+   "pair": "hm-ws",
+   "date": "20230515",
+   "interval": 140,
+   "p_block": 0.872,
+   "bh_q": 0.9418
+  },
+  {
+   "stn": "146",
+   "pair": "ta-ws",
+   "date": "20250609",
+   "interval": 194,
+   "p_block": 0.941,
+   "bh_q": 0.962
+  },
+  {
+   "stn": "165",
+   "pair": "hm-ws",
+   "date": "20180521",
+   "interval": 10,
+   "p_block": 0.962,
+   "bh_q": 0.962
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "config": {
+  "n": 600,
+  "w": 60,
+  "D": 8,
+  "K": 99,
+  "reps": 200,
+  "alpha": 0.05,
+  "base_seed": 20260903
+ },
+ "results": {
+  "dependent|pair": {
+   "fpr_threshold": 0.075,
+   "fpr_pvalue": 0.07
+  },
+  "dependent|yonly": {
+   "fpr_threshold": 0.97,
+   "fpr_pvalue": 0.965
+  },
+  "nonlinear|pair": {
+   "fpr_threshold": 0.065,
+   "fpr_pvalue": 0.06
+  },
+  "nonlinear|yonly": {
+   "fpr_threshold": 0.3,
+   "fpr_pvalue": 0.265
+  },
+  "independent|pair": {
+   "fpr_threshold": 0.07,
+   "fpr_pvalue": 0.05
+  },
+  "independent|yonly": {
+   "fpr_threshold": 0.065,
+   "fpr_pvalue": 0.06
+  }
+ }
+}

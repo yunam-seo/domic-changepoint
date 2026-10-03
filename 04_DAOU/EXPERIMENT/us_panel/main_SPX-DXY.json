@@ -1,0 +1,22 @@
+{
+ "pair": "SPX-DXY",
+ "n": 3768,
+ "w": 376,
+ "block": 133,
+ "K": 9999,
+ "p": {
+  "DOMI-diff": 0.0053,
+  "HSIC-diff": 0.0096,
+  "Spearman-diff": 0.0227,
+  "CopulaCvM": 0.1963,
+  "combined": 0.0053
+ },
+ "tau_date": {
+  "DOMI-diff": "20130401",
+  "HSIC-diff": "20130401",
+  "Spearman-diff": "20130226",
+  "CopulaCvM": "20200310",
+  "combined": "20130401"
+ },
+ "seconds": 1832.9
+}

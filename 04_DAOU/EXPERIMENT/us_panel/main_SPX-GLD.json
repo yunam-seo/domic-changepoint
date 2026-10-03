@@ -1,0 +1,22 @@
+{
+ "pair": "SPX-GLD",
+ "n": 3770,
+ "w": 377,
+ "block": 134,
+ "K": 9999,
+ "p": {
+  "DOMI-diff": 0.008,
+  "HSIC-diff": 0.0225,
+  "Spearman-diff": 0.2289,
+  "CopulaCvM": 0.0806,
+  "combined": 0.008
+ },
+ "tau_date": {
+  "DOMI-diff": "20130312",
+  "HSIC-diff": "20130225",
+  "Spearman-diff": "20200622",
+  "CopulaCvM": "20190530",
+  "combined": "20130312"
+ },
+ "seconds": 1845.5
+}

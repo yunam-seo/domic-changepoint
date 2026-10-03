@@ -1,0 +1,28 @@
+{
+ "config": {
+  "n": 600,
+  "w": 60,
+  "D": 8,
+  "K": 99,
+  "reps": 200,
+  "alpha": 0.05,
+  "base_seed": 20260905,
+  "rho": 0.5
+ },
+ "blocks": [
+  20,
+  50
+ ],
+ "studentisation": "symmetric, K+1 curves",
+ "results": {
+  "iid|pair": 0.035,
+  "iid|block20": 0.035,
+  "iid|block50": 0.055,
+  "ar1|pair": 0.245,
+  "ar1|block20": 0.05,
+  "ar1|block50": 0.035,
+  "garch|pair": 0.085,
+  "garch|block20": 0.05,
+  "garch|block50": 0.045
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "pair": {
+  "DOMI-diff": {
+   "median": 0.268,
+   "min": 0.223,
+   "max": 0.303,
+   "n_draws": 20,
+   "share_le_005": 0.0
+  },
+  "HSIC-diff": {
+   "median": 0.026,
+   "min": 0.017,
+   "max": 0.049,
+   "n_draws": 20,
+   "share_le_005": 1.0
+  },
+  "Spearman-diff": {
+   "median": 0.006,
+   "min": 0.003,
+   "max": 0.01,
+   "n_draws": 20,
+   "share_le_005": 1.0
+  },
+  "CopulaCvM": {
+   "median": 0.001,
+   "min": 0.001,
+   "max": 0.002,
+   "n_draws": 20,
+   "share_le_005": 1.0
+  },
+  "combined": {
+   "median": 0.016,
+   "min": 0.008,
+   "max": 0.022,
+   "n_draws": 20,
+   "share_le_005": 1.0
+  }
+ },
+ "20": {
+  "DOMI-diff": {
+   "median": 0.231,
+   "min": 0.202,
+   "max": 0.272,
+   "n_draws": 20,
+   "share_le_005": 0.0
+  },
+  "HSIC-diff": {
+   "median": 0.0195,
+   "min": 0.009,
+   "max": 0.033,
+   "n_draws": 20,
+   "share_le_005": 1.0
+  },
+  "Spearman-diff": {
+   "median": 0.057,
+   "min": 0.035,
+   "max": 0.078,
+   "n_draws": 20,
+   "share_le_005": 0.25
+  },
+  "CopulaCvM": {
+   "median": 0.001,
+   "min": 0.001,
+   "max": 0.001,
+   "n_draws": 20,
+   "share_le_005": 1.0
+  },
+  "combined": {
+   "median": 0.1475,
+   "min": 0.095,
+   "max": 0.183,
+   "n_draws": 20,
+   "share_le_005": 0.0
+  }
+ },
+ "50": {
+  "DOMI-diff": {
+   "median": 0.3605,
+   "min": 0.298,
+   "max": 0.408,
+   "n_draws": 20,
+   "share_le_005": 0.0
+  },
+  "HSIC-diff": {
+   "median": 0.078,
+   "min": 0.05,
+   "max": 0.105,
+   "n_draws": 20,
+   "share_le_005": 0.05
+  },
+  "Spearman-diff": {
+   "median": 0.2965,
+   "min": 0.241,
+   "max": 0.34,
+   "n_draws": 20,
+   "share_le_005": 0.0
+  },
+  "CopulaCvM": {
+   "median": 0.002,
+   "min": 0.001,
+   "max": 0.003,
+   "n_draws": 20,
+   "share_le_005": 1.0
+  },
+  "combined": {
+   "median": 0.4335,
+   "min": 0.358,
+   "max": 0.493,
+   "n_draws": 20,
+   "share_le_005": 0.0
+  }
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "config": {
+  "n_per_segment": 200000,
+  "D": 8,
+  "m_segment": 300,
+  "reps": 400,
+  "note": "article S1-S4 are code D1-D4; code S0-S6 are auxiliary scenarios of the ablation"
+ },
+ "population_domi_D3": [
+  {
+   "level": 0.3,
+   "I_pre": 0.0671,
+   "I_post": 0.076,
+   "abs_diff": 0.0089
+  },
+  {
+   "level": 0.5,
+   "I_pre": 0.1936,
+   "I_post": 0.2064,
+   "abs_diff": 0.0128
+  },
+  {
+   "level": 0.7,
+   "I_pre": 0.4008,
+   "I_post": 0.4056,
+   "abs_diff": 0.0049
+  }
+ ],
+ "population_domi_D2": [
+  {
+   "level": 0.5,
+   "I_pre": 0.0,
+   "I_post": 0.0043,
+   "abs_diff": 0.0043
+  },
+  {
+   "level": 0.7,
+   "I_pre": 0.0,
+   "I_post": 0.0148,
+   "abs_diff": 0.0148
+  },
+  {
+   "level": 0.9,
+   "I_pre": 0.0,
+   "I_post": 0.0442,
+   "abs_diff": 0.0442
+  }
+ ],
+ "sampling_sd": {
+  "S2_pre_independent": {
+   "mean": 0.0103,
+   "sd": 0.0036
+  },
+  "S2_post_a0.7": {
+   "mean": 0.0255,
+   "sd": 0.0069
+  },
+  "S3_pre_gaussian_tau0.5": {
+   "mean": 0.201,
+   "sd": 0.0238
+  },
+  "S3_post_clayton_tau0.5": {
+   "mean": 0.2136,
+   "sd": 0.0252
+  },
+  "S2_diff_sd": 0.0078,
+  "S3_diff_sd": 0.0347,
+  "diff_sd_ratio_S3_over_S2": 4.45
+ },
+ "gamma_stability": {
+  "rank_inputs": {
+   "mean": 11.653,
+   "sd": 0.305,
+   "cv": 0.026
+  },
+  "raw_inputs": {
+   "mean": 0.661,
+   "sd": 0.488,
+   "cv": 0.739
+  }
+ },
+ "snr": {
+  "note": "population contrast divided by the like-for-like sd of the segment difference",
+  "S3_tau0_5": 0.37,
+  "S2_a0_7": 1.9
+ }
+}

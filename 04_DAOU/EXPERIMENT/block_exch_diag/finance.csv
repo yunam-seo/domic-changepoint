@@ -1,0 +1,9 @@
+scope,pair,series,n,lb_p_r,lb_p_absr,lb_p_r2,acf1_absr,lb_p_block_mean,lb_p_log_block_var,perm_p_block_mean,perm_p_log_block_var,lb_lags
+weekly_full,SPX-TNX,SPX,753,0.1351,0.0,0.0,0.2475,,,,,
+weekly_full,SPX-TNX,TNX,753,0.0256,0.0,0.0,0.1589,,,,,
+weekly_full,KOSPI-USDKRW,KOSPI,648,0.3426,0.0,0.0,0.4025,,,,,
+weekly_full,KOSPI-USDKRW,USDKRW,648,0.1631,0.0014,0.0007,0.0652,,,,,
+daily_b20,SPX-TNX,SPX,25,,,,,0.1831,0.0,0.1895,0.0001,3
+daily_b20,SPX-TNX,TNX,25,,,,,0.4474,0.0,0.4807,0.0001,3
+daily_b50,SPX-TNX,SPX,10,,,,,0.6912,0.0069,0.8349,0.0119,2
+daily_b50,SPX-TNX,TNX,10,,,,,0.2134,0.0058,0.2529,0.0115,2

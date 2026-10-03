@@ -1,0 +1,138 @@
+{
+ "config": {
+  "n": 20000,
+  "a": 0.7,
+  "dims": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "feature_seed": 2026,
+  "note": "contrast = |I(post) - I(pre)| of the block plug-in at n=20,000"
+ },
+ "aligned": [
+  {
+   "d": 1,
+   "D": 8,
+   "I_pre": 0.0003,
+   "I_post": 0.0173,
+   "contrast": 0.0169
+  },
+  {
+   "d": 2,
+   "D": 8,
+   "I_pre": 0.0002,
+   "I_post": 0.0047,
+   "contrast": 0.0045
+  },
+  {
+   "d": 3,
+   "D": 8,
+   "I_pre": 0.0003,
+   "I_post": 0.0029,
+   "contrast": 0.0026
+  },
+  {
+   "d": 5,
+   "D": 8,
+   "I_pre": 0.0006,
+   "I_post": 0.0018,
+   "contrast": 0.0011
+  },
+  {
+   "d": 1,
+   "D": 16,
+   "I_pre": 0.0003,
+   "I_post": 0.0163,
+   "contrast": 0.016
+  },
+  {
+   "d": 2,
+   "D": 16,
+   "I_pre": 0.0005,
+   "I_post": 0.0127,
+   "contrast": 0.0122
+  },
+  {
+   "d": 3,
+   "D": 16,
+   "I_pre": 0.001,
+   "I_post": 0.0091,
+   "contrast": 0.0081
+  },
+  {
+   "d": 5,
+   "D": 16,
+   "I_pre": 0.0018,
+   "I_post": 0.0042,
+   "contrast": 0.0024
+  }
+ ],
+ "rotated": [
+  {
+   "kind": "aligned",
+   "d": 2,
+   "block": 0.0045,
+   "best_pair": 0.0167
+  },
+  {
+   "kind": "aligned",
+   "d": 3,
+   "block": 0.0026,
+   "best_pair": 0.0161
+  },
+  {
+   "kind": "aligned",
+   "d": 5,
+   "block": 0.0011,
+   "best_pair": 0.016
+  },
+  {
+   "kind": "rotated",
+   "d": 2,
+   "block": 0.0047,
+   "best_pair": 0.0162
+  },
+  {
+   "kind": "rotated",
+   "d": 3,
+   "block": 0.0026,
+   "best_pair": 0.006
+  },
+  {
+   "kind": "rotated",
+   "d": 5,
+   "block": 0.0009,
+   "best_pair": 0.0008
+  }
+ ],
+ "m1_bias_response": {
+  "m": 300,
+  "reps": 200,
+  "D": 8,
+  "scale": 2.0,
+  "rows": [
+   {
+    "d": 1,
+    "mean_abs_diff": 0.0038,
+    "sd": 0.0032
+   },
+   {
+    "d": 2,
+    "mean_abs_diff": 0.0037,
+    "sd": 0.0027
+   },
+   {
+    "d": 3,
+    "mean_abs_diff": 0.0085,
+    "sd": 0.0039
+   },
+   {
+    "d": 5,
+    "mean_abs_diff": 0.0093,
+    "sd": 0.0041
+   }
+  ]
+ }
+}

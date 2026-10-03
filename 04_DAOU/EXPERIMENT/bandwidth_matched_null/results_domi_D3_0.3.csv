@@ -1,0 +1,6 @@
+scen,level,method,bandwidth_key,mode,null_level,power,detect_rate
+D3,0.3,DOMI,4.0,gs,0.3,0.0,0.064
+D3,0.3,DOMI,2.0,gs,0.3,0.0,0.052
+D3,0.3,DOMI,1.0,gs,0.3,0.006,0.092
+D3,0.3,DOMI,0.5,gs,0.3,0.06,0.192
+D3,0.3,DOMI,0.25,gs,0.3,0.116,0.256

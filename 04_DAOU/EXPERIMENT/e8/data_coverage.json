@@ -1,0 +1,216 @@
+{
+ "hours_in_period": 70128,
+ "stations": {
+  "105": {
+   "hours_present": 70102,
+   "first": "201801010000",
+   "last": "202512312300",
+   "ta-hm": {
+    "hours_used": 70076,
+    "hours_dropped": 52
+   },
+   "ta-ws": {
+    "hours_used": 70063,
+    "hours_dropped": 65
+   },
+   "hm-ws": {
+    "hours_used": 70089,
+    "hours_dropped": 39
+   }
+  },
+  "108": {
+   "hours_present": 70091,
+   "first": "201801010000",
+   "last": "202512312300",
+   "ta-hm": {
+    "hours_used": 70069,
+    "hours_dropped": 59
+   },
+   "ta-ws": {
+    "hours_used": 70027,
+    "hours_dropped": 101
+   },
+   "hm-ws": {
+    "hours_used": 70049,
+    "hours_dropped": 79
+   }
+  },
+  "112": {
+   "hours_present": 70128,
+   "first": "201801010000",
+   "last": "202512312300",
+   "ta-hm": {
+    "hours_used": 70100,
+    "hours_dropped": 28
+   },
+   "ta-ws": {
+    "hours_used": 70092,
+    "hours_dropped": 36
+   },
+   "hm-ws": {
+    "hours_used": 70120,
+    "hours_dropped": 8
+   }
+  },
+  "119": {
+   "hours_present": 70121,
+   "first": "201801010000",
+   "last": "202512312300",
+   "ta-hm": {
+    "hours_used": 69980,
+    "hours_dropped": 148
+   },
+   "ta-ws": {
+    "hours_used": 70073,
+    "hours_dropped": 55
+   },
+   "hm-ws": {
+    "hours_used": 70028,
+    "hours_dropped": 100
+   }
+  },
+  "129": {
+   "hours_present": 70062,
+   "first": "201801010000",
+   "last": "202512312300",
+   "ta-hm": {
+    "hours_used": 70017,
+    "hours_dropped": 111
+   },
+   "ta-ws": {
+    "hours_used": 70024,
+    "hours_dropped": 104
+   },
+   "hm-ws": {
+    "hours_used": 70032,
+    "hours_dropped": 96
+   }
+  },
+  "133": {
+   "hours_present": 70118,
+   "first": "201801010000",
+   "last": "202512312300",
+   "ta-hm": {
+    "hours_used": 70101,
+    "hours_dropped": 27
+   },
+   "ta-ws": {
+    "hours_used": 70090,
+    "hours_dropped": 38
+   },
+   "hm-ws": {
+    "hours_used": 70105,
+    "hours_dropped": 23
+   }
+  },
+  "143": {
+   "hours_present": 70128,
+   "first": "201801010000",
+   "last": "202512312300",
+   "ta-hm": {
+    "hours_used": 70113,
+    "hours_dropped": 15
+   },
+   "ta-ws": {
+    "hours_used": 70116,
+    "hours_dropped": 12
+   },
+   "hm-ws": {
+    "hours_used": 70122,
+    "hours_dropped": 6
+   }
+  },
+  "146": {
+   "hours_present": 70128,
+   "first": "201801010000",
+   "last": "202512312300",
+   "ta-hm": {
+    "hours_used": 70091,
+    "hours_dropped": 37
+   },
+   "ta-ws": {
+    "hours_used": 70106,
+    "hours_dropped": 22
+   },
+   "hm-ws": {
+    "hours_used": 70102,
+    "hours_dropped": 26
+   }
+  },
+  "156": {
+   "hours_present": 70124,
+   "first": "201801010000",
+   "last": "202512312300",
+   "ta-hm": {
+    "hours_used": 70113,
+    "hours_dropped": 15
+   },
+   "ta-ws": {
+    "hours_used": 70054,
+    "hours_dropped": 74
+   },
+   "hm-ws": {
+    "hours_used": 70059,
+    "hours_dropped": 69
+   }
+  },
+  "159": {
+   "hours_present": 70106,
+   "first": "201801010000",
+   "last": "202512312300",
+   "ta-hm": {
+    "hours_used": 70061,
+    "hours_dropped": 67
+   },
+   "ta-ws": {
+    "hours_used": 70051,
+    "hours_dropped": 77
+   },
+   "hm-ws": {
+    "hours_used": 70014,
+    "hours_dropped": 114
+   }
+  },
+  "165": {
+   "hours_present": 70127,
+   "first": "201801010000",
+   "last": "202512312300",
+   "ta-hm": {
+    "hours_used": 70098,
+    "hours_dropped": 30
+   },
+   "ta-ws": {
+    "hours_used": 70095,
+    "hours_dropped": 33
+   },
+   "hm-ws": {
+    "hours_used": 70082,
+    "hours_dropped": 46
+   }
+  },
+  "184": {
+   "hours_present": 70108,
+   "first": "201801010000",
+   "last": "202512312300",
+   "ta-hm": {
+    "hours_used": 70103,
+    "hours_dropped": 25
+   },
+   "ta-ws": {
+    "hours_used": 70091,
+    "hours_dropped": 37
+   },
+   "hm-ws": {
+    "hours_used": 70094,
+    "hours_dropped": 34
+   }
+  }
+ },
+ "min_hours_present": 70062,
+ "max_hours_dropped_per_pair": 148,
+ "max_share_dropped_per_pair": 0.002110426648414328,
+ "worst_pair": {
+  "station": "119",
+  "pair": "ta-hm"
+ }
+}

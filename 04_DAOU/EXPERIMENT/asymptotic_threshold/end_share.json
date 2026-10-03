@@ -1,0 +1,27 @@
+{
+ "600": {
+  "replicates": 2000,
+  "near_ends": 1435,
+  "share": 0.7175
+ },
+ "2400": {
+  "replicates": 2000,
+  "near_ends": 1406,
+  "share": 0.703
+ },
+ "9600": {
+  "replicates": 2000,
+  "near_ends": 1418,
+  "share": 0.709
+ },
+ "38400": {
+  "replicates": 2000,
+  "near_ends": 1382,
+  "share": 0.691
+ },
+ "pooled": {
+  "replicates": 8000,
+  "near_ends": 5641,
+  "share": 0.705125
+ }
+}

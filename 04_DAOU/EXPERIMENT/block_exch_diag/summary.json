@@ -1,0 +1,6 @@
+{
+ "stage1_block_hours": 2016,
+ "stage2_block_hours": 1008,
+ "n_series": 36,
+ "n_candidates": 27
+}

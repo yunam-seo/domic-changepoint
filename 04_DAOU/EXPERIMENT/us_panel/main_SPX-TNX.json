@@ -1,0 +1,22 @@
+{
+ "pair": "SPX-TNX",
+ "n": 3769,
+ "w": 376,
+ "block": 173,
+ "K": 9999,
+ "p": {
+  "DOMI-diff": 0.0226,
+  "HSIC-diff": 0.0243,
+  "Spearman-diff": 0.0001,
+  "CopulaCvM": 0.0001,
+  "combined": 0.0204
+ },
+ "tau_date": {
+  "DOMI-diff": "20130508",
+  "HSIC-diff": "20130508",
+  "Spearman-diff": "20201207",
+  "CopulaCvM": "20200310",
+  "combined": "20201207"
+ },
+ "seconds": 1850.4
+}

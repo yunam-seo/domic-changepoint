@@ -1,0 +1,591 @@
+{
+ "config": {
+  "unit_hours": 336,
+  "super_blocks": 6,
+  "K": 99,
+  "alpha": 0.05
+ },
+ "results": [
+  {
+   "stn": "105",
+   "station": "Gangneung",
+   "pair": "ta-hm",
+   "n": 70076,
+   "n_intervals": 209,
+   "beta": 936.8,
+   "beta_fa": 0.05,
+   "n_breaks": 0,
+   "breaks": []
+  },
+  {
+   "stn": "105",
+   "station": "Gangneung",
+   "pair": "ta-ws",
+   "n": 70063,
+   "n_intervals": 209,
+   "beta": 473.4,
+   "beta_fa": 0.0,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 14,
+     "date": "20180716",
+     "p_block": 0.2,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "105",
+   "station": "Gangneung",
+   "pair": "hm-ws",
+   "n": 70089,
+   "n_intervals": 209,
+   "beta": 530.4,
+   "beta_fa": 0.0,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 37,
+     "date": "20190603",
+     "p_block": 0.52,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "108",
+   "station": "Seoul",
+   "pair": "ta-hm",
+   "n": 70069,
+   "n_intervals": 209,
+   "beta": 1049.7,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 60,
+     "date": "20200420",
+     "p_block": 0.1,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "108",
+   "station": "Seoul",
+   "pair": "ta-ws",
+   "n": 70027,
+   "n_intervals": 209,
+   "beta": 473.4,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 44,
+     "date": "20190909",
+     "p_block": 0.2,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "108",
+   "station": "Seoul",
+   "pair": "hm-ws",
+   "n": 70049,
+   "n_intervals": 209,
+   "beta": 836.1,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 59,
+     "date": "20200406",
+     "p_block": 0.48,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "112",
+   "station": "Incheon",
+   "pair": "ta-hm",
+   "n": 70100,
+   "n_intervals": 209,
+   "beta": 1176.2,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 140,
+     "date": "20230515",
+     "p_block": 0.36,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "112",
+   "station": "Incheon",
+   "pair": "ta-ws",
+   "n": 70092,
+   "n_intervals": 209,
+   "beta": 530.4,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 127,
+     "date": "20221115",
+     "p_block": 0.03,
+     "passed": true
+    }
+   ]
+  },
+  {
+   "stn": "112",
+   "station": "Incheon",
+   "pair": "hm-ws",
+   "n": 70120,
+   "n_intervals": 209,
+   "beta": 530.4,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 116,
+     "date": "20220613",
+     "p_block": 0.67,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "119",
+   "station": "Suwon",
+   "pair": "ta-hm",
+   "n": 69980,
+   "n_intervals": 209,
+   "beta": 746.2,
+   "beta_fa": 0.05,
+   "n_breaks": 0,
+   "breaks": []
+  },
+  {
+   "stn": "119",
+   "station": "Suwon",
+   "pair": "ta-ws",
+   "n": 70073,
+   "n_intervals": 209,
+   "beta": 473.4,
+   "beta_fa": 0.0,
+   "n_breaks": 0,
+   "breaks": []
+  },
+  {
+   "stn": "119",
+   "station": "Suwon",
+   "pair": "hm-ws",
+   "n": 70028,
+   "n_intervals": 209,
+   "beta": 473.4,
+   "beta_fa": 0.05,
+   "n_breaks": 2,
+   "breaks": [
+    {
+     "interval": 43,
+     "date": "20190826",
+     "p_block": 0.02,
+     "passed": true
+    },
+    {
+     "interval": 71,
+     "date": "20200921",
+     "p_block": 0.28,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "129",
+   "station": "Seosan",
+   "pair": "ta-hm",
+   "n": 70017,
+   "n_intervals": 209,
+   "beta": 836.1,
+   "beta_fa": 0.05,
+   "n_breaks": 0,
+   "breaks": []
+  },
+  {
+   "stn": "129",
+   "station": "Seosan",
+   "pair": "ta-ws",
+   "n": 70024,
+   "n_intervals": 209,
+   "beta": 665.9,
+   "beta_fa": 0.0,
+   "n_breaks": 0,
+   "breaks": []
+  },
+  {
+   "stn": "129",
+   "station": "Seosan",
+   "pair": "hm-ws",
+   "n": 70032,
+   "n_intervals": 209,
+   "beta": 377.1,
+   "beta_fa": 0.0,
+   "n_breaks": 0,
+   "breaks": []
+  },
+  {
+   "stn": "133",
+   "station": "Daejeon",
+   "pair": "ta-hm",
+   "n": 70101,
+   "n_intervals": 209,
+   "beta": 836.1,
+   "beta_fa": 0.05,
+   "n_breaks": 0,
+   "breaks": []
+  },
+  {
+   "stn": "133",
+   "station": "Daejeon",
+   "pair": "ta-ws",
+   "n": 70090,
+   "n_intervals": 209,
+   "beta": 473.4,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 103,
+     "date": "20211213",
+     "p_block": 0.47,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "133",
+   "station": "Daejeon",
+   "pair": "hm-ws",
+   "n": 70105,
+   "n_intervals": 209,
+   "beta": 530.4,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 104,
+     "date": "20211227",
+     "p_block": 0.93,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "143",
+   "station": "Daegu",
+   "pair": "ta-hm",
+   "n": 70113,
+   "n_intervals": 209,
+   "beta": 473.4,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 40,
+     "date": "20190715",
+     "p_block": 0.23,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "143",
+   "station": "Daegu",
+   "pair": "ta-ws",
+   "n": 70116,
+   "n_intervals": 209,
+   "beta": 473.4,
+   "beta_fa": 0.05,
+   "n_breaks": 0,
+   "breaks": []
+  },
+  {
+   "stn": "143",
+   "station": "Daegu",
+   "pair": "hm-ws",
+   "n": 70122,
+   "n_intervals": 209,
+   "beta": 594.3,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 37,
+     "date": "20190603",
+     "p_block": 0.46,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "146",
+   "station": "Jeonju",
+   "pair": "ta-hm",
+   "n": 70091,
+   "n_intervals": 209,
+   "beta": 746.2,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 47,
+     "date": "20191021",
+     "p_block": 0.01,
+     "passed": true
+    }
+   ]
+  },
+  {
+   "stn": "146",
+   "station": "Jeonju",
+   "pair": "ta-ws",
+   "n": 70106,
+   "n_intervals": 209,
+   "beta": 473.4,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 194,
+     "date": "20250609",
+     "p_block": 0.97,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "146",
+   "station": "Jeonju",
+   "pair": "hm-ws",
+   "n": 70102,
+   "n_intervals": 209,
+   "beta": 530.4,
+   "beta_fa": 0.0,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 47,
+     "date": "20191021",
+     "p_block": 0.11,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "156",
+   "station": "Gwangju",
+   "pair": "ta-hm",
+   "n": 70113,
+   "n_intervals": 209,
+   "beta": 836.1,
+   "beta_fa": 0.0,
+   "n_breaks": 0,
+   "breaks": []
+  },
+  {
+   "stn": "156",
+   "station": "Gwangju",
+   "pair": "ta-ws",
+   "n": 70054,
+   "n_intervals": 209,
+   "beta": 422.5,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 79,
+     "date": "20210111",
+     "p_block": 0.12,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "156",
+   "station": "Gwangju",
+   "pair": "hm-ws",
+   "n": 70059,
+   "n_intervals": 209,
+   "beta": 594.3,
+   "beta_fa": 0.05,
+   "n_breaks": 2,
+   "breaks": [
+    {
+     "interval": 140,
+     "date": "20230515",
+     "p_block": 0.91,
+     "passed": false
+    },
+    {
+     "interval": 166,
+     "date": "20240514",
+     "p_block": 0.37,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "159",
+   "station": "Busan",
+   "pair": "ta-hm",
+   "n": 70061,
+   "n_intervals": 209,
+   "beta": 936.8,
+   "beta_fa": 0.05,
+   "n_breaks": 0,
+   "breaks": []
+  },
+  {
+   "stn": "159",
+   "station": "Busan",
+   "pair": "ta-ws",
+   "n": 70051,
+   "n_intervals": 209,
+   "beta": 594.3,
+   "beta_fa": 0.05,
+   "n_breaks": 0,
+   "breaks": []
+  },
+  {
+   "stn": "159",
+   "station": "Busan",
+   "pair": "hm-ws",
+   "n": 70014,
+   "n_intervals": 209,
+   "beta": 377.1,
+   "beta_fa": 0.05,
+   "n_breaks": 0,
+   "breaks": []
+  },
+  {
+   "stn": "165",
+   "station": "Mokpo",
+   "pair": "ta-hm",
+   "n": 70098,
+   "n_intervals": 209,
+   "beta": 746.2,
+   "beta_fa": 0.05,
+   "n_breaks": 2,
+   "breaks": [
+    {
+     "interval": 10,
+     "date": "20180522",
+     "p_block": 0.07,
+     "passed": false
+    },
+    {
+     "interval": 151,
+     "date": "20231017",
+     "p_block": 0.5,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "165",
+   "station": "Mokpo",
+   "pair": "ta-ws",
+   "n": 70095,
+   "n_intervals": 209,
+   "beta": 836.1,
+   "beta_fa": 0.0,
+   "n_breaks": 0,
+   "breaks": []
+  },
+  {
+   "stn": "165",
+   "station": "Mokpo",
+   "pair": "hm-ws",
+   "n": 70082,
+   "n_intervals": 209,
+   "beta": 422.5,
+   "beta_fa": 0.05,
+   "n_breaks": 2,
+   "breaks": [
+    {
+     "interval": 10,
+     "date": "20180521",
+     "p_block": 0.93,
+     "passed": false
+    },
+    {
+     "interval": 137,
+     "date": "20230404",
+     "p_block": 0.62,
+     "passed": false
+    }
+   ]
+  },
+  {
+   "stn": "184",
+   "station": "Jeju",
+   "pair": "ta-hm",
+   "n": 70103,
+   "n_intervals": 209,
+   "beta": 836.1,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 142,
+     "date": "20230612",
+     "p_block": 0.03,
+     "passed": true
+    }
+   ]
+  },
+  {
+   "stn": "184",
+   "station": "Jeju",
+   "pair": "ta-ws",
+   "n": 70091,
+   "n_intervals": 209,
+   "beta": 836.1,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 79,
+     "date": "20210111",
+     "p_block": 0.02,
+     "passed": true
+    }
+   ]
+  },
+  {
+   "stn": "184",
+   "station": "Jeju",
+   "pair": "hm-ws",
+   "n": 70094,
+   "n_intervals": 209,
+   "beta": 594.3,
+   "beta_fa": 0.05,
+   "n_breaks": 1,
+   "breaks": [
+    {
+     "interval": 142,
+     "date": "20230612",
+     "p_block": 0.65,
+     "passed": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "first": "20110822",
+ "last": "20260820",
+ "D": 8,
+ "w_frac": 0.1,
+ "diag_L": 20,
+ "diag_K": 199,
+ "diag_seed": 0,
+ "K_main": 9999,
+ "seed_main": 20260930,
+ "n_chunks": 48,
+ "K_sens": 999,
+ "seeds_sens": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20
+ ],
+ "bh_q": 0.1,
+ "pairs": {
+  "SPX-GLD": {
+   "x": "SPX",
+   "y": "GLD",
+   "primary": "DOMI-diff"
+  },
+  "SPX-TNX": {
+   "x": "SPX",
+   "y": "TNX",
+   "primary": "combined"
+  },
+  "SPX-DXY": {
+   "x": "SPX",
+   "y": "DXY",
+   "primary": "combined"
+  }
+ },
+ "data_sha256": {
+  "SPX": "1ab17a1edb37b4485afb40145b7821e84b33d2d865a83b6d2014e2f7db786a81",
+  "TNX": "bd429b614ad270e6edf54864b6ae91840bc4fe868a536f725c05b2f3837a4a93",
+  "GLD": "a5519d05db148899d30bfc58b59746d39e82087a0df15f89836dcc2ea62fc5fb",
+  "DXY": "124352a04b2a2f441b1531688a53bb46c6c4a28a9543d7bdd0b5e62fb29ee786"
+ }
+}

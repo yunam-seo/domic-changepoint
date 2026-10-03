@@ -1,0 +1,62 @@
+{
+ "config": {
+  "n": 600,
+  "w": 60,
+  "D": 8,
+  "K": 99,
+  "reps": 400,
+  "rho": 0.5,
+  "alpha": 0.05,
+  "base_seed": 20260925
+ },
+ "steps": {
+  "none": 0.0,
+  "low": 0.002,
+  "mid": 0.005,
+  "high": 0.008,
+  "extreme": 0.02
+ },
+ "results": {
+  "none": {
+   "step": 0.0,
+   "reps": 400,
+   "tie_share_mean": 0.0,
+   "level_order": 0.055,
+   "level_random": 0.055,
+   "level_recompute": 0.055
+  },
+  "low": {
+   "step": 0.002,
+   "reps": 400,
+   "tie_share_mean": 0.28040208333333333,
+   "level_order": 0.0475,
+   "level_random": 0.0475,
+   "level_recompute": 0.05
+  },
+  "mid": {
+   "step": 0.005,
+   "reps": 400,
+   "tie_share_mean": 0.5430812500000001,
+   "level_order": 0.04,
+   "level_random": 0.04,
+   "level_recompute": 0.0425
+  },
+  "high": {
+   "step": 0.008,
+   "reps": 400,
+   "tie_share_mean": 0.6965625,
+   "level_order": 0.0475,
+   "level_random": 0.045,
+   "level_recompute": 0.045
+  },
+  "extreme": {
+   "step": 0.02,
+   "reps": 400,
+   "tie_share_mean": 0.9050791666666668,
+   "level_order": 0.0725,
+   "level_random": 0.075,
+   "level_recompute": 0.0775
+  }
+ },
+ "wall_clock_s": 8522
+}

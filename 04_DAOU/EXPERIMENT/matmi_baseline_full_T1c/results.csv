@@ -1,0 +1,13 @@
+scen,level,method,mode,key,power,detect_rate,threshold,n_reps
+D1,0.2,DOMI-diff,g,DOMI-diff|g,0.0,0.142,0.6918841948020451,500
+D1,0.2,matmi-a1,g,matmi-a1|g,0.0,0.144,1.0386810581749535,500
+D1,0.2,matmi-r2,g,matmi-r2|g,0.0,0.17,0.9567434392412214,500
+D1,0.2,DOMI-diff,gs,DOMI-diff|gs,0.25,0.574,3.6454466102130842,500
+D1,0.2,matmi-a1,gs,matmi-a1|gs,0.312,0.558,3.441428902353588,500
+D1,0.2,matmi-r2,gs,matmi-r2|gs,0.16,0.476,3.8475655169899228,500
+D1,0.5,DOMI-diff,g,DOMI-diff|g,0.194,0.992,0.6918841948020451,500
+D1,0.5,matmi-a1,g,matmi-a1|g,0.164,0.972,1.0386810581749535,500
+D1,0.5,matmi-r2,g,matmi-r2|g,0.282,0.982,0.9567434392412214,500
+D1,0.5,DOMI-diff,gs,DOMI-diff|gs,0.772,1.0,3.6454466102130842,500
+D1,0.5,matmi-a1,gs,matmi-a1|gs,0.986,1.0,3.441428902353588,500
+D1,0.5,matmi-r2,gs,matmi-r2|gs,0.608,1.0,3.8475655169899228,500

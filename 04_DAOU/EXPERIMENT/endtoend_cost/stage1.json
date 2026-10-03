@@ -1,0 +1,19 @@
+{
+ "series": "station 108, ta-hm (02_MART/WEATHER_HOURLY_ANOM.npz)",
+ "n": 70069,
+ "grid_unit_hours": 336,
+ "n_intervals": 209,
+ "cost_matrices_built": 84,
+ "beta": 1049.6911014797963,
+ "n_breaks": 1,
+ "seconds": {
+  "features_and_interval_moments": 0.05,
+  "one_cost_matrix": 1.59,
+  "bias_correction_3_copies": 4.82,
+  "penalty_calibration_20_copies": 129.72,
+  "of_which_partitioning_1600_runs": 0.95,
+  "final_partition": 0.0,
+  "stage_one_total": 136.18
+ },
+ "peak_rss_MiB": 120.3
+}

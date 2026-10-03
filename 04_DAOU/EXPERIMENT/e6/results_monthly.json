@@ -1,0 +1,38 @@
+{
+ "SPX-TNX": {
+  "n_months": 179,
+  "diag_decision": "pair",
+  "diag_pvalues": {
+   "lb_level_x": 0.36,
+   "lb_level_y": 0.85,
+   "lb_scale_x": 0.58,
+   "lb_scale_y": 0.15,
+   "lb_cross": 0.225
+  },
+  "b_hat": 12,
+  "calibration": "pair",
+  "beta": 6.0,
+  "fa": 0.05,
+  "cps_dates": [
+   "20210830"
+  ]
+ },
+ "KOSPI-USDKRW": {
+  "n_months": 154,
+  "diag_decision": "block",
+  "diag_pvalues": {
+   "lb_level_x": 0.315,
+   "lb_level_y": 0.97,
+   "lb_scale_x": 0.005,
+   "lb_scale_y": 0.62,
+   "lb_cross": 0.915
+  },
+  "b_hat": 12,
+  "calibration": "block12",
+  "beta": 6.5,
+  "fa": 0.05,
+  "cps_dates": [
+   "20180110"
+  ]
+ }
+}

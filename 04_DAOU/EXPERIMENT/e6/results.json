@@ -1,0 +1,198 @@
+{
+ "e6a_SPX-TNX": {
+  "n_weeks": 753,
+  "beta": 5.5,
+  "fa": 0.05,
+  "cps_dates": [
+   "20160728",
+   "20181018",
+   "20211222",
+   "20231120"
+  ],
+  "gauss_n_cps": 6,
+  "gauss_cps_dates": [
+   "20150422",
+   "20150520",
+   "20150618",
+   "20160728",
+   "20181018",
+   "20200227"
+  ]
+ },
+ "e6a_KOSPI-USDKRW": {
+  "n_weeks": 648,
+  "beta": 5.0,
+  "fa": 0.05,
+  "cps_dates": [
+   "20120103",
+   "20190805",
+   "20210420",
+   "20221103",
+   "20240105",
+   "20251223"
+  ],
+  "gauss_n_cps": 4,
+  "gauss_cps_dates": [
+   "20200218",
+   "20200317",
+   "20250319",
+   "20260714"
+  ]
+ },
+ "e6b_SPX-TNX_2021-2022": {
+  "DOMI-diff": {
+   "tau_hat": 393,
+   "maxT": 2.099473127368187,
+   "p_value": 0.36,
+   "tau_date": "20220727"
+  },
+  "HSIC-diff": {
+   "tau_hat": 393,
+   "maxT": 3.6387749417873394,
+   "p_value": 0.11,
+   "tau_date": "20220727"
+  },
+  "Spearman-diff": {
+   "tau_hat": 354,
+   "maxT": 4.31849948562823,
+   "p_value": 0.02,
+   "tau_date": "20220531"
+  },
+  "CopulaCvM": {
+   "tau_hat": 260,
+   "maxT": 7.9528409047648285,
+   "p_value": 0.01,
+   "tau_date": "20220113"
+  },
+  "DOMI-diff|block20": {
+   "tau_hat": 393,
+   "maxT": 2.340373771264711,
+   "p_value": 0.31,
+   "tau_date": "20220727"
+  },
+  "HSIC-diff|block20": {
+   "tau_hat": 393,
+   "maxT": 4.578741078949725,
+   "p_value": 0.02,
+   "tau_date": "20220727"
+  },
+  "Spearman-diff|block20": {
+   "tau_hat": 393,
+   "maxT": 3.295481638448308,
+   "p_value": 0.08,
+   "tau_date": "20220727"
+  },
+  "CopulaCvM|block20": {
+   "tau_hat": 227,
+   "maxT": 8.126851966963436,
+   "p_value": 0.01,
+   "tau_date": "20211126"
+  },
+  "DOMI-diff|block50": {
+   "tau_hat": 393,
+   "maxT": 1.768726865957947,
+   "p_value": 0.5,
+   "tau_date": "20220727"
+  },
+  "HSIC-diff|block50": {
+   "tau_hat": 351,
+   "maxT": 3.1529548125619904,
+   "p_value": 0.18,
+   "tau_date": "20220525"
+  },
+  "Spearman-diff|block50": {
+   "tau_hat": 393,
+   "maxT": 1.8574433800873047,
+   "p_value": 0.44,
+   "tau_date": "20220727"
+  },
+  "CopulaCvM|block50": {
+   "tau_hat": 227,
+   "maxT": 5.350777694906827,
+   "p_value": 0.01,
+   "tau_date": "20211126"
+  },
+  "_acf1_absret": {
+   "x": 0.10940072835046126,
+   "y": 0.10395935730899415
+  }
+ },
+ "e6b_KOSPI-USDKRW_2019-2020": {
+  "DOMI-diff": {
+   "tau_hat": 115,
+   "maxT": 2.2012550451945407,
+   "p_value": 0.35,
+   "tau_date": "20190715"
+  },
+  "HSIC-diff": {
+   "tau_hat": 115,
+   "maxT": 2.2359463450760524,
+   "p_value": 0.33,
+   "tau_date": "20190715"
+  },
+  "Spearman-diff": {
+   "tau_hat": 318,
+   "maxT": 2.5894748182639797,
+   "p_value": 0.17,
+   "tau_date": "20200616"
+  },
+  "CopulaCvM": {
+   "tau_hat": 234,
+   "maxT": 3.366307592746669,
+   "p_value": 0.15,
+   "tau_date": "20200130"
+  },
+  "DOMI-diff|block20": {
+   "tau_hat": 114,
+   "maxT": 1.805949916848097,
+   "p_value": 0.39,
+   "tau_date": "20190711"
+  },
+  "HSIC-diff|block20": {
+   "tau_hat": 115,
+   "maxT": 1.8606152309445259,
+   "p_value": 0.43,
+   "tau_date": "20190715"
+  },
+  "Spearman-diff|block20": {
+   "tau_hat": 341,
+   "maxT": 2.3335884093002073,
+   "p_value": 0.27,
+   "tau_date": "20200727"
+  },
+  "CopulaCvM|block20": {
+   "tau_hat": 218,
+   "maxT": 2.6910818229025426,
+   "p_value": 0.29,
+   "tau_date": "20200106"
+  },
+  "DOMI-diff|block50": {
+   "tau_hat": 128,
+   "maxT": 1.464454202490054,
+   "p_value": 0.68,
+   "tau_date": "20190806"
+  },
+  "HSIC-diff|block50": {
+   "tau_hat": 115,
+   "maxT": 1.1038824123213506,
+   "p_value": 0.75,
+   "tau_date": "20190715"
+  },
+  "Spearman-diff|block50": {
+   "tau_hat": 341,
+   "maxT": 1.8792530842421922,
+   "p_value": 0.45,
+   "tau_date": "20200727"
+  },
+  "CopulaCvM|block50": {
+   "tau_hat": 218,
+   "maxT": 1.705294098776997,
+   "p_value": 0.6,
+   "tau_date": "20200106"
+  },
+  "_acf1_absret": {
+   "x": 0.4662159520658882,
+   "y": 0.0081228004823919
+  }
+ }
+}

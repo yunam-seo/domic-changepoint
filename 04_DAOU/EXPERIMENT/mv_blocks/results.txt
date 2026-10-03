@@ -1,0 +1,11 @@
+MV blocks: n=600 tau=300 tol=30 D=8 a=0.7 scale=2.0 reps=500
+calibration: pointwise studentisation from null half 1, threshold from null half 2
+
+MV-S2 d=1 (371s): DOMI=0.46/0.05, HSIC-diff=0.06/0.05, dCor-diff=0.01/0.05, Spearman-diff=0.00/0.05, CopulaCvM=0.01/0.05, DOMI-pairwise/Bonf=0.46/0.05
+MV-S2 d=2 (544s): DOMI=0.06/0.05, HSIC-diff=0.00/0.05, dCor-diff=0.01/0.05, Spearman-diff=0.00/0.05, CopulaCvM=0.00/0.05, DOMI-pairwise/Bonf=0.45/0.05
+MV-S2 d=3 (719s): DOMI=0.05/0.05, HSIC-diff=0.00/0.05, dCor-diff=0.02/0.05, Spearman-diff=0.01/0.05, CopulaCvM=0.01/0.05, DOMI-pairwise/Bonf=0.64/0.05
+MV-S2 d=5 (1153s): DOMI=0.02/0.05, HSIC-diff=0.01/0.05, dCor-diff=0.01/0.05, Spearman-diff=0.00/0.05, CopulaCvM=0.00/0.05, DOMI-pairwise/Bonf=0.63/0.05
+MV-M1 d=1 (379s): DOMI=0.03/0.05, HSIC-diff=0.00/0.05, dCor-diff=0.01/0.05, Spearman-diff=0.01/0.05, CopulaCvM=0.56/0.05, DOMI-pairwise/Bonf=0.03/0.05
+MV-M1 d=2 (552s): DOMI=0.02/0.05, HSIC-diff=0.00/0.05, dCor-diff=0.01/0.05, Spearman-diff=0.00/0.05, CopulaCvM=0.69/0.05, DOMI-pairwise/Bonf=0.00/0.05
+MV-M1 d=3 (733s): DOMI=0.34/0.05, HSIC-diff=0.00/0.05, dCor-diff=0.02/0.05, Spearman-diff=0.01/0.05, CopulaCvM=0.66/0.05, DOMI-pairwise/Bonf=0.01/0.05
+MV-M1 d=5 (1083s): DOMI=0.35/0.05, HSIC-diff=0.01/0.05, dCor-diff=0.02/0.05, Spearman-diff=0.00/0.05, CopulaCvM=0.13/0.05, DOMI-pairwise/Bonf=0.01/0.05

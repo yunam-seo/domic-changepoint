@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+01_ORG/
+02_MART/
+figures/*.png
+figures/*.pdf
+run.log

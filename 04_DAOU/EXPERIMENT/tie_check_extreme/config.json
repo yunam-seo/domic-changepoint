@@ -1,0 +1,14 @@
+{
+ "n": 600,
+ "w": 60,
+ "D": 8,
+ "K": 99,
+ "reps": 400,
+ "rho": 0.5,
+ "alpha": 0.05,
+ "base_seed": 20260925,
+ "level": "extreme",
+ "step": 0.02,
+ "rep_first": 400,
+ "rep_count": 2000
+}

@@ -1,0 +1,4 @@
+scen,level,method,K,fpr_perm,power_perm
+M1,1.6,DOMI-diff,99,0.03,0.0
+M1,1.6,HSIC-diff,99,0.03,0.0
+M1,1.6,CopulaCvM,99,0.04,0.12

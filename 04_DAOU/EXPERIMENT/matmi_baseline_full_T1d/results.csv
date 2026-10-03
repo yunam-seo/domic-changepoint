@@ -1,0 +1,7 @@
+scen,level,method,mode,key,power,detect_rate,threshold,n_reps
+D2,0.5,DOMI-diff,g,DOMI-diff|g,0.0,0.09,0.6803593797012087,500
+D2,0.5,matmi-a1,g,matmi-a1|g,0.0,0.11,1.0160948071859892,500
+D2,0.5,matmi-r2,g,matmi-r2|g,0.0,0.126,0.9230566095864713,500
+D2,0.5,DOMI-diff,gs,DOMI-diff|gs,0.04,0.148,3.8279314062522527,500
+D2,0.5,matmi-a1,gs,matmi-a1|gs,0.056,0.178,3.673664572457338,500
+D2,0.5,matmi-r2,gs,matmi-r2|gs,0.098,0.268,3.6030452196065803,500

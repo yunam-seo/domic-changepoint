@@ -1,0 +1,70 @@
+{
+ "config": {
+  "K": 999,
+  "unit": 1,
+  "n_draws": 20,
+  "addendum": "protocol addendum, Supplementary Section B.22"
+ },
+ "results": {
+  "SPX-GLD": {
+   "date": "20130312",
+   "window": "20120214-20140402",
+   "n_window": 536,
+   "block": 134,
+   "n_blocks": 4,
+   "min_seg": 134,
+   "p_dep": 0.075,
+   "bh_q_dep": 0.09800000000000002,
+   "p_marg_x": 0.168,
+   "p_marg_y": 0.867,
+   "p_marg_min": 0.168,
+   "cls": "coupling change",
+   "feature_draws": {
+    "median": 0.075,
+    "min": 0.075,
+    "max": 0.15,
+    "frac_le_05": 0.0
+   }
+  },
+  "SPX-TNX": {
+   "date": "20201207",
+   "window": "20150609-20260611",
+   "n_window": 2768,
+   "block": 173,
+   "n_blocks": 16,
+   "min_seg": 173,
+   "p_dep": 0.004,
+   "bh_q_dep": 0.012,
+   "p_marg_x": 0.553,
+   "p_marg_y": 0.077,
+   "p_marg_min": 0.077,
+   "cls": "coupling change",
+   "feature_draws": {
+    "median": 0.004,
+    "min": 0.002,
+    "max": 0.007,
+    "frac_le_05": 1.0
+   }
+  },
+  "SPX-DXY": {
+   "date": "20130401",
+   "window": "20110825-20141027",
+   "n_window": 798,
+   "block": 133,
+   "n_blocks": 6,
+   "min_seg": 133,
+   "p_dep": 0.098,
+   "bh_q_dep": 0.09800000000000002,
+   "p_marg_x": 0.104,
+   "p_marg_y": 0.207,
+   "p_marg_min": 0.104,
+   "cls": "coupling change",
+   "feature_draws": {
+    "median": 0.0715,
+    "min": 0.019,
+    "max": 0.098,
+    "frac_le_05": 0.25
+   }
+  }
+ }
+}

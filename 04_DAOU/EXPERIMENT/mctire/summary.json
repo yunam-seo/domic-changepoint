@@ -1,0 +1,138 @@
+{
+ "config": {
+  "n": 600,
+  "tau": 300,
+  "w": 60,
+  "tol": 30,
+  "fpr": 0.05,
+  "reps": 500,
+  "ws": 40,
+  "seed": 20260927
+ },
+ "cells": {
+  "S1_r0.35": {
+   "scen": "D1",
+   "level": 0.35,
+   "matched_null": false
+  },
+  "S2_a0.7": {
+   "scen": "D2",
+   "level": 0.7,
+   "matched_null": false
+  },
+  "S2_a0.9": {
+   "scen": "D2",
+   "level": 0.9,
+   "matched_null": false
+  },
+  "S3_tau0.5": {
+   "scen": "D3",
+   "level": 0.5,
+   "matched_null": true
+  },
+  "S4_r0.7": {
+   "scen": "D4",
+   "level": 0.7,
+   "matched_null": true
+  },
+  "S4_r0.85": {
+   "scen": "D4",
+   "level": 0.85,
+   "matched_null": true
+  },
+  "M1_s2": {
+   "scen": "M1",
+   "level": 2.0,
+   "matched_null": false
+  },
+  "G1_nu2": {
+   "scen": "G1",
+   "level": 2.0,
+   "matched_null": false
+  },
+  "G2_tau0.2": {
+   "scen": "G2",
+   "level": 0.2,
+   "matched_null": false
+  },
+  "G4_a0.5": {
+   "scen": "G4",
+   "level": 0.5,
+   "matched_null": false
+  },
+  "G6_b0.3": {
+   "scen": "G6",
+   "level": 0.3,
+   "matched_null": false
+  },
+  "G6_b0.5": {
+   "scen": "G6",
+   "level": 0.5,
+   "matched_null": false
+  }
+ },
+ "thresholds": {
+  "null_D1_L0": {
+   "MCTIRE-AS|g": 0.15428694594990547,
+   "MCTIRE-AS|gs": 3.8856422578443968,
+   "MCTIRE-sum|g": 0.8194957141340052,
+   "MCTIRE-sum|gs": 2.987405923070476
+  },
+  "null_D2_L0": {
+   "MCTIRE-AS|g": 0.14612002035644847,
+   "MCTIRE-AS|gs": 3.3007644511418284,
+   "MCTIRE-sum|g": 0.837059937006991,
+   "MCTIRE-sum|gs": 3.484720918982976
+  },
+  "null_D3_L1": {
+   "MCTIRE-AS|g": 0.056297276366868675,
+   "MCTIRE-AS|gs": 3.3077065849013305,
+   "MCTIRE-sum|g": 0.4401000805148196,
+   "MCTIRE-sum|gs": 3.4079050276589062
+  },
+  "null_D4_L1": {
+   "MCTIRE-AS|g": 0.18716324820973473,
+   "MCTIRE-AS|gs": 3.2917403904904035,
+   "MCTIRE-sum|g": 0.8112731126084628,
+   "MCTIRE-sum|gs": 3.23386523820746
+  },
+  "null_D4_L2": {
+   "MCTIRE-AS|g": 0.21341993652237645,
+   "MCTIRE-AS|gs": 3.788624848121673,
+   "MCTIRE-sum|g": 0.8682166984441515,
+   "MCTIRE-sum|gs": 3.559618717229392
+  },
+  "null_M1_L0": {
+   "MCTIRE-AS|g": 0.15173561288175996,
+   "MCTIRE-AS|gs": 3.373902995016492,
+   "MCTIRE-sum|g": 0.8389921736156537,
+   "MCTIRE-sum|gs": 3.225085931652348
+  },
+  "null_G1_L0": {
+   "MCTIRE-AS|g": 0.1542711303646453,
+   "MCTIRE-AS|gs": 3.7515842272837063,
+   "MCTIRE-sum|g": 0.7913275531898812,
+   "MCTIRE-sum|gs": 3.0205520218168234
+  },
+  "null_G2_L0": {
+   "MCTIRE-AS|g": 0.15122947593051683,
+   "MCTIRE-AS|gs": 3.810748135106837,
+   "MCTIRE-sum|g": 0.801576703121842,
+   "MCTIRE-sum|gs": 3.185989509857695
+  },
+  "null_G4_L0": {
+   "MCTIRE-AS|g": 0.15537577017092066,
+   "MCTIRE-AS|gs": 3.881000842698787,
+   "MCTIRE-sum|g": 0.8653865774162617,
+   "MCTIRE-sum|gs": 3.9538609103154414
+  },
+  "null_G6_L0": {
+   "MCTIRE-AS|g": 0.15170810392749703,
+   "MCTIRE-AS|gs": 3.5858904062323242,
+   "MCTIRE-sum|g": 0.8164729814641783,
+   "MCTIRE-sum|gs": 3.3654378946291437
+  }
+ },
+ "method_settings": "mctire_adapter.py",
+ "repository_commit": "f538a86"
+}

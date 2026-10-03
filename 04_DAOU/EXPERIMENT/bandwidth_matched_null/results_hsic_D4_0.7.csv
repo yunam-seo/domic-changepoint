@@ -1,0 +1,11 @@
+scen,level,method,bandwidth_key,mode,null_level,power,detect_rate
+D4,0.7,HSIC-fullgram,0.25,g,0.7,0.0,0.068
+D4,0.7,HSIC-fullgram,0.25,gs,0.7,0.12,0.288
+D4,0.7,HSIC-fullgram,0.5,g,0.7,0.0,0.09
+D4,0.7,HSIC-fullgram,0.5,gs,0.7,0.028,0.15
+D4,0.7,HSIC-fullgram,1.0,g,0.7,0.0,0.064
+D4,0.7,HSIC-fullgram,1.0,gs,0.7,0.006,0.086
+D4,0.7,HSIC-fullgram,2.0,g,0.7,0.0,0.04
+D4,0.7,HSIC-fullgram,2.0,gs,0.7,0.002,0.058
+D4,0.7,HSIC-fullgram,4.0,g,0.7,0.0,0.036
+D4,0.7,HSIC-fullgram,4.0,gs,0.7,0.0,0.04

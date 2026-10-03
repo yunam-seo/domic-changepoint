@@ -1,0 +1,56 @@
+{
+ "pair": {
+  "p": {
+   "DOMI-diff": 0.296,
+   "HSIC-diff": 0.028,
+   "Spearman-diff": 0.009,
+   "CopulaCvM": 0.001,
+   "combined": 0.018
+  },
+  "tau_date": {
+   "DOMI-diff": "20220727",
+   "HSIC-diff": "20220727",
+   "Spearman-diff": "20220727",
+   "CopulaCvM": "20220114",
+   "combined": "20220727"
+  },
+  "n": 503,
+  "seconds": 126.7
+ },
+ "block b=20": {
+  "p": {
+   "DOMI-diff": 0.24,
+   "HSIC-diff": 0.031,
+   "Spearman-diff": 0.076,
+   "CopulaCvM": 0.001,
+   "combined": 0.159
+  },
+  "tau_date": {
+   "DOMI-diff": "20220727",
+   "HSIC-diff": "20220727",
+   "Spearman-diff": "20220525",
+   "CopulaCvM": "20220125",
+   "combined": "20220525"
+  },
+  "n": 503,
+  "seconds": 129.4
+ },
+ "block b=50": {
+  "p": {
+   "DOMI-diff": 0.266,
+   "HSIC-diff": 0.05,
+   "Spearman-diff": 0.218,
+   "CopulaCvM": 0.002,
+   "combined": 0.318
+  },
+  "tau_date": {
+   "DOMI-diff": "20220727",
+   "HSIC-diff": "20220727",
+   "Spearman-diff": "20220727",
+   "CopulaCvM": "20220128",
+   "combined": "20220727"
+  },
+  "n": 503,
+  "seconds": 127.7
+ }
+}

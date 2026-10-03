@@ -1,0 +1,27 @@
+{
+ "0": {
+  "reject_rate": 0.034,
+  "localised_rate": 0.002,
+  "threshold": 3.755856610760184
+ },
+ "1": {
+  "reject_rate": 0.046,
+  "localised_rate": 0.01,
+  "threshold": 4.166734511605494
+ },
+ "2": {
+  "reject_rate": 0.026,
+  "localised_rate": 0.012,
+  "threshold": 3.8838994480428455
+ },
+ "3": {
+  "reject_rate": 0.056,
+  "localised_rate": 0.018,
+  "threshold": 3.802917134002286
+ },
+ "summary": {
+  "min": 0.026,
+  "max": 0.056,
+  "mean": 0.0405
+ }
+}

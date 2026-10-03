@@ -1,0 +1,561 @@
+grid,method,device,n,dataset,status,seconds,peak_rss_mb,p_value,tau_hat,candidates,K
+dense,DOMI,cpu,600,3,ok,16.749,113.3,0.22,319,481,99
+dense,DOMI,cpu,600,0,ok,16.912,113.4,0.52,222,481,99
+dense,DOMI,cpu,600,2,ok,17.27,113.5,0.01,305,481,99
+dense,DOMI,cpu,600,1,ok,19.3,113.2,0.03,65,481,99
+dense,DOMI,cpu,600,4,ok,16.137,114.9,0.09,302,481,99
+dense,DOMI,cpu,600,5,ok,16.703,114.9,0.33,409,481,99
+dense,DOMI,cpu,600,6,ok,16.673,114.9,0.01,358,481,99
+dense,HSIC-diff,cpu,600,0,ok,1.226,77.5,0.37,286,481,99
+dense,DOMI,cpu,600,7,ok,16.199,114.7,0.01,297,481,99
+dense,HSIC-diff,cpu,600,1,ok,1.226,77.4,0.06,67,481,99
+dense,HSIC-diff,cpu,600,2,ok,1.205,77.3,0.31,300,481,99
+dense,HSIC-diff,cpu,600,3,ok,1.14,78.1,0.38,319,481,99
+dense,HSIC-diff,cpu,600,4,ok,1.197,77.4,0.21,288,481,99
+dense,HSIC-diff,cpu,600,5,ok,1.254,77.5,0.81,88,481,99
+dense,HSIC-diff,cpu,600,6,ok,1.225,77.3,0.02,360,481,99
+dense,HSIC-diff,cpu,600,7,ok,1.279,77.4,0.08,292,481,99
+dense,HSIC-diff,cpu,600,8,ok,1.255,77.3,0.41,311,481,99
+dense,HSIC-diff,cpu,600,9,ok,2.251,77.5,0.14,312,481,99
+dense,dCor-diff,cpu,600,0,ok,4.828,84.6,0.52,112,481,99
+dense,dCor-diff,cpu,600,1,ok,4.45,84.5,0.01,65,481,99
+dense,DOMI,cpu,600,8,ok,17.16,114.9,0.03,311,481,99
+dense,dCor-diff,cpu,600,2,ok,4.395,84.4,0.39,308,481,99
+dense,DOMI,cpu,600,9,ok,17.682,114.7,0.03,339,481,99
+dense,dCor-diff,cpu,600,3,ok,4.466,84.7,0.77,141,481,99
+dense,dCor-diff,cpu,600,4,ok,4.432,84.5,0.78,369,481,99
+dense,dCor-diff,cpu,600,5,ok,4.458,84.5,0.72,77,481,99
+dense,dCor-diff,cpu,600,6,ok,4.53,84.5,0.03,360,481,99
+dense,Spearman-diff,cpu,600,0,ok,1.266,74.6,0.27,363,481,99
+dense,dCor-diff,cpu,600,7,ok,4.469,84.6,0.21,303,481,99
+dense,Spearman-diff,cpu,600,1,ok,1.238,74.5,0.09,65,481,99
+dense,Spearman-diff,cpu,600,2,ok,1.215,74.0,0.9,240,481,99
+dense,dCor-diff,cpu,600,8,ok,4.45,84.8,0.68,312,481,99
+dense,dCor-diff,cpu,600,9,ok,4.472,84.5,0.86,312,481,99
+dense,Spearman-diff,cpu,600,3,ok,1.316,74.5,0.79,279,481,99
+dense,Spearman-diff,cpu,600,4,ok,1.251,74.5,1.0,369,481,99
+dense,Spearman-diff,cpu,600,5,ok,1.207,73.9,0.85,517,481,99
+dense,Spearman-diff,cpu,600,6,ok,1.226,74.3,0.17,360,481,99
+dense,Spearman-diff,cpu,600,7,ok,1.257,74.2,0.44,60,481,99
+dense,Spearman-diff,cpu,600,8,ok,1.218,74.1,0.62,428,481,99
+dense,Spearman-diff,cpu,600,9,ok,1.247,74.7,0.61,312,481,99
+dense,CopulaCvM,cpu,600,0,ok,1.469,81.9,0.42,237,481,99
+dense,CopulaCvM,cpu,600,1,ok,1.473,82.2,0.47,503,481,99
+dense,CopulaCvM,cpu,600,2,ok,1.448,82.1,0.11,321,481,99
+dense,CopulaCvM,cpu,600,3,ok,1.441,82.0,0.07,185,481,99
+dense,CopulaCvM,cpu,600,4,ok,1.47,82.2,0.29,456,481,99
+dense,CopulaCvM,cpu,600,6,ok,1.448,82.2,0.78,118,481,99
+dense,CopulaCvM,cpu,600,5,ok,1.476,82.0,0.75,376,481,99
+dense,CopulaCvM,cpu,600,7,ok,1.439,82.3,0.79,220,481,99
+dense,CopulaCvM,cpu,600,8,ok,1.449,81.9,0.44,179,481,99
+dense,CopulaCvM,cpu,600,9,ok,1.418,82.2,0.35,375,481,99
+dense,CvM-sub,cpu,600,1,ok,9.226,79.8,0.25,64,481,99
+dense,CvM-sub,cpu,600,0,ok,9.498,79.6,0.25,363,481,99
+dense,CvM-sub,cpu,600,2,ok,9.349,79.7,0.77,228,481,99
+dense,CvM-sub,cpu,600,3,ok,9.371,80.0,0.82,419,481,99
+dense,CvM-sub,cpu,600,4,ok,8.89,79.7,0.93,371,481,99
+dense,CvM-sub,cpu,600,5,ok,9.059,79.9,0.78,521,481,99
+dense,CvM-sub,cpu,600,6,ok,8.845,79.6,0.12,360,481,99
+dense,CvM-sub,cpu,600,7,ok,8.615,79.7,0.36,60,481,99
+dense,CvM-sub,cpu,600,8,ok,8.034,79.9,0.82,428,481,99
+dense,CvM-sub,cpu,600,9,ok,8.319,79.7,0.24,312,481,99
+dense,Gram,cpu,600,0,ok,234.597,325.6,0.68,222,481,99
+dense,Gram,cpu,600,3,ok,230.298,327.0,0.08,386,481,99
+dense,Gram,cpu,600,2,ok,235.662,327.2,0.01,308,481,99
+dense,Gram,cpu,600,1,ok,245.456,323.0,0.02,339,481,99
+dense,Gram,cpu,600,5,ok,228.174,327.3,0.35,314,481,99
+dense,Gram,cpu,600,4,ok,230.926,327.2,0.15,302,481,99
+dense,Gram,cpu,600,7,ok,232.91,327.6,0.01,297,481,99
+dense,Gram,cpu,600,6,ok,237.867,327.2,0.01,333,481,99
+dense,Gram,cpu,600,9,ok,200.792,330.0,0.01,339,481,99
+dense,Gram,cpu,600,8,ok,202.219,327.1,0.04,311,481,99
+dense,DOMI,cpu,2400,1,ok,76.395,231.5,0.01,1200,1921,99
+dense,DOMI,cpu,2400,0,ok,77.097,231.6,0.01,1239,1921,99
+dense,DOMI,cpu,2400,3,ok,77.423,231.9,0.01,1407,1921,99
+dense,DOMI,cpu,2400,2,ok,78.12,231.8,0.01,1210,1921,99
+dense,DOMI,cpu,2400,4,ok,77.9,232.5,0.01,1653,1921,99
+dense,DOMI,cpu,2400,5,ok,78.011,232.2,0.01,1398,1921,99
+dense,DOMI,cpu,2400,6,ok,78.302,232.5,0.01,1211,1921,99
+dense,DOMI,cpu,2400,7,ok,78.269,232.6,0.01,1379,1921,99
+dense,HSIC-diff,cpu,2400,0,ok,3.647,80.9,0.01,1253,1921,99
+dense,HSIC-diff,cpu,2400,1,ok,3.683,80.8,0.39,1671,1921,99
+dense,HSIC-diff,cpu,2400,2,ok,3.779,81.6,0.01,1741,1921,99
+dense,HSIC-diff,cpu,2400,3,ok,3.886,81.0,0.1,1330,1921,99
+dense,HSIC-diff,cpu,2400,4,ok,3.725,80.8,0.01,1669,1921,99
+dense,HSIC-diff,cpu,2400,5,ok,3.748,80.7,0.01,1398,1921,99
+dense,HSIC-diff,cpu,2400,6,ok,3.763,80.9,0.01,1254,1921,99
+dense,HSIC-diff,cpu,2400,7,ok,3.777,81.0,0.01,1266,1921,99
+dense,HSIC-diff,cpu,2400,8,ok,3.621,81.3,0.01,1252,1921,99
+dense,HSIC-diff,cpu,2400,9,ok,3.763,80.9,0.03,1197,1921,99
+dense,dCor-diff,cpu,2400,0,ok,49.289,208.5,0.01,1256,1921,99
+dense,dCor-diff,cpu,2400,1,ok,49.697,208.6,0.47,674,1921,99
+dense,DOMI,cpu,2400,8,ok,79.067,232.5,0.01,1262,1921,99
+dense,DOMI,cpu,2400,9,ok,78.367,232.3,0.01,1197,1921,99
+dense,dCor-diff,cpu,2400,2,ok,50.627,208.5,0.01,1741,1921,99
+dense,dCor-diff,cpu,2400,3,ok,51.343,208.6,0.23,1329,1921,99
+dense,dCor-diff,cpu,2400,5,ok,50.727,208.9,0.42,1310,1921,99
+dense,dCor-diff,cpu,2400,4,ok,50.917,208.9,0.01,1669,1921,99
+dense,dCor-diff,cpu,2400,6,ok,50.448,208.9,0.01,1220,1921,99
+dense,dCor-diff,cpu,2400,7,ok,51.508,208.9,0.07,1205,1921,99
+dense,Spearman-diff,cpu,2400,0,ok,5.38,79.0,0.43,342,1921,99
+dense,Spearman-diff,cpu,2400,1,ok,5.806,79.0,0.04,2022,1921,99
+dense,dCor-diff,cpu,2400,8,ok,51.232,208.9,0.01,1300,1921,99
+dense,dCor-diff,cpu,2400,9,ok,51.526,208.7,0.01,1221,1921,99
+dense,Spearman-diff,cpu,2400,2,ok,5.265,78.6,0.05,1775,1921,99
+dense,Spearman-diff,cpu,2400,3,ok,4.789,78.8,0.57,280,1921,99
+dense,Spearman-diff,cpu,2400,4,ok,5.248,78.9,0.07,2090,1921,99
+dense,Spearman-diff,cpu,2400,5,ok,4.969,78.8,0.49,694,1921,99
+dense,Spearman-diff,cpu,2400,6,ok,4.83,78.5,0.24,2108,1921,99
+dense,Spearman-diff,cpu,2400,7,ok,5.252,78.8,0.48,1305,1921,99
+dense,Spearman-diff,cpu,2400,8,ok,4.853,78.7,0.38,1164,1921,99
+dense,Spearman-diff,cpu,2400,9,ok,5.118,79.0,0.01,2090,1921,99
+dense,CopulaCvM,cpu,2400,0,ok,19.109,224.0,0.26,1694,1921,99
+dense,CopulaCvM,cpu,2400,1,ok,20.038,224.0,0.18,2154,1921,99
+dense,CopulaCvM,cpu,2400,2,ok,19.683,224.1,0.19,1396,1921,99
+dense,CopulaCvM,cpu,2400,3,ok,20.074,224.1,0.68,278,1921,99
+dense,CopulaCvM,cpu,2400,4,ok,19.605,223.8,0.15,1646,1921,99
+dense,CopulaCvM,cpu,2400,5,ok,19.238,223.9,0.34,1767,1921,99
+dense,CopulaCvM,cpu,2400,6,ok,19.114,224.1,0.39,932,1921,99
+dense,CopulaCvM,cpu,2400,7,ok,19.361,223.9,0.33,1988,1921,99
+dense,CopulaCvM,cpu,2400,8,ok,19.522,224.2,0.48,1360,1921,99
+dense,CopulaCvM,cpu,2400,9,ok,20.199,224.0,0.26,312,1921,99
+dense,CvM-sub,cpu,2400,0,ok,431.081,170.4,0.32,286,1921,99
+dense,CvM-sub,cpu,2400,1,ok,439.588,170.2,0.05,2029,1921,99
+dense,CvM-sub,cpu,2400,2,ok,428.994,170.2,0.05,1760,1921,99
+dense,CvM-sub,cpu,2400,3,ok,434.152,170.1,0.57,2158,1921,99
+dense,CvM-sub,cpu,2400,6,ok,430.555,170.3,0.21,2098,1921,99
+dense,CvM-sub,cpu,2400,5,ok,444.428,170.3,0.2,694,1921,99
+dense,CvM-sub,cpu,2400,4,ok,457.142,170.0,0.06,1669,1921,99
+dense,CvM-sub,cpu,2400,7,ok,450.433,170.0,0.46,1281,1921,99
+dense,CvM-sub,cpu,2400,8,ok,444.03,170.9,0.08,1164,1921,99
+dense,CvM-sub,cpu,2400,9,ok,439.698,169.8,0.07,2082,1921,99
+dense,Gram,cpu,2400,0,timeout,1800,,,,,
+dense,Gram,cpu,2400,5,not run,,,,,,
+dense,Gram,cpu,2400,6,not run,,,,,,
+dense,Gram,cpu,2400,7,not run,,,,,,
+dense,Gram,cpu,2400,8,not run,,,,,,
+dense,Gram,cpu,2400,9,not run,,,,,,
+dense,Gram,cpu,2400,1,timeout,1800,,,,,
+dense,Gram,cpu,2400,2,timeout,1800,,,,,
+dense,Gram,cpu,2400,3,timeout,1800,,,,,
+dense,Gram,cpu,2400,4,timeout,1800,,,,,
+dense,Gram,cpu,9600,0,not run,,,,,,
+dense,Gram,cpu,9600,1,not run,,,,,,
+dense,Gram,cpu,9600,2,not run,,,,,,
+dense,Gram,cpu,9600,3,not run,,,,,,
+dense,Gram,cpu,9600,4,not run,,,,,,
+dense,Gram,cpu,9600,5,not run,,,,,,
+dense,Gram,cpu,9600,6,not run,,,,,,
+dense,Gram,cpu,9600,7,not run,,,,,,
+dense,Gram,cpu,9600,8,not run,,,,,,
+dense,Gram,cpu,9600,9,not run,,,,,,
+dense,DOMI,cpu,9600,0,ok,330.226,555.4,0.01,5633,7681,99
+dense,DOMI,cpu,9600,3,ok,338.862,555.2,0.01,5118,7681,99
+dense,DOMI,cpu,9600,1,ok,343.775,555.5,0.01,4819,7681,99
+dense,DOMI,cpu,9600,2,ok,365.906,554.9,0.01,4951,7681,99
+dense,DOMI,cpu,9600,5,ok,330.354,556.1,0.01,5659,7681,99
+dense,DOMI,cpu,9600,6,ok,329.413,555.0,0.01,5461,7681,99
+dense,DOMI,cpu,9600,4,ok,358.33,555.3,0.01,5261,7681,99
+dense,HSIC-diff,cpu,9600,0,ok,14.242,104.0,0.01,4827,7681,99
+dense,DOMI,cpu,9600,7,ok,341.634,555.2,0.01,5153,7681,99
+dense,HSIC-diff,cpu,9600,1,ok,14.663,104.1,0.01,4872,7681,99
+dense,HSIC-diff,cpu,9600,2,ok,13.894,104.3,0.01,5623,7681,99
+dense,HSIC-diff,cpu,9600,3,ok,14.597,103.9,0.01,5117,7681,99
+dense,HSIC-diff,cpu,9600,4,ok,13.915,104.1,0.01,4908,7681,99
+dense,HSIC-diff,cpu,9600,5,ok,16.674,104.2,0.01,5587,7681,99
+dense,HSIC-diff,cpu,9600,6,ok,16.453,104.0,0.01,4822,7681,99
+dense,HSIC-diff,cpu,9600,7,ok,14.307,104.1,0.01,4944,7681,99
+dense,HSIC-diff,cpu,9600,8,ok,16.552,104.2,0.01,5254,7681,99
+dense,HSIC-diff,cpu,9600,9,ok,14.357,103.9,0.01,4805,7681,99
+dense,DOMI,cpu,9600,8,ok,340.027,555.3,0.01,5254,7681,99
+dense,DOMI,cpu,9600,9,ok,351.202,555.8,0.01,5555,7681,99
+dense,dCor-diff,cpu,9600,1,ok,737.996,2197.4,0.01,4934,7681,99
+dense,dCor-diff,cpu,9600,0,ok,769.527,2197.4,0.02,4733,7681,99
+dense,dCor-diff,cpu,9600,2,ok,736.417,2197.5,0.01,4449,7681,99
+dense,dCor-diff,cpu,9600,3,ok,780.707,2197.7,0.01,5131,7681,99
+dense,dCor-diff,cpu,9600,4,ok,775.22,2197.5,0.01,5007,7681,99
+dense,dCor-diff,cpu,9600,5,ok,768.873,2197.3,0.01,4879,7681,99
+dense,dCor-diff,cpu,9600,6,ok,738.141,2197.6,0.01,4800,7681,99
+dense,Spearman-diff,cpu,9600,0,ok,21.06,98.0,0.95,8558,7681,99
+dense,Spearman-diff,cpu,9600,1,ok,20.499,97.9,0.02,2680,7681,99
+dense,Spearman-diff,cpu,9600,2,ok,21.936,98.0,0.87,8022,7681,99
+dense,Spearman-diff,cpu,9600,3,ok,20.371,97.8,0.94,8460,7681,99
+dense,dCor-diff,cpu,9600,7,ok,771.2,2197.2,0.01,5114,7681,99
+dense,Spearman-diff,cpu,9600,4,ok,19.761,97.6,0.56,7573,7681,99
+dense,Spearman-diff,cpu,9600,5,ok,32.464,97.9,0.45,7074,7681,99
+dense,Spearman-diff,cpu,9600,6,ok,20.108,97.8,0.64,4276,7681,99
+dense,Spearman-diff,cpu,9600,7,ok,24.113,97.7,0.02,2474,7681,99
+dense,Spearman-diff,cpu,9600,8,ok,23.516,97.8,0.88,8626,7681,99
+dense,Spearman-diff,cpu,9600,9,ok,20.435,97.6,0.58,1970,7681,99
+dense,dCor-diff,cpu,9600,8,ok,740.896,2197.4,0.01,4814,7681,99
+dense,dCor-diff,cpu,9600,9,ok,731.122,2197.7,0.01,5089,7681,99
+dense,CopulaCvM,cpu,9600,1,ok,388.393,2195.8,0.25,3897,7681,99
+dense,CopulaCvM,cpu,9600,0,ok,425.562,2196.0,0.03,5844,7681,99
+dense,CopulaCvM,cpu,9600,2,ok,390.919,2195.8,0.18,5097,7681,99
+dense,CopulaCvM,cpu,9600,4,ok,388.198,2195.8,0.04,4816,7681,99
+dense,CopulaCvM,cpu,9600,3,ok,401.513,2195.6,0.28,4756,7681,99
+dense,CopulaCvM,cpu,9600,5,ok,396.636,2195.6,0.02,5113,7681,99
+dense,CopulaCvM,cpu,9600,6,ok,396.491,2195.7,0.09,7692,7681,99
+dense,CopulaCvM,cpu,9600,7,ok,403.416,2195.8,0.09,1988,7681,99
+dense,CopulaCvM,cpu,9600,8,ok,394.385,2195.7,0.11,8607,7681,99
+dense,CopulaCvM,cpu,9600,9,ok,397.572,2195.8,0.14,4787,7681,99
+dense,CvM-sub,cpu,9600,0,timeout,1800,,,,,
+dense,CvM-sub,cpu,9600,5,not run,,,,,,
+dense,CvM-sub,cpu,9600,6,not run,,,,,,
+dense,CvM-sub,cpu,9600,7,not run,,,,,,
+dense,CvM-sub,cpu,9600,8,not run,,,,,,
+dense,CvM-sub,cpu,9600,9,not run,,,,,,
+dense,CvM-sub,cpu,9600,1,timeout,1800,,,,,
+dense,CvM-sub,cpu,9600,2,timeout,1800,,,,,
+dense,CvM-sub,cpu,9600,3,timeout,1800,,,,,
+dense,CvM-sub,cpu,9600,4,timeout,1800,,,,,
+fixed,DOMI,cpu,600,1,ok,6.52,90.7,0.05,66,161,99
+fixed,DOMI,cpu,600,0,ok,7.166,92.7,0.51,222,161,99
+fixed,DOMI,cpu,600,3,ok,7.169,90.4,0.26,348,161,99
+fixed,DOMI,cpu,600,2,ok,7.35,90.6,0.01,300,161,99
+fixed,DOMI,cpu,600,4,ok,5.326,90.6,0.08,300,161,99
+fixed,DOMI,cpu,600,5,ok,5.256,90.3,0.33,408,161,99
+fixed,DOMI,cpu,600,6,ok,5.375,90.5,0.01,333,161,99
+fixed,DOMI,cpu,600,7,ok,5.376,90.5,0.01,297,161,99
+fixed,HSIC-diff,cpu,600,0,ok,0.656,77.5,0.41,222,161,99
+fixed,HSIC-diff,cpu,600,1,ok,0.657,77.4,0.08,66,161,99
+fixed,HSIC-diff,cpu,600,2,ok,0.763,77.6,0.28,300,161,99
+fixed,HSIC-diff,cpu,600,3,ok,0.67,77.3,0.39,321,161,99
+fixed,HSIC-diff,cpu,600,4,ok,0.65,77.5,0.2,288,161,99
+fixed,HSIC-diff,cpu,600,5,ok,0.784,77.4,0.8,528,161,99
+fixed,HSIC-diff,cpu,600,6,ok,0.753,77.4,0.02,360,161,99
+fixed,HSIC-diff,cpu,600,7,ok,0.769,77.3,0.06,303,161,99
+fixed,DOMI,cpu,600,8,ok,5.372,90.4,0.04,312,161,99
+fixed,HSIC-diff,cpu,600,8,ok,0.755,77.5,0.52,315,161,99
+fixed,HSIC-diff,cpu,600,9,ok,0.771,77.4,0.13,312,161,99
+fixed,DOMI,cpu,600,9,ok,5.226,90.3,0.03,339,161,99
+fixed,dCor-diff,cpu,600,1,ok,4.505,84.6,0.02,63,161,99
+fixed,dCor-diff,cpu,600,0,ok,4.601,84.3,0.51,111,161,99
+fixed,dCor-diff,cpu,600,2,ok,4.652,84.5,0.39,300,161,99
+fixed,dCor-diff,cpu,600,3,ok,4.576,84.3,0.73,141,161,99
+fixed,dCor-diff,cpu,600,4,ok,4.67,84.4,0.76,369,161,99
+fixed,dCor-diff,cpu,600,5,ok,4.732,84.6,0.79,87,161,99
+fixed,dCor-diff,cpu,600,6,ok,4.66,84.8,0.03,360,161,99
+fixed,dCor-diff,cpu,600,7,ok,4.765,84.7,0.18,303,161,99
+fixed,Spearman-diff,cpu,600,0,ok,0.461,73.4,0.26,363,161,99
+fixed,Spearman-diff,cpu,600,1,ok,0.452,73.5,0.09,63,161,99
+fixed,Spearman-diff,cpu,600,2,ok,0.47,73.4,0.87,240,161,99
+fixed,Spearman-diff,cpu,600,3,ok,0.467,73.6,0.75,279,161,99
+fixed,Spearman-diff,cpu,600,4,ok,0.472,73.4,0.99,369,161,99
+fixed,Spearman-diff,cpu,600,5,ok,0.469,73.5,0.85,519,161,99
+fixed,Spearman-diff,cpu,600,6,ok,0.464,73.6,0.16,360,161,99
+fixed,Spearman-diff,cpu,600,7,ok,0.452,73.5,0.37,60,161,99
+fixed,Spearman-diff,cpu,600,8,ok,0.463,73.4,0.65,423,161,99
+fixed,Spearman-diff,cpu,600,9,ok,0.448,73.4,0.52,312,161,99
+fixed,dCor-diff,cpu,600,8,ok,4.526,84.3,0.67,312,161,99
+fixed,dCor-diff,cpu,600,9,ok,4.469,84.2,0.85,312,161,99
+fixed,CopulaCvM,cpu,600,0,ok,1.313,82.2,0.39,237,161,99
+fixed,CopulaCvM,cpu,600,1,ok,1.281,82.3,0.51,504,161,99
+fixed,CopulaCvM,cpu,600,2,ok,1.28,82.1,0.11,321,161,99
+fixed,CopulaCvM,cpu,600,3,ok,1.251,82.0,0.08,186,161,99
+fixed,CopulaCvM,cpu,600,5,ok,1.286,81.9,0.74,399,161,99
+fixed,CopulaCvM,cpu,600,4,ok,1.599,82.0,0.28,456,161,99
+fixed,CopulaCvM,cpu,600,7,ok,1.223,82.3,0.82,219,161,99
+fixed,CopulaCvM,cpu,600,6,ok,1.401,82.2,0.78,117,161,99
+fixed,CopulaCvM,cpu,600,8,ok,1.241,81.5,0.52,180,161,99
+fixed,CopulaCvM,cpu,600,9,ok,1.274,82.0,0.33,375,161,99
+fixed,CvM-sub,cpu,600,0,ok,7.014,76.2,0.25,363,161,99
+fixed,CvM-sub,cpu,600,1,ok,7.041,76.0,0.26,69,161,99
+fixed,CvM-sub,cpu,600,2,ok,6.748,75.9,0.77,228,161,99
+fixed,CvM-sub,cpu,600,3,ok,7.871,76.2,0.8,420,161,99
+fixed,CvM-sub,cpu,600,5,ok,6.774,76.6,0.79,516,161,99
+fixed,CvM-sub,cpu,600,4,ok,7.218,76.1,0.94,369,161,99
+fixed,CvM-sub,cpu,600,6,ok,6.715,76.4,0.12,360,161,99
+fixed,CvM-sub,cpu,600,7,ok,7.716,76.3,0.36,60,161,99
+fixed,CvM-sub,cpu,600,8,ok,6.907,76.1,0.9,423,161,99
+fixed,CvM-sub,cpu,600,9,ok,7.04,76.2,0.21,312,161,99
+fixed,Gram,cpu,600,3,ok,240.976,327.2,0.07,387,161,99
+fixed,Gram,cpu,600,0,ok,253.191,327.0,0.64,222,161,99
+fixed,Gram,cpu,600,2,ok,254.932,327.6,0.01,300,161,99
+fixed,Gram,cpu,600,1,ok,269.857,324.9,0.01,339,161,99
+fixed,Gram,cpu,600,5,ok,241.897,327.3,0.35,312,161,99
+fixed,Gram,cpu,600,4,ok,256.413,326.8,0.16,300,161,99
+fixed,Gram,cpu,600,6,ok,256.349,327.4,0.01,333,161,99
+fixed,Gram,cpu,600,7,ok,262.757,327.4,0.01,297,161,99
+fixed,Gram,cpu,600,9,ok,215.49,330.1,0.01,339,161,99
+fixed,Gram,cpu,600,8,ok,225.369,327.1,0.04,312,161,99
+fixed,DOMI,cpu,2400,1,ok,5.276,93.2,0.01,1200,161,99
+fixed,DOMI,cpu,2400,2,ok,5.333,93.4,0.01,1212,161,99
+fixed,DOMI,cpu,2400,3,ok,5.306,93.1,0.01,1344,161,99
+fixed,DOMI,cpu,2400,0,ok,6.808,93.0,0.01,1248,161,99
+fixed,DOMI,cpu,2400,4,ok,5.26,93.0,0.01,1656,161,99
+fixed,DOMI,cpu,2400,5,ok,5.235,94.1,0.01,1368,161,99
+fixed,DOMI,cpu,2400,6,ok,5.753,93.1,0.01,1212,161,99
+fixed,HSIC-diff,cpu,2400,0,ok,1.409,79.6,0.01,1248,161,99
+fixed,DOMI,cpu,2400,7,ok,6.175,93.1,0.01,1380,161,99
+fixed,HSIC-diff,cpu,2400,2,ok,1.005,79.6,0.01,1740,161,99
+fixed,HSIC-diff,cpu,2400,1,ok,1.338,79.7,0.39,1668,161,99
+fixed,HSIC-diff,cpu,2400,3,ok,1.003,79.7,0.1,1332,161,99
+fixed,DOMI,cpu,2400,8,ok,5.18,92.7,0.01,1236,161,99
+fixed,HSIC-diff,cpu,2400,4,ok,1.232,79.4,0.01,1656,161,99
+fixed,DOMI,cpu,2400,9,ok,5.538,93.0,0.01,1224,161,99
+fixed,HSIC-diff,cpu,2400,5,ok,1.003,79.0,0.01,1404,161,99
+fixed,HSIC-diff,cpu,2400,6,ok,1.011,79.7,0.01,1272,161,99
+fixed,HSIC-diff,cpu,2400,7,ok,1.015,79.3,0.01,1260,161,99
+fixed,HSIC-diff,cpu,2400,8,ok,1.105,79.4,0.01,1236,161,99
+fixed,HSIC-diff,cpu,2400,9,ok,1.042,79.4,0.02,1200,161,99
+fixed,dCor-diff,cpu,2400,1,ok,53.357,207.3,0.47,672,161,99
+fixed,dCor-diff,cpu,2400,0,ok,54.771,207.2,0.01,1260,161,99
+fixed,dCor-diff,cpu,2400,2,ok,54.948,207.3,0.01,1740,161,99
+fixed,dCor-diff,cpu,2400,3,ok,58.335,207.6,0.22,1332,161,99
+fixed,dCor-diff,cpu,2400,4,ok,53.941,207.4,0.01,1668,161,99
+fixed,dCor-diff,cpu,2400,5,ok,54.571,207.4,0.38,1308,161,99
+fixed,dCor-diff,cpu,2400,6,ok,54.334,207.3,0.01,1200,161,99
+fixed,Spearman-diff,cpu,2400,0,ok,0.739,75.1,0.48,360,161,99
+fixed,Spearman-diff,cpu,2400,1,ok,0.725,74.9,0.04,2004,161,99
+fixed,Spearman-diff,cpu,2400,2,ok,0.725,75.0,0.05,1776,161,99
+fixed,dCor-diff,cpu,2400,7,ok,54.429,207.3,0.05,1164,161,99
+fixed,Spearman-diff,cpu,2400,3,ok,0.746,75.2,0.56,276,161,99
+fixed,Spearman-diff,cpu,2400,4,ok,0.464,74.9,0.08,2088,161,99
+fixed,Spearman-diff,cpu,2400,5,ok,0.572,74.9,0.55,696,161,99
+fixed,Spearman-diff,cpu,2400,6,ok,0.453,74.9,0.29,2100,161,99
+fixed,Spearman-diff,cpu,2400,7,ok,0.514,74.6,0.42,1296,161,99
+fixed,Spearman-diff,cpu,2400,8,ok,0.479,75.0,0.34,1164,161,99
+fixed,Spearman-diff,cpu,2400,9,ok,0.722,75.1,0.01,2088,161,99
+fixed,CopulaCvM,cpu,2400,0,ok,18.26,222.7,0.29,1692,161,99
+fixed,CopulaCvM,cpu,2400,1,ok,18.864,222.8,0.2,2148,161,99
+fixed,CopulaCvM,cpu,2400,2,ok,18.391,222.7,0.18,1488,161,99
+fixed,CopulaCvM,cpu,2400,3,ok,18.221,222.9,0.69,276,161,99
+fixed,dCor-diff,cpu,2400,8,ok,52.575,207.2,0.01,1308,161,99
+fixed,dCor-diff,cpu,2400,9,ok,52.275,207.5,0.01,1212,161,99
+fixed,CopulaCvM,cpu,2400,4,ok,19.332,222.6,0.13,1644,161,99
+fixed,CopulaCvM,cpu,2400,5,ok,19.655,222.7,0.33,1764,161,99
+fixed,CopulaCvM,cpu,2400,6,ok,19.184,222.8,0.43,936,161,99
+fixed,CopulaCvM,cpu,2400,7,ok,20.052,222.7,0.35,1992,161,99
+fixed,CopulaCvM,cpu,2400,8,ok,18.24,222.6,0.47,1356,161,99
+fixed,CopulaCvM,cpu,2400,9,ok,18.807,222.7,0.25,312,161,99
+fixed,CvM-sub,cpu,2400,1,ok,395.341,102.7,0.04,2004,161,99
+fixed,CvM-sub,cpu,2400,3,ok,402.567,103.0,0.54,2160,161,99
+fixed,CvM-sub,cpu,2400,0,ok,420.772,102.7,0.35,372,161,99
+fixed,CvM-sub,cpu,2400,2,ok,417.656,103.1,0.05,1776,161,99
+fixed,CvM-sub,cpu,2400,4,ok,404.854,103.1,0.05,1668,161,99
+fixed,CvM-sub,cpu,2400,5,ok,403.545,103.0,0.23,696,161,99
+fixed,CvM-sub,cpu,2400,6,ok,414.269,103.0,0.22,2100,161,99
+fixed,CvM-sub,cpu,2400,7,ok,411.426,102.8,0.43,1284,161,99
+fixed,CvM-sub,cpu,2400,8,ok,389.131,103.2,0.07,1164,161,99
+fixed,CvM-sub,cpu,2400,9,ok,380.704,103.1,0.07,2088,161,99
+fixed,Gram,cpu,2400,0,timeout,1800,,,,,
+fixed,Gram,cpu,2400,5,not run,,,,,,
+fixed,Gram,cpu,2400,6,not run,,,,,,
+fixed,Gram,cpu,2400,7,not run,,,,,,
+fixed,Gram,cpu,2400,8,not run,,,,,,
+fixed,Gram,cpu,2400,9,not run,,,,,,
+fixed,Gram,cpu,2400,1,timeout,1800,,,,,
+fixed,Gram,cpu,2400,2,timeout,1800,,,,,
+fixed,Gram,cpu,2400,3,timeout,1800,,,,,
+fixed,Gram,cpu,2400,4,timeout,1800,,,,,
+fixed,Gram,cpu,9600,0,not run,,,,,,
+fixed,Gram,cpu,9600,1,not run,,,,,,
+fixed,Gram,cpu,9600,2,not run,,,,,,
+fixed,Gram,cpu,9600,3,not run,,,,,,
+fixed,Gram,cpu,9600,4,not run,,,,,,
+fixed,Gram,cpu,9600,5,not run,,,,,,
+fixed,Gram,cpu,9600,6,not run,,,,,,
+fixed,Gram,cpu,9600,7,not run,,,,,,
+fixed,Gram,cpu,9600,8,not run,,,,,,
+fixed,Gram,cpu,9600,9,not run,,,,,,
+fixed,DOMI,cpu,9600,3,ok,5.778,98.6,0.01,5136,161,99
+fixed,DOMI,cpu,9600,1,ok,5.886,98.9,0.01,4800,161,99
+fixed,DOMI,cpu,9600,2,ok,5.935,99.1,0.01,4944,161,99
+fixed,DOMI,cpu,9600,0,ok,6.043,99.1,0.01,5616,161,99
+fixed,DOMI,cpu,9600,4,ok,5.8,98.8,0.01,5280,161,99
+fixed,DOMI,cpu,9600,5,ok,5.738,98.8,0.01,5664,161,99
+fixed,DOMI,cpu,9600,6,ok,5.94,98.9,0.01,5472,161,99
+fixed,DOMI,cpu,9600,7,ok,6.068,98.8,0.01,5520,161,99
+fixed,HSIC-diff,cpu,9600,0,ok,1.795,98.3,0.01,4992,161,99
+fixed,HSIC-diff,cpu,9600,1,ok,1.792,98.2,0.01,4752,161,99
+fixed,HSIC-diff,cpu,9600,2,ok,1.767,98.4,0.01,5664,161,99
+fixed,HSIC-diff,cpu,9600,3,ok,1.805,98.3,0.01,5136,161,99
+fixed,DOMI,cpu,9600,9,ok,5.842,98.9,0.01,5568,161,99
+fixed,DOMI,cpu,9600,8,ok,5.892,98.8,0.01,5232,161,99
+fixed,HSIC-diff,cpu,9600,4,ok,1.765,98.6,0.01,4896,161,99
+fixed,HSIC-diff,cpu,9600,5,ok,1.828,98.6,0.01,5616,161,99
+fixed,HSIC-diff,cpu,9600,6,ok,1.795,98.4,0.01,4800,161,99
+fixed,HSIC-diff,cpu,9600,7,ok,1.827,98.5,0.01,4944,161,99
+fixed,HSIC-diff,cpu,9600,8,ok,1.801,98.4,0.01,5232,161,99
+fixed,HSIC-diff,cpu,9600,9,ok,1.862,98.4,0.01,4800,161,99
+fixed,dCor-diff,cpu,9600,3,ok,742.652,2191.8,0.01,5136,161,99
+fixed,dCor-diff,cpu,9600,1,ok,758.609,2191.9,0.01,4944,161,99
+fixed,dCor-diff,cpu,9600,2,ok,762.762,2192.2,0.01,4464,161,99
+fixed,dCor-diff,cpu,9600,0,ok,809.652,2192.2,0.02,4752,161,99
+fixed,dCor-diff,cpu,9600,4,ok,748.584,2192.0,0.01,4896,161,99
+fixed,dCor-diff,cpu,9600,6,ok,761.986,2191.9,0.01,4800,161,99
+fixed,dCor-diff,cpu,9600,5,ok,770.311,2192.0,0.01,5136,161,99
+fixed,Spearman-diff,cpu,9600,0,ok,0.589,81.2,0.95,8448,161,99
+fixed,Spearman-diff,cpu,9600,1,ok,0.849,80.9,0.02,2688,161,99
+fixed,Spearman-diff,cpu,9600,2,ok,0.86,81.1,0.87,8016,161,99
+fixed,Spearman-diff,cpu,9600,3,ok,0.863,80.9,0.96,5088,161,99
+fixed,Spearman-diff,cpu,9600,4,ok,0.874,81.0,0.52,7584,161,99
+fixed,Spearman-diff,cpu,9600,5,ok,0.861,80.9,0.48,7056,161,99
+fixed,Spearman-diff,cpu,9600,6,ok,0.868,80.9,0.61,4272,161,99
+fixed,Spearman-diff,cpu,9600,7,ok,0.862,80.9,0.02,2448,161,99
+fixed,Spearman-diff,cpu,9600,8,ok,0.9,80.9,0.89,8640,161,99
+fixed,Spearman-diff,cpu,9600,9,ok,0.855,80.9,0.54,1968,161,99
+fixed,dCor-diff,cpu,9600,7,ok,786.499,2191.6,0.01,5088,161,99
+fixed,CopulaCvM,cpu,9600,0,ok,395.884,2190.0,0.03,5856,161,99
+fixed,CopulaCvM,cpu,9600,1,ok,381.468,2190.0,0.23,3888,161,99
+fixed,dCor-diff,cpu,9600,8,ok,745.744,2192.0,0.01,4704,161,99
+fixed,dCor-diff,cpu,9600,9,ok,732.953,2191.7,0.01,5088,161,99
+fixed,CopulaCvM,cpu,9600,2,ok,385.026,2190.0,0.16,5040,161,99
+fixed,CopulaCvM,cpu,9600,3,ok,392.194,2190.0,0.23,4752,161,99
+fixed,CopulaCvM,cpu,9600,4,ok,379.379,2190.1,0.01,4800,161,99
+fixed,CopulaCvM,cpu,9600,5,ok,375.429,2190.0,0.01,5040,161,99
+fixed,CopulaCvM,cpu,9600,6,ok,374.538,2190.0,0.08,8112,161,99
+fixed,CopulaCvM,cpu,9600,7,ok,372.947,2189.9,0.1,2016,161,99
+fixed,CopulaCvM,cpu,9600,8,ok,399.778,2190.1,0.12,8592,161,99
+fixed,CopulaCvM,cpu,9600,9,ok,398.992,2189.9,0.14,4800,161,99
+fixed,CvM-sub,cpu,9600,0,timeout,1800,,,,,
+fixed,CvM-sub,cpu,9600,5,not run,,,,,,
+fixed,CvM-sub,cpu,9600,6,not run,,,,,,
+fixed,CvM-sub,cpu,9600,7,not run,,,,,,
+fixed,CvM-sub,cpu,9600,8,not run,,,,,,
+fixed,CvM-sub,cpu,9600,9,not run,,,,,,
+fixed,CvM-sub,cpu,9600,1,timeout,1800,,,,,
+fixed,CvM-sub,cpu,9600,2,timeout,1800,,,,,
+fixed,CvM-sub,cpu,9600,3,timeout,1800,,,,,
+fixed,CvM-sub,cpu,9600,4,timeout,1800,,,,,
+fixed,CvM-sub,cpu,38400,0,not run,,,,,,
+fixed,CvM-sub,cpu,38400,1,not run,,,,,,
+fixed,CvM-sub,cpu,38400,2,not run,,,,,,
+fixed,CvM-sub,cpu,38400,3,not run,,,,,,
+fixed,CvM-sub,cpu,38400,4,not run,,,,,,
+fixed,CvM-sub,cpu,38400,5,not run,,,,,,
+fixed,CvM-sub,cpu,38400,6,not run,,,,,,
+fixed,CvM-sub,cpu,38400,7,not run,,,,,,
+fixed,CvM-sub,cpu,38400,8,not run,,,,,,
+fixed,CvM-sub,cpu,38400,9,not run,,,,,,
+fixed,Gram,cpu,38400,0,not run,,,,,,
+fixed,Gram,cpu,38400,1,not run,,,,,,
+fixed,Gram,cpu,38400,2,not run,,,,,,
+fixed,Gram,cpu,38400,3,not run,,,,,,
+fixed,Gram,cpu,38400,4,not run,,,,,,
+fixed,Gram,cpu,38400,5,not run,,,,,,
+fixed,Gram,cpu,38400,6,not run,,,,,,
+fixed,Gram,cpu,38400,7,not run,,,,,,
+fixed,Gram,cpu,38400,8,not run,,,,,,
+fixed,Gram,cpu,38400,9,not run,,,,,,
+fixed,DOMI,cpu,38400,3,ok,9.692,134.9,0.01,19200,161,99
+fixed,DOMI,cpu,38400,2,ok,9.437,135.1,0.01,21504,161,99
+fixed,DOMI,cpu,38400,1,ok,11.719,134.9,0.01,23808,161,99
+fixed,DOMI,cpu,38400,0,ok,12.521,134.8,0.01,20928,161,99
+fixed,DOMI,cpu,38400,5,ok,7.428,135.2,0.01,20160,161,99
+fixed,DOMI,cpu,38400,4,ok,7.56,135.3,0.01,21888,161,99
+fixed,DOMI,cpu,38400,6,ok,7.559,135.1,0.01,24000,161,99
+fixed,DOMI,cpu,38400,7,ok,7.443,135.3,0.01,19584,161,99
+fixed,DOMI,cpu,38400,8,ok,7.505,135.0,0.01,21312,161,99
+fixed,DOMI,cpu,38400,9,ok,7.618,134.9,0.01,19776,161,99
+fixed,HSIC-diff,cpu,38400,0,ok,5.544,173.9,0.01,22272,161,99
+fixed,HSIC-diff,cpu,38400,1,ok,5.512,174.1,0.01,21888,161,99
+fixed,HSIC-diff,cpu,38400,2,ok,5.875,173.9,0.01,22464,161,99
+fixed,HSIC-diff,cpu,38400,3,ok,5.878,174.0,0.01,21504,161,99
+fixed,HSIC-diff,cpu,38400,4,ok,5.896,173.8,0.01,20928,161,99
+fixed,HSIC-diff,cpu,38400,5,ok,5.878,173.7,0.01,19776,161,99
+fixed,HSIC-diff,cpu,38400,6,ok,5.841,173.7,0.01,23040,161,99
+fixed,HSIC-diff,cpu,38400,7,ok,5.869,173.9,0.01,19584,161,99
+fixed,HSIC-diff,cpu,38400,8,ok,5.89,173.7,0.01,21120,161,99
+fixed,HSIC-diff,cpu,38400,9,ok,6.007,174.0,0.01,19392,161,99
+fixed,dCor-diff,cpu,38400,2,memory,,,,,,
+fixed,dCor-diff,cpu,38400,7,not run,,,,,,
+fixed,dCor-diff,cpu,38400,8,not run,,,,,,
+fixed,dCor-diff,cpu,38400,9,not run,,,,,,
+fixed,dCor-diff,cpu,38400,1,memory,,,,,,
+fixed,dCor-diff,cpu,38400,3,memory,,,,,,
+fixed,dCor-diff,cpu,38400,0,memory,,,,,,
+fixed,Spearman-diff,cpu,38400,0,ok,0.989,105.9,0.26,11904,161,99
+fixed,dCor-diff,cpu,38400,6,memory,,,,,,
+fixed,dCor-diff,cpu,38400,4,memory,,,,,,
+fixed,dCor-diff,cpu,38400,5,memory,,,,,,
+fixed,Spearman-diff,cpu,38400,1,ok,0.936,106.6,0.07,10560,161,99
+fixed,Spearman-diff,cpu,38400,3,ok,0.905,106.2,0.99,31104,161,99
+fixed,Spearman-diff,cpu,38400,4,ok,0.907,106.6,0.51,28608,161,99
+fixed,Spearman-diff,cpu,38400,2,ok,1.04,106.5,0.37,26304,161,99
+fixed,Spearman-diff,cpu,38400,5,ok,0.92,106.2,0.32,33216,161,99
+fixed,Spearman-diff,cpu,38400,7,ok,0.921,106.7,0.45,32448,161,99
+fixed,Spearman-diff,cpu,38400,6,ok,0.908,106.3,0.4,34560,161,99
+fixed,Spearman-diff,cpu,38400,8,ok,1.034,106.3,0.86,34368,161,99
+fixed,Spearman-diff,cpu,38400,9,ok,0.923,106.3,0.85,15552,161,99
+fixed,CopulaCvM,cpu,38400,1,memory,,,,,,
+fixed,CopulaCvM,cpu,38400,6,not run,,,,,,
+fixed,CopulaCvM,cpu,38400,7,not run,,,,,,
+fixed,CopulaCvM,cpu,38400,8,not run,,,,,,
+fixed,CopulaCvM,cpu,38400,9,not run,,,,,,
+fixed,CopulaCvM,cpu,38400,0,memory,,,,,,
+fixed,CopulaCvM,cpu,38400,2,memory,,,,,,
+fixed,CopulaCvM,cpu,38400,3,memory,,,,,,
+fixed,CopulaCvM,cpu,38400,5,memory,,,,,,
+fixed,CopulaCvM,cpu,38400,4,memory,,,,,,
+fixed,dCor-diff,cpu,76800,0,not run,,,,,,
+fixed,dCor-diff,cpu,76800,1,not run,,,,,,
+fixed,dCor-diff,cpu,76800,2,not run,,,,,,
+fixed,dCor-diff,cpu,76800,3,not run,,,,,,
+fixed,dCor-diff,cpu,76800,4,not run,,,,,,
+fixed,dCor-diff,cpu,76800,5,not run,,,,,,
+fixed,dCor-diff,cpu,76800,6,not run,,,,,,
+fixed,dCor-diff,cpu,76800,7,not run,,,,,,
+fixed,dCor-diff,cpu,76800,8,not run,,,,,,
+fixed,dCor-diff,cpu,76800,9,not run,,,,,,
+fixed,CopulaCvM,cpu,76800,0,not run,,,,,,
+fixed,CopulaCvM,cpu,76800,1,not run,,,,,,
+fixed,CopulaCvM,cpu,76800,2,not run,,,,,,
+fixed,CopulaCvM,cpu,76800,3,not run,,,,,,
+fixed,CopulaCvM,cpu,76800,4,not run,,,,,,
+fixed,CopulaCvM,cpu,76800,5,not run,,,,,,
+fixed,CopulaCvM,cpu,76800,6,not run,,,,,,
+fixed,CopulaCvM,cpu,76800,7,not run,,,,,,
+fixed,CopulaCvM,cpu,76800,8,not run,,,,,,
+fixed,CopulaCvM,cpu,76800,9,not run,,,,,,
+fixed,CvM-sub,cpu,76800,0,not run,,,,,,
+fixed,CvM-sub,cpu,76800,1,not run,,,,,,
+fixed,CvM-sub,cpu,76800,2,not run,,,,,,
+fixed,CvM-sub,cpu,76800,3,not run,,,,,,
+fixed,CvM-sub,cpu,76800,4,not run,,,,,,
+fixed,CvM-sub,cpu,76800,5,not run,,,,,,
+fixed,CvM-sub,cpu,76800,6,not run,,,,,,
+fixed,CvM-sub,cpu,76800,7,not run,,,,,,
+fixed,CvM-sub,cpu,76800,8,not run,,,,,,
+fixed,CvM-sub,cpu,76800,9,not run,,,,,,
+fixed,Gram,cpu,76800,0,not run,,,,,,
+fixed,Gram,cpu,76800,1,not run,,,,,,
+fixed,Gram,cpu,76800,2,not run,,,,,,
+fixed,Gram,cpu,76800,3,not run,,,,,,
+fixed,Gram,cpu,76800,4,not run,,,,,,
+fixed,Gram,cpu,76800,5,not run,,,,,,
+fixed,Gram,cpu,76800,6,not run,,,,,,
+fixed,Gram,cpu,76800,7,not run,,,,,,
+fixed,Gram,cpu,76800,8,not run,,,,,,
+fixed,Gram,cpu,76800,9,not run,,,,,,
+fixed,DOMI,cpu,76800,1,ok,10.069,191.0,0.01,38400,161,99
+fixed,DOMI,cpu,76800,3,ok,10.323,191.3,0.01,49920,161,99
+fixed,DOMI,cpu,76800,0,ok,10.461,191.3,0.01,39168,161,99
+fixed,DOMI,cpu,76800,2,ok,10.437,191.6,0.01,44160,161,99
+fixed,DOMI,cpu,76800,4,ok,10.084,191.8,0.01,38784,161,99
+fixed,DOMI,cpu,76800,7,ok,10.377,191.1,0.01,41472,161,99
+fixed,DOMI,cpu,76800,5,ok,10.505,191.0,0.01,39168,161,99
+fixed,DOMI,cpu,76800,6,ok,10.505,191.6,0.01,40704,161,99
+fixed,DOMI,cpu,76800,8,ok,10.038,191.7,0.01,40704,161,99
+fixed,DOMI,cpu,76800,9,ok,10.179,191.1,0.01,38784,161,99
+fixed,HSIC-diff,cpu,76800,1,ok,11.577,275.5,0.01,38784,161,99
+fixed,HSIC-diff,cpu,76800,0,ok,11.704,275.6,0.01,39168,161,99
+fixed,HSIC-diff,cpu,76800,2,ok,13.526,275.7,0.01,47232,161,99
+fixed,HSIC-diff,cpu,76800,3,ok,13.628,275.6,0.01,43392,161,99
+fixed,HSIC-diff,cpu,76800,4,ok,13.761,275.5,0.01,38784,161,99
+fixed,HSIC-diff,cpu,76800,5,ok,13.76,276.0,0.01,38784,161,99
+fixed,HSIC-diff,cpu,76800,6,ok,12.241,275.6,0.01,44160,161,99
+fixed,HSIC-diff,cpu,76800,7,ok,12.525,275.8,0.01,39936,161,99
+fixed,Spearman-diff,cpu,76800,0,ok,1.892,140.1,0.32,11904,161,99
+fixed,HSIC-diff,cpu,76800,9,ok,11.967,275.5,0.01,38400,161,99
+fixed,HSIC-diff,cpu,76800,8,ok,12.004,275.7,0.01,46848,161,99
+fixed,Spearman-diff,cpu,76800,1,ok,1.834,140.5,0.31,10752,161,99
+fixed,Spearman-diff,cpu,76800,4,ok,1.778,140.3,0.42,10752,161,99
+fixed,Spearman-diff,cpu,76800,2,ok,1.875,140.6,0.61,22656,161,99
+fixed,Spearman-diff,cpu,76800,3,ok,1.837,140.6,0.78,45696,161,99
+fixed,Spearman-diff,cpu,76800,5,ok,1.848,140.5,0.58,47232,161,99
+fixed,Spearman-diff,cpu,76800,6,ok,1.809,140.4,0.17,61824,161,99
+fixed,Spearman-diff,cpu,76800,7,ok,1.837,140.1,0.91,64128,161,99
+fixed,Spearman-diff,cpu,76800,8,ok,1.82,140.3,0.79,43776,161,99
+fixed,Spearman-diff,cpu,76800,9,ok,1.681,140.4,0.85,15744,161,99

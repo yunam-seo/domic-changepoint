@@ -1,0 +1,4 @@
+scen,level,method,sigma_mult,D,mode,power,detect_rate
+D1,0.35,DOMI,0.25,8,gs,0.07,0.128
+D1,0.35,DOMI,0.25,12,gs,0.348,0.48
+D1,0.35,DOMI,0.25,16,gs,0.552,0.656

@@ -1,0 +1,17 @@
+{
+ "CorrCUSUM": {
+  "tau_date": "20220525",
+  "p_value": 0.01,
+  "K": 99
+ },
+ "DCC-CUSUM": {
+  "tau_date": "20220613",
+  "p_value": 0.04,
+  "K": 49
+ },
+ "KCCA-logdet": {
+  "tau_date": "20211201",
+  "p_value": 0.64,
+  "K": 99
+ }
+}

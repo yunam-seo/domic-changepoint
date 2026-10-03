@@ -1,0 +1,236 @@
+{
+ "config": {
+  "n": 600,
+  "tau": 300,
+  "tol": 30,
+  "base_seed": 20260825,
+  "fpr": 0.05,
+  "D": 8,
+  "matmi": true,
+  "deps": false,
+  "subsample": "perseg",
+  "msub": 0,
+  "modes": [
+   "global"
+  ],
+  "reps": 500,
+  "scenarios": "G3",
+  "MSUB": 1000000000
+ },
+ "scenarios": {
+  "G1": "tail dependence, zero corr: indep -> t-copula(rho=0, nu)",
+  "G2": "upper-tail: indep -> Gumbel(tau)",
+  "G3": "lower-tail: indep -> Clayton(tau)",
+  "G4": "U-shaped (quadratic), zero corr",
+  "G5": "periodic cos(pi x), zero corr",
+  "G6": "asymmetric volatility coupling (leverage), zero corr"
+ },
+ "note": "DOMI-diff is the DOMI difference statistic",
+ "bandwidths": {
+  "G3": {
+   "gamma_x": 12.0686,
+   "gamma_y": 11.40011
+  }
+ },
+ "runtime_sec": 3699.6,
+ "rows": [
+  {
+   "scen": "G3",
+   "level": 0.2,
+   "method": "DOMI-diff",
+   "mode": "g",
+   "key": "DOMI-diff|g",
+   "power": 0.014,
+   "detect_rate": 0.446,
+   "threshold": 0.6960678221148588,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.2,
+   "method": "matmi-a1",
+   "mode": "g",
+   "key": "matmi-a1|g",
+   "power": 0.012,
+   "detect_rate": 0.446,
+   "threshold": 1.024423294620506,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.2,
+   "method": "matmi-r2",
+   "mode": "g",
+   "key": "matmi-r2|g",
+   "power": 0.064,
+   "detect_rate": 0.542,
+   "threshold": 0.9413181286461729,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.2,
+   "method": "DOMI-diff",
+   "mode": "gs",
+   "key": "DOMI-diff|gs",
+   "power": 0.72,
+   "detect_rate": 0.97,
+   "threshold": 3.859585547337488,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.2,
+   "method": "matmi-a1",
+   "mode": "gs",
+   "key": "matmi-a1|gs",
+   "power": 0.862,
+   "detect_rate": 0.98,
+   "threshold": 3.8023882662897104,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.2,
+   "method": "matmi-r2",
+   "mode": "gs",
+   "key": "matmi-r2|gs",
+   "power": 0.63,
+   "detect_rate": 0.94,
+   "threshold": 4.12073714359504,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.35,
+   "method": "DOMI-diff",
+   "mode": "g",
+   "key": "DOMI-diff|g",
+   "power": 0.302,
+   "detect_rate": 1.0,
+   "threshold": 0.6960678221148588,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.35,
+   "method": "matmi-a1",
+   "mode": "g",
+   "key": "matmi-a1|g",
+   "power": 0.27,
+   "detect_rate": 1.0,
+   "threshold": 1.024423294620506,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.35,
+   "method": "matmi-r2",
+   "mode": "g",
+   "key": "matmi-r2|g",
+   "power": 0.382,
+   "detect_rate": 1.0,
+   "threshold": 0.9413181286461729,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.35,
+   "method": "DOMI-diff",
+   "mode": "gs",
+   "key": "DOMI-diff|gs",
+   "power": 0.97,
+   "detect_rate": 1.0,
+   "threshold": 3.859585547337488,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.35,
+   "method": "matmi-a1",
+   "mode": "gs",
+   "key": "matmi-a1|gs",
+   "power": 1.0,
+   "detect_rate": 1.0,
+   "threshold": 3.8023882662897104,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.35,
+   "method": "matmi-r2",
+   "mode": "gs",
+   "key": "matmi-r2|gs",
+   "power": 0.89,
+   "detect_rate": 1.0,
+   "threshold": 4.12073714359504,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.5,
+   "method": "DOMI-diff",
+   "mode": "g",
+   "key": "DOMI-diff|g",
+   "power": 0.466,
+   "detect_rate": 1.0,
+   "threshold": 0.6960678221148588,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.5,
+   "method": "matmi-a1",
+   "mode": "g",
+   "key": "matmi-a1|g",
+   "power": 0.454,
+   "detect_rate": 1.0,
+   "threshold": 1.024423294620506,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.5,
+   "method": "matmi-r2",
+   "mode": "g",
+   "key": "matmi-r2|g",
+   "power": 0.598,
+   "detect_rate": 1.0,
+   "threshold": 0.9413181286461729,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.5,
+   "method": "DOMI-diff",
+   "mode": "gs",
+   "key": "DOMI-diff|gs",
+   "power": 0.994,
+   "detect_rate": 1.0,
+   "threshold": 3.859585547337488,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.5,
+   "method": "matmi-a1",
+   "mode": "gs",
+   "key": "matmi-a1|gs",
+   "power": 1.0,
+   "detect_rate": 1.0,
+   "threshold": 3.8023882662897104,
+   "n_reps": 500
+  },
+  {
+   "scen": "G3",
+   "level": 0.5,
+   "method": "matmi-r2",
+   "mode": "gs",
+   "key": "matmi-r2|gs",
+   "power": 0.976,
+   "detect_rate": 1.0,
+   "threshold": 4.12073714359504,
+   "n_reps": 500
+  }
+ ]
+}

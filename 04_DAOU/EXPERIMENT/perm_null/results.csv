@@ -1,0 +1,7 @@
+null,scheme,K,D,reps,fpr_threshold,fpr_pvalue
+dependent,pair,99,8,200,0.075,0.07
+dependent,yonly,99,8,200,0.97,0.965
+nonlinear,pair,99,8,200,0.065,0.06
+nonlinear,yonly,99,8,200,0.3,0.265
+independent,pair,99,8,200,0.07,0.05
+independent,yonly,99,8,200,0.065,0.06

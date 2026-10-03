@@ -1,0 +1,18 @@
+\begin{table}[!t]
+\centering
+\caption{Pre-specified US financial panel (Section 6.8; daily, 2011-08-23 to 2026-08-20). Stage one: whole-record single-break test (DOMI for gold, the combined statistic otherwise) under block permutation at block length $\hat b$ (days), Benjamini--Hochberg $q$ over the three pairs. Stage two: dependence re-test on the largest centered window of whole blocks (Blocks), Benjamini--Hochberg $q$ over the three pairs; Draws: feature draws with $p\le0.05$.}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{l ccc cccc}
+\toprule
+ & \multicolumn{4}{c}{Stage one} & \multicolumn{3}{c}{Stage two} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-8}
+Pair & $\hat b$ & $p$ & $q$ & Break & Blocks & $q$ & Draws \\
+\midrule
+Stocks--gold & 134 & 0.008 & 0.012 & 2013-03 & 4 & 0.098 & 0/20 \\
+Stocks--Treasury & 173 & 0.020 & 0.020 & 2020-12 & 16 & 0.012 & 20/20 \\
+Stocks--dollar & 133 & 0.005 & 0.012 & 2013-04 & 6 & 0.098 & 5/20 \\
+\bottomrule
+\end{tabular}
+\label{tab:fin}
+\end{table}

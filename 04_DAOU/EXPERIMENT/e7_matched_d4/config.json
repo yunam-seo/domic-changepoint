@@ -1,0 +1,17 @@
+{
+ "n": 600,
+ "tau": 300,
+ "tol": 30,
+ "fpr": 0.05,
+ "base_seed": 20260901,
+ "reps": 200,
+ "w": 60,
+ "scen": "D4",
+ "levels": [
+  0.5,
+  0.7,
+  0.85
+ ],
+ "null": "matched: drawn at each level (null=True, level_idx=li)",
+ "alternatives": "stored in e7/records_reps.csv"
+}

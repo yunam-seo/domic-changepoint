@@ -1,0 +1,2 @@
+  H0 (no scale change)    : reject@0.05 = 0.050
+  H1 (x8 at midpoint)     : reject@0.05 = 1.000

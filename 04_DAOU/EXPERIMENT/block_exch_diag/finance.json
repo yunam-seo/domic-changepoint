@@ -1,0 +1,92 @@
+{
+ "window": [
+  "20210101",
+  "20221231"
+ ],
+ "rows": [
+  {
+   "scope": "weekly_full",
+   "pair": "SPX-TNX",
+   "series": "SPX",
+   "n": 753,
+   "lb_p_r": 0.1351,
+   "lb_p_absr": 0.0,
+   "lb_p_r2": 0.0,
+   "acf1_absr": 0.2475
+  },
+  {
+   "scope": "weekly_full",
+   "pair": "SPX-TNX",
+   "series": "TNX",
+   "n": 753,
+   "lb_p_r": 0.0256,
+   "lb_p_absr": 0.0,
+   "lb_p_r2": 0.0,
+   "acf1_absr": 0.1589
+  },
+  {
+   "scope": "weekly_full",
+   "pair": "KOSPI-USDKRW",
+   "series": "KOSPI",
+   "n": 648,
+   "lb_p_r": 0.3426,
+   "lb_p_absr": 0.0,
+   "lb_p_r2": 0.0,
+   "acf1_absr": 0.4025
+  },
+  {
+   "scope": "weekly_full",
+   "pair": "KOSPI-USDKRW",
+   "series": "USDKRW",
+   "n": 648,
+   "lb_p_r": 0.1631,
+   "lb_p_absr": 0.0014,
+   "lb_p_r2": 0.0007,
+   "acf1_absr": 0.0652
+  },
+  {
+   "scope": "daily_b20",
+   "pair": "SPX-TNX",
+   "series": "SPX",
+   "n": 25,
+   "lb_p_block_mean": 0.1831,
+   "lb_p_log_block_var": 0.0,
+   "perm_p_block_mean": 0.1895,
+   "perm_p_log_block_var": 0.0001,
+   "lb_lags": 3
+  },
+  {
+   "scope": "daily_b20",
+   "pair": "SPX-TNX",
+   "series": "TNX",
+   "n": 25,
+   "lb_p_block_mean": 0.4474,
+   "lb_p_log_block_var": 0.0,
+   "perm_p_block_mean": 0.4807,
+   "perm_p_log_block_var": 0.0001,
+   "lb_lags": 3
+  },
+  {
+   "scope": "daily_b50",
+   "pair": "SPX-TNX",
+   "series": "SPX",
+   "n": 10,
+   "lb_p_block_mean": 0.6912,
+   "lb_p_log_block_var": 0.0069,
+   "perm_p_block_mean": 0.8349,
+   "perm_p_log_block_var": 0.0119,
+   "lb_lags": 2
+  },
+  {
+   "scope": "daily_b50",
+   "pair": "SPX-TNX",
+   "series": "TNX",
+   "n": 10,
+   "lb_p_block_mean": 0.2134,
+   "lb_p_log_block_var": 0.0058,
+   "perm_p_block_mean": 0.2529,
+   "perm_p_log_block_var": 0.0115,
+   "lb_lags": 2
+  }
+ ]
+}

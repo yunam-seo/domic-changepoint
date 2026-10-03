@@ -1,0 +1,39 @@
+{
+ "scen": "D2",
+ "level": 0.9,
+ "reps": 500,
+ "null_draws": "other levels of a level-independent null",
+ "calibrations": [
+  {
+   "calibration": "draw from level_idx=0 (Table 1 calibration)",
+   "DOMI-diff|gs": 0.872,
+   "dCor-diff|gs": 0.066,
+   "HSIC-diff|gs": 0.658,
+   "Spearman-diff|g": 0.004,
+   "GaussLR|g": 0.024
+  },
+  {
+   "calibration": "draw from level_idx=1",
+   "DOMI-diff|gs": 0.932,
+   "dCor-diff|gs": 0.044,
+   "HSIC-diff|gs": 0.5,
+   "Spearman-diff|g": 0.004,
+   "GaussLR|g": 0.022
+  },
+  {
+   "calibration": "draw from level_idx=2",
+   "DOMI-diff|gs": 0.954,
+   "dCor-diff|gs": 0.05,
+   "HSIC-diff|gs": 0.504,
+   "Spearman-diff|g": 0.004,
+   "GaussLR|g": 0.01
+  }
+ ],
+ "spread": {
+  "DOMI-diff|gs": 0.082,
+  "dCor-diff|gs": 0.022,
+  "HSIC-diff|gs": 0.158,
+  "Spearman-diff|g": 0.0,
+  "GaussLR|g": 0.014
+ }
+}

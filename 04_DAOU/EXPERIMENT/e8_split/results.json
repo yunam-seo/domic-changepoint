@@ -1,0 +1,1685 @@
+{
+ "config": {
+  "block_hours": 1008,
+  "trim_hours": 24,
+  "unit_hours": 320,
+  "stage1_super_units": 6,
+  "stage2_super_units": 3,
+  "half_window_hours": 8736,
+  "min_blocks": 4,
+  "K": 9999,
+  "alpha": 0.05,
+  "n_beta_perm": 20,
+  "feature_seeds": [
+   2026,
+   2027
+  ],
+  "classification": "dependence: BH q<=0.10 within direction; marginal: min p<=0.05",
+  "match_hours": 2016
+ },
+ "stage1": [
+  {
+   "stn": "105",
+   "pair": "ta-hm",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 594.3339016643994,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 20,
+     "t_star": 12759.5,
+     "date": "20190616"
+    }
+   ]
+  },
+  {
+   "stn": "105",
+   "pair": "ta-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 530.425386347608,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 40,
+     "t_star": 26551.5,
+     "date": "20210112"
+    }
+   ]
+  },
+  {
+   "stn": "105",
+   "pair": "hm-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 594.3339016643994,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 19,
+     "t_star": 12439.5,
+     "date": "20190603"
+    }
+   ]
+  },
+  {
+   "stn": "108",
+   "pair": "ta-hm",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 530.425386347608,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 40,
+     "t_star": 26551.5,
+     "date": "20210111"
+    }
+   ]
+  },
+  {
+   "stn": "108",
+   "pair": "ta-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 594.3339016643994,
+   "beta_fa": 0.0,
+   "candidates": [
+    {
+     "unit": 22,
+     "t_star": 14455.5,
+     "date": "20190826"
+    }
+   ]
+  },
+  {
+   "stn": "108",
+   "pair": "hm-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 746.1788043412032,
+   "beta_fa": 0.0,
+   "candidates": [
+    {
+     "unit": 28,
+     "t_star": 18487.5,
+     "date": "20200210"
+    }
+   ]
+  },
+  {
+   "stn": "112",
+   "pair": "ta-hm",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 746.1788043412032,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "112",
+   "pair": "ta-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 422.4855859959094,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 40,
+     "t_star": 26551.5,
+     "date": "20210112"
+    }
+   ]
+  },
+  {
+   "stn": "112",
+   "pair": "hm-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 239.21085581075766,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 55,
+     "t_star": 36631.5,
+     "date": "20220307"
+    }
+   ]
+  },
+  {
+   "stn": "119",
+   "pair": "ta-hm",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 530.425386347608,
+   "beta_fa": 0.0,
+   "candidates": []
+  },
+  {
+   "stn": "119",
+   "pair": "ta-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 336.51117568745656,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "119",
+   "pair": "hm-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 336.51117568745656,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 26,
+     "t_star": 16791.5,
+     "date": "20191201"
+    },
+    {
+     "unit": 36,
+     "t_star": 23687.5,
+     "date": "20200914"
+    }
+   ]
+  },
+  {
+   "stn": "129",
+   "pair": "ta-hm",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 473.3889311952443,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "129",
+   "pair": "ta-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 377.0558595944207,
+   "beta_fa": 0.0,
+   "candidates": [
+    {
+     "unit": 40,
+     "t_star": 26551.5,
+     "date": "20210114"
+    }
+   ]
+  },
+  {
+   "stn": "129",
+   "pair": "hm-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 213.4885966569176,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "133",
+   "pair": "ta-hm",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 473.3889311952443,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "133",
+   "pair": "ta-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 268.03227167056696,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 40,
+     "t_star": 26551.5,
+     "date": "20210111"
+    }
+   ]
+  },
+  {
+   "stn": "133",
+   "pair": "hm-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 300.32624737448816,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 53,
+     "t_star": 34935.5,
+     "date": "20211226"
+    }
+   ]
+  },
+  {
+   "stn": "143",
+   "pair": "ta-hm",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 473.3889311952443,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 19,
+     "t_star": 12439.5,
+     "date": "20190603"
+    }
+   ]
+  },
+  {
+   "stn": "143",
+   "pair": "ta-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 300.32624737448816,
+   "beta_fa": 0.0,
+   "candidates": []
+  },
+  {
+   "stn": "143",
+   "pair": "hm-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 377.0558595944207,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 19,
+     "t_star": 12439.5,
+     "date": "20190603"
+    }
+   ]
+  },
+  {
+   "stn": "146",
+   "pair": "ta-hm",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 665.9424600694746,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 35,
+     "t_star": 22839.5,
+     "date": "20200809"
+    }
+   ]
+  },
+  {
+   "stn": "146",
+   "pair": "ta-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 422.4855859959094,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "146",
+   "pair": "hm-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 530.425386347608,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "156",
+   "pair": "ta-hm",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 594.3339016643994,
+   "beta_fa": 0.0,
+   "candidates": []
+  },
+  {
+   "stn": "156",
+   "pair": "ta-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 300.32624737448816,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 40,
+     "t_star": 26551.5,
+     "date": "20210111"
+    }
+   ]
+  },
+  {
+   "stn": "156",
+   "pair": "hm-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 336.51117568745656,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "159",
+   "pair": "ta-hm",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 665.9424600694746,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "159",
+   "pair": "ta-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 336.51117568745656,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "159",
+   "pair": "hm-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 300.32624737448816,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "165",
+   "pair": "ta-hm",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 473.3889311952443,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "165",
+   "pair": "ta-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 422.4855859959094,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 40,
+     "t_star": 26551.5,
+     "date": "20210112"
+    }
+   ]
+  },
+  {
+   "stn": "165",
+   "pair": "hm-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 422.4855859959094,
+   "beta_fa": 0.0,
+   "candidates": [
+    {
+     "unit": 6,
+     "t_star": 3527.5,
+     "date": "20180528"
+    }
+   ]
+  },
+  {
+   "stn": "184",
+   "pair": "ta-hm",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 530.425386347608,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 72,
+     "t_star": 47879.5,
+     "date": "20230619"
+    }
+   ]
+  },
+  {
+   "stn": "184",
+   "pair": "ta-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 336.51117568745656,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 40,
+     "t_star": 26551.5,
+     "date": "20210111"
+    }
+   ]
+  },
+  {
+   "stn": "184",
+   "pair": "hm-ws",
+   "select": "A",
+   "n_select": 33600,
+   "n_units": 105,
+   "beta": 422.4855859959094,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 84,
+     "t_star": 55943.5,
+     "date": "20240521"
+    }
+   ]
+  },
+  {
+   "stn": "105",
+   "pair": "ta-hm",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 473.3889311952443,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "105",
+   "pair": "ta-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 473.3889311952443,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "105",
+   "pair": "hm-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 336.51117568745656,
+   "beta_fa": 0.0,
+   "candidates": []
+  },
+  {
+   "stn": "108",
+   "pair": "ta-hm",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 594.3339016643994,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 57,
+     "t_star": 38807.5,
+     "date": "20220606"
+    }
+   ]
+  },
+  {
+   "stn": "108",
+   "pair": "ta-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 336.51117568745656,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 21,
+     "t_star": 14615.5,
+     "date": "20190902"
+    }
+   ]
+  },
+  {
+   "stn": "108",
+   "pair": "hm-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 665.9424600694746,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 29,
+     "t_star": 19815.5,
+     "date": "20200406"
+    }
+   ]
+  },
+  {
+   "stn": "112",
+   "pair": "ta-hm",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 665.9424600694746,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "112",
+   "pair": "ta-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 336.51117568745656,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "112",
+   "pair": "hm-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 377.0558595944207,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 69,
+     "t_star": 46871.5,
+     "date": "20230508"
+    }
+   ]
+  },
+  {
+   "stn": "119",
+   "pair": "ta-hm",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 422.4855859959094,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "119",
+   "pair": "ta-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 300.32624737448816,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "119",
+   "pair": "hm-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 300.32624737448816,
+   "beta_fa": 0.0,
+   "candidates": []
+  },
+  {
+   "stn": "129",
+   "pair": "ta-hm",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 530.425386347608,
+   "beta_fa": 0.0,
+   "candidates": []
+  },
+  {
+   "stn": "129",
+   "pair": "ta-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 422.4855859959094,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "129",
+   "pair": "hm-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 213.4885966569176,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "133",
+   "pair": "ta-hm",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 422.4855859959094,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "133",
+   "pair": "ta-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 336.51117568745656,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "133",
+   "pair": "hm-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 377.0558595944207,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 51,
+     "t_star": 34775.5,
+     "date": "20211220"
+    }
+   ]
+  },
+  {
+   "stn": "143",
+   "pair": "ta-hm",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 422.4855859959094,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "143",
+   "pair": "ta-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 422.4855859959094,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "143",
+   "pair": "hm-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 377.0558595944207,
+   "beta_fa": 0.0,
+   "candidates": []
+  },
+  {
+   "stn": "146",
+   "pair": "ta-hm",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 530.425386347608,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 23,
+     "t_star": 15783.5,
+     "date": "20191020"
+    }
+   ]
+  },
+  {
+   "stn": "146",
+   "pair": "ta-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 594.3339016643994,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "146",
+   "pair": "hm-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 473.3889311952443,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 23,
+     "t_star": 15783.5,
+     "date": "20191020"
+    }
+   ]
+  },
+  {
+   "stn": "156",
+   "pair": "ta-hm",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 594.3339016643994,
+   "beta_fa": 0.0,
+   "candidates": []
+  },
+  {
+   "stn": "156",
+   "pair": "ta-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 473.3889311952443,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "156",
+   "pair": "hm-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 377.0558595944207,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "159",
+   "pair": "ta-hm",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 594.3339016643994,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "159",
+   "pair": "ta-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 665.9424600694746,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "159",
+   "pair": "hm-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 213.4885966569176,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "165",
+   "pair": "ta-hm",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 594.3339016643994,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 71,
+     "t_star": 48039.5,
+     "date": "20230626"
+    }
+   ]
+  },
+  {
+   "stn": "165",
+   "pair": "ta-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 594.3339016643994,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "165",
+   "pair": "hm-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 239.21085581075766,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 68,
+     "t_star": 46023.5,
+     "date": "20230404"
+    }
+   ]
+  },
+  {
+   "stn": "184",
+   "pair": "ta-hm",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 594.3339016643994,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 84,
+     "t_star": 56951.5,
+     "date": "20240701"
+    }
+   ]
+  },
+  {
+   "stn": "184",
+   "pair": "ta-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 594.3339016643994,
+   "beta_fa": 0.05,
+   "candidates": []
+  },
+  {
+   "stn": "184",
+   "pair": "hm-ws",
+   "select": "B",
+   "n_select": 32640,
+   "n_units": 102,
+   "beta": 377.0558595944207,
+   "beta_fa": 0.05,
+   "candidates": [
+    {
+     "unit": 70,
+     "t_star": 47719.5,
+     "date": "20230612"
+    }
+   ]
+  }
+ ],
+ "directions": {
+  "select_A_test_B": {
+   "n_candidates": 22,
+   "n_tested": 22,
+   "n_p_le_05": 1,
+   "n_bh_q_le_10": 0,
+   "n_by_q_le_10": 0,
+   "n_by_q_le_05": 0,
+   "class_counts": {
+    "undetermined": 22
+   }
+  },
+  "select_B_test_A": {
+   "n_candidates": 11,
+   "n_tested": 11,
+   "n_p_le_05": 1,
+   "n_bh_q_le_10": 0,
+   "n_by_q_le_10": 0,
+   "n_by_q_le_05": 0,
+   "class_counts": {
+    "undetermined": 10,
+    "marginal-driven": 1
+   }
+  }
+ },
+ "candidates": [
+  {
+   "stn": "105",
+   "pair": "ta-hm",
+   "select": "A",
+   "test": "B",
+   "date": "20190616",
+   "t_star": 12759.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20180731-20200419",
+   "p_dep": 0.8916,
+   "p_marg_x": 0.3255,
+   "p_marg_y": 0.3186,
+   "p_marg_min": 0.3186,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Gangneung"
+  },
+  {
+   "stn": "105",
+   "pair": "ta-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20210112",
+   "t_star": 26551.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20200310-20211128",
+   "p_dep": 0.6643,
+   "p_marg_x": 0.226,
+   "p_marg_y": 0.1478,
+   "p_marg_min": 0.1478,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Gangneung"
+  },
+  {
+   "stn": "105",
+   "pair": "hm-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20190603",
+   "t_star": 12439.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20180731-20200419",
+   "p_dep": 0.4958,
+   "p_marg_x": 0.3241,
+   "p_marg_y": 0.352,
+   "p_marg_min": 0.3241,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Gangneung"
+  },
+  {
+   "stn": "108",
+   "pair": "ta-hm",
+   "select": "A",
+   "test": "B",
+   "date": "20210111",
+   "t_star": 26551.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20200310-20211128",
+   "p_dep": 0.8123,
+   "p_marg_x": 0.5727,
+   "p_marg_y": 0.6618,
+   "p_marg_min": 0.5727,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Seoul"
+  },
+  {
+   "stn": "108",
+   "pair": "ta-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20190826",
+   "t_star": 14455.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20181023-20200712",
+   "p_dep": 0.044,
+   "p_marg_x": 0.4876,
+   "p_marg_y": 0.3288,
+   "p_marg_min": 0.3288,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Seoul"
+  },
+  {
+   "stn": "108",
+   "pair": "hm-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20200210",
+   "t_star": 18487.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20190409-20201227",
+   "p_dep": 0.6431,
+   "p_marg_x": 0.169,
+   "p_marg_y": 0.0634,
+   "p_marg_min": 0.0634,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Seoul"
+  },
+  {
+   "stn": "112",
+   "pair": "ta-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20210112",
+   "t_star": 26551.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20200310-20211129",
+   "p_dep": 0.3515,
+   "p_marg_x": 0.3635,
+   "p_marg_y": 0.4532,
+   "p_marg_min": 0.3635,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Incheon"
+  },
+  {
+   "stn": "112",
+   "pair": "hm-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20220307",
+   "t_star": 36631.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20210504-20230122",
+   "p_dep": 0.372,
+   "p_marg_x": 0.6967,
+   "p_marg_y": 0.8048,
+   "p_marg_min": 0.6967,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Incheon"
+  },
+  {
+   "stn": "119",
+   "pair": "hm-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20191201",
+   "t_star": 16791.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20190115-20201004",
+   "p_dep": 0.4425,
+   "p_marg_x": 0.2144,
+   "p_marg_y": 0.646,
+   "p_marg_min": 0.2144,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Suwon"
+  },
+  {
+   "stn": "119",
+   "pair": "hm-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20200914",
+   "t_star": 23687.5,
+   "n_blocks": 9,
+   "tested": true,
+   "window": "20190924-20210905",
+   "p_dep": 0.4203,
+   "p_marg_x": 0.4949,
+   "p_marg_y": 0.4179,
+   "p_marg_min": 0.4179,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Suwon"
+  },
+  {
+   "stn": "129",
+   "pair": "ta-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20210114",
+   "t_star": 26551.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20200312-20211130",
+   "p_dep": 0.9273,
+   "p_marg_x": 0.862,
+   "p_marg_y": 0.8583,
+   "p_marg_min": 0.8583,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Seosan"
+  },
+  {
+   "stn": "133",
+   "pair": "ta-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20210111",
+   "t_star": 26551.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20200310-20211128",
+   "p_dep": 0.6242,
+   "p_marg_x": 0.7952,
+   "p_marg_y": 0.201,
+   "p_marg_min": 0.201,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Daejeon"
+  },
+  {
+   "stn": "133",
+   "pair": "hm-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20211226",
+   "t_star": 34935.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20210209-20221030",
+   "p_dep": 0.3469,
+   "p_marg_x": 0.1682,
+   "p_marg_y": 0.8066,
+   "p_marg_min": 0.1682,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Daejeon"
+  },
+  {
+   "stn": "143",
+   "pair": "ta-hm",
+   "select": "A",
+   "test": "B",
+   "date": "20190603",
+   "t_star": 12439.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20180731-20200419",
+   "p_dep": 0.5532,
+   "p_marg_x": 0.8995,
+   "p_marg_y": 0.6544,
+   "p_marg_min": 0.6544,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Daegu"
+  },
+  {
+   "stn": "143",
+   "pair": "hm-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20190603",
+   "t_star": 12439.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20180731-20200419",
+   "p_dep": 0.6861,
+   "p_marg_x": 0.6364,
+   "p_marg_y": 0.6038,
+   "p_marg_min": 0.6038,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Daegu"
+  },
+  {
+   "stn": "146",
+   "pair": "ta-hm",
+   "select": "A",
+   "test": "B",
+   "date": "20200809",
+   "t_star": 22839.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20190924-20210613",
+   "p_dep": 0.5557,
+   "p_marg_x": 0.6253,
+   "p_marg_y": 0.6389,
+   "p_marg_min": 0.6253,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Jeonju"
+  },
+  {
+   "stn": "156",
+   "pair": "ta-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20210111",
+   "t_star": 26551.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20200310-20211128",
+   "p_dep": 0.8706,
+   "p_marg_x": 0.5266,
+   "p_marg_y": 0.1355,
+   "p_marg_min": 0.1355,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Gwangju"
+  },
+  {
+   "stn": "165",
+   "pair": "ta-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20210112",
+   "t_star": 26551.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20200310-20211128",
+   "p_dep": 0.7228,
+   "p_marg_x": 0.4329,
+   "p_marg_y": 0.365,
+   "p_marg_min": 0.365,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Mokpo"
+  },
+  {
+   "stn": "165",
+   "pair": "hm-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20180528",
+   "t_star": 3527.5,
+   "n_blocks": 6,
+   "tested": true,
+   "window": "20180213-20190519",
+   "p_dep": 0.9377,
+   "p_marg_x": 0.7211,
+   "p_marg_y": 0.9426,
+   "p_marg_min": 0.7211,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Mokpo"
+  },
+  {
+   "stn": "184",
+   "pair": "ta-hm",
+   "select": "A",
+   "test": "B",
+   "date": "20230619",
+   "t_star": 47879.5,
+   "n_blocks": 9,
+   "tested": true,
+   "window": "20220628-20240609",
+   "p_dep": 0.3261,
+   "p_marg_x": 0.5736,
+   "p_marg_y": 0.0971,
+   "p_marg_min": 0.0971,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Jeju"
+  },
+  {
+   "stn": "184",
+   "pair": "ta-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20210111",
+   "t_star": 26551.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20200310-20211128",
+   "p_dep": 0.3682,
+   "p_marg_x": 0.3184,
+   "p_marg_y": 0.7109,
+   "p_marg_min": 0.3184,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Jeju"
+  },
+  {
+   "stn": "184",
+   "pair": "hm-ws",
+   "select": "A",
+   "test": "B",
+   "date": "20240521",
+   "t_star": 55943.5,
+   "n_blocks": 9,
+   "tested": true,
+   "window": "20230530-20250512",
+   "p_dep": 0.9156,
+   "p_marg_x": 0.8709,
+   "p_marg_y": 0.5138,
+   "p_marg_min": 0.5138,
+   "bh_q": 0.9377,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Jeju"
+  },
+  {
+   "stn": "108",
+   "pair": "ta-hm",
+   "select": "B",
+   "test": "A",
+   "date": "20220606",
+   "t_star": 38807.5,
+   "n_blocks": 9,
+   "tested": true,
+   "window": "20210615-20230528",
+   "p_dep": 0.0306,
+   "p_marg_x": 0.1475,
+   "p_marg_y": 0.2715,
+   "p_marg_min": 0.1475,
+   "bh_q": 0.3366,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Seoul"
+  },
+  {
+   "stn": "108",
+   "pair": "ta-ws",
+   "select": "B",
+   "test": "A",
+   "date": "20190902",
+   "t_star": 14615.5,
+   "n_blocks": 9,
+   "tested": true,
+   "window": "20180911-20200823",
+   "p_dep": 0.7467,
+   "p_marg_x": 0.6686,
+   "p_marg_y": 0.0505,
+   "p_marg_min": 0.0505,
+   "bh_q": 0.9662,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Seoul"
+  },
+  {
+   "stn": "108",
+   "pair": "hm-ws",
+   "select": "B",
+   "test": "A",
+   "date": "20200406",
+   "t_star": 19815.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20190521-20210207",
+   "p_dep": 0.6409,
+   "p_marg_x": 0.6686,
+   "p_marg_y": 0.0255,
+   "p_marg_min": 0.0255,
+   "bh_q": 0.9662,
+   "by_q": 1.0,
+   "cls": "marginal-driven",
+   "station": "Seoul"
+  },
+  {
+   "stn": "112",
+   "pair": "hm-ws",
+   "select": "B",
+   "test": "A",
+   "date": "20230508",
+   "t_star": 46871.5,
+   "n_blocks": 9,
+   "tested": true,
+   "window": "20220517-20240428",
+   "p_dep": 0.6013,
+   "p_marg_x": 0.4929,
+   "p_marg_y": 0.1697,
+   "p_marg_min": 0.1697,
+   "bh_q": 0.9662,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Incheon"
+  },
+  {
+   "stn": "133",
+   "pair": "hm-ws",
+   "select": "B",
+   "test": "A",
+   "date": "20211220",
+   "t_star": 34775.5,
+   "n_blocks": 9,
+   "tested": true,
+   "window": "20201229-20221211",
+   "p_dep": 0.8641,
+   "p_marg_x": 0.7643,
+   "p_marg_y": 0.7815,
+   "p_marg_min": 0.7643,
+   "bh_q": 0.9662,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Daejeon"
+  },
+  {
+   "stn": "146",
+   "pair": "ta-hm",
+   "select": "B",
+   "test": "A",
+   "date": "20191020",
+   "t_star": 15783.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20181204-20200823",
+   "p_dep": 0.1324,
+   "p_marg_x": 0.8437,
+   "p_marg_y": 0.219,
+   "p_marg_min": 0.219,
+   "bh_q": 0.5119,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Jeonju"
+  },
+  {
+   "stn": "146",
+   "pair": "hm-ws",
+   "select": "B",
+   "test": "A",
+   "date": "20191020",
+   "t_star": 15783.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20181204-20200822",
+   "p_dep": 0.1396,
+   "p_marg_x": 0.2174,
+   "p_marg_y": 0.7857,
+   "p_marg_min": 0.2174,
+   "bh_q": 0.5119,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Jeonju"
+  },
+  {
+   "stn": "165",
+   "pair": "ta-hm",
+   "select": "B",
+   "test": "A",
+   "date": "20230626",
+   "t_star": 48039.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20220810-20240429",
+   "p_dep": 0.9662,
+   "p_marg_x": 0.7219,
+   "p_marg_y": 0.6043,
+   "p_marg_min": 0.6043,
+   "bh_q": 0.9662,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Mokpo"
+  },
+  {
+   "stn": "165",
+   "pair": "hm-ws",
+   "select": "B",
+   "test": "A",
+   "date": "20230404",
+   "t_star": 46023.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20220518-20240205",
+   "p_dep": 0.434,
+   "p_marg_x": 0.918,
+   "p_marg_y": 0.1636,
+   "p_marg_min": 0.1636,
+   "bh_q": 0.9548,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Mokpo"
+  },
+  {
+   "stn": "184",
+   "pair": "ta-hm",
+   "select": "B",
+   "test": "A",
+   "date": "20240701",
+   "t_star": 56951.5,
+   "n_blocks": 9,
+   "tested": true,
+   "window": "20230711-20250623",
+   "p_dep": 0.4124,
+   "p_marg_x": 0.0678,
+   "p_marg_y": 0.3024,
+   "p_marg_min": 0.0678,
+   "bh_q": 0.9548,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Jeju"
+  },
+  {
+   "stn": "184",
+   "pair": "hm-ws",
+   "select": "B",
+   "test": "A",
+   "date": "20230612",
+   "t_star": 47719.5,
+   "n_blocks": 8,
+   "tested": true,
+   "window": "20220809-20240429",
+   "p_dep": 0.8918,
+   "p_marg_x": 0.8271,
+   "p_marg_y": 0.9862,
+   "p_marg_min": 0.8271,
+   "bh_q": 0.9662,
+   "by_q": 1.0,
+   "cls": "undetermined",
+   "station": "Jeju"
+  }
+ ],
+ "matched_across_directions": [
+  {
+   "stn": "108",
+   "station": "Seoul",
+   "pair": "ta-ws",
+   "date_A": "20190826",
+   "date_B": "20190902",
+   "p_dep_AtoB": 0.044,
+   "p_dep_BtoA": 0.7467,
+   "cls_AtoB": "undetermined",
+   "cls_BtoA": "undetermined",
+   "passed_both": false
+  },
+  {
+   "stn": "108",
+   "station": "Seoul",
+   "pair": "hm-ws",
+   "date_A": "20200210",
+   "date_B": "20200406",
+   "p_dep_AtoB": 0.6431,
+   "p_dep_BtoA": 0.6409,
+   "cls_AtoB": "undetermined",
+   "cls_BtoA": "marginal-driven",
+   "passed_both": false
+  },
+  {
+   "stn": "133",
+   "station": "Daejeon",
+   "pair": "hm-ws",
+   "date_A": "20211226",
+   "date_B": "20211220",
+   "p_dep_AtoB": 0.3469,
+   "p_dep_BtoA": 0.8641,
+   "cls_AtoB": "undetermined",
+   "cls_BtoA": "undetermined",
+   "passed_both": false
+  }
+ ],
+ "unrestricted_candidates": {
+  "Jeonju ta-hm 20191021": [
+   {
+    "select": "A",
+    "date": "20200809",
+    "tested": true,
+    "p_dep": 0.5557,
+    "p_marg_min": 0.6253,
+    "bh_q": 0.9377,
+    "by_q": 1.0,
+    "cls": "undetermined",
+    "weeks_from_unrestricted": 42.0
+   },
+   {
+    "select": "B",
+    "date": "20191020",
+    "tested": true,
+    "p_dep": 0.1324,
+    "p_marg_min": 0.219,
+    "bh_q": 0.5119,
+    "by_q": 1.0,
+    "cls": "undetermined",
+    "weeks_from_unrestricted": -0.0
+   }
+  ],
+  "Suwon hm-ws 20190826": [
+   {
+    "select": "A",
+    "date": "20191201",
+    "tested": true,
+    "p_dep": 0.4425,
+    "p_marg_min": 0.2144,
+    "bh_q": 0.9377,
+    "by_q": 1.0,
+    "cls": "undetermined",
+    "weeks_from_unrestricted": 14.0
+   },
+   {
+    "select": "A",
+    "date": "20200914",
+    "tested": true,
+    "p_dep": 0.4203,
+    "p_marg_min": 0.4179,
+    "bh_q": 0.9377,
+    "by_q": 1.0,
+    "cls": "undetermined",
+    "weeks_from_unrestricted": 55.0
+   }
+  ]
+ },
+ "wall_clock_s": {
+  "stage1": 172.7,
+  "total": 289.7
+ }
+}

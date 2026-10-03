@@ -1,0 +1,36 @@
+{
+ "e6a_block_SPX-TNX": {
+  "n_weeks": 753,
+  "diag_decision": "block",
+  "diag_pvalues": {
+   "lb_level_x": 0.905,
+   "lb_level_y": 0.18,
+   "lb_scale_x": 0.005,
+   "lb_scale_y": 0.005,
+   "lb_cross": 0.295
+  },
+  "block": 44,
+  "beta": 12.0,
+  "fa": 0.05,
+  "cps_dates": [
+   "20200227"
+  ]
+ },
+ "e6a_block_KOSPI-USDKRW": {
+  "n_weeks": 648,
+  "diag_decision": "block",
+  "diag_pvalues": {
+   "lb_level_x": 0.41,
+   "lb_level_y": 0.175,
+   "lb_scale_x": 0.005,
+   "lb_scale_y": 0.055,
+   "lb_cross": 0.31
+  },
+  "block": 72,
+  "beta": 12.0,
+  "fa": 0.6,
+  "cps_dates": [
+   "20250115"
+  ]
+ }
+}

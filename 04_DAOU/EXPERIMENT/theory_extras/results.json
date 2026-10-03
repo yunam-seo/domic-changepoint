@@ -1,0 +1,47 @@
+{
+ "config": {
+  "D": 8,
+  "note": "paper S1-S4 == code D1-D4"
+ },
+ "X1_independence_degeneracy": {
+  "max_abs_h": 9.325873406851315e-15,
+  "sigma2": 5.992704532410026e-30,
+  "rate": {
+   "150": {
+    "m_times_mean": 3.171,
+    "m_times_sd": 0.983,
+    "sqrtm_times_sd": 0.08028,
+    "skew": 0.655
+   },
+   "600": {
+    "m_times_mean": 3.193,
+    "m_times_sd": 1.065,
+    "sqrtm_times_sd": 0.04348,
+    "skew": 0.758
+   },
+   "2400": {
+    "m_times_mean": 3.162,
+    "m_times_sd": 1.107,
+    "sqrtm_times_sd": 0.0226,
+    "skew": 1.28
+   }
+  }
+ },
+ "X2_bias_sign": {
+  "independent": 3.0874,
+  "r=0.7": 2.2098,
+  "r=0.95": 0.694,
+  "r=0.99": -0.0185,
+  "Y=X": -0.3776
+ },
+ "X3_drift_specificity": {
+  "dependence_r0.7": {
+   "scale8": 0.085,
+   "tanh": 0.068
+  },
+  "independent_M1_control": {
+   "scale8": 0.068,
+   "tanh": 0.052
+  }
+ }
+}

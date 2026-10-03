@@ -1,0 +1,95 @@
+{
+ "KOSPI-USDKRW": {
+  "n": 3240,
+  "first": "20110823",
+  "last": "20260818",
+  "w": 324,
+  "diagnostic": "block",
+  "block": 212,
+  "n_blocks": 15,
+  "diag_pvalues": {
+   "lb_level_x": 0.105,
+   "lb_level_y": 0.005,
+   "lb_scale_x": 0.005,
+   "lb_scale_y": 0.005,
+   "lb_cross": 0.005
+  },
+  "p": {
+   "DOMI-diff": 0.92,
+   "HSIC-diff": 0.75,
+   "Spearman-diff": 0.76,
+   "CopulaCvM": 0.015,
+   "combined": 0.91
+  },
+  "tau_date": {
+   "DOMI-diff": "20211028",
+   "HSIC-diff": "20250211",
+   "Spearman-diff": "20230927",
+   "CopulaCvM": "20200106",
+   "combined": "20230927"
+  },
+  "seconds": 260.8
+ },
+ "KOSPI-SPXlag": {
+  "n": 3678,
+  "first": "20110824",
+  "last": "20260819",
+  "w": 367,
+  "diagnostic": "block",
+  "block": 217,
+  "n_blocks": 16,
+  "diag_pvalues": {
+   "lb_level_x": 0.175,
+   "lb_level_y": 0.555,
+   "lb_scale_x": 0.005,
+   "lb_scale_y": 0.005,
+   "lb_cross": 0.005
+  },
+  "p": {
+   "DOMI-diff": 0.42,
+   "HSIC-diff": 0.19,
+   "Spearman-diff": 0.415,
+   "CopulaCvM": 0.02,
+   "combined": 0.49
+  },
+  "tau_date": {
+   "DOMI-diff": "20211220",
+   "HSIC-diff": "20211203",
+   "Spearman-diff": "20220209",
+   "CopulaCvM": "20191204",
+   "combined": "20220209"
+  },
+  "seconds": 304.3
+ },
+ "SPX-TNX": {
+  "n": 3769,
+  "first": "20110823",
+  "last": "20260820",
+  "w": 376,
+  "diagnostic": "block",
+  "block": 173,
+  "n_blocks": 21,
+  "diag_pvalues": {
+   "lb_level_x": 0.01,
+   "lb_level_y": 0.14,
+   "lb_scale_x": 0.005,
+   "lb_scale_y": 0.005,
+   "lb_cross": 0.06
+  },
+  "p": {
+   "DOMI-diff": 0.02,
+   "HSIC-diff": 0.03,
+   "Spearman-diff": 0.005,
+   "CopulaCvM": 0.005,
+   "combined": 0.02
+  },
+  "tau_date": {
+   "DOMI-diff": "20130508",
+   "HSIC-diff": "20130508",
+   "Spearman-diff": "20201223",
+   "CopulaCvM": "20200324",
+   "combined": "20130508"
+  },
+  "seconds": 313.8
+ }
+}

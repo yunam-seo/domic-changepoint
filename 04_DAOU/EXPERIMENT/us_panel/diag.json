@@ -1,0 +1,47 @@
+{
+ "SPX-GLD": {
+  "n": 3770,
+  "first": "20110823",
+  "last": "20260820",
+  "decision": "block",
+  "block": 134,
+  "n_blocks": 28,
+  "pvalues": {
+   "lb_level_x": 0.02,
+   "lb_level_y": 0.42,
+   "lb_scale_x": 0.005,
+   "lb_scale_y": 0.005,
+   "lb_cross": 0.735
+  }
+ },
+ "SPX-TNX": {
+  "n": 3769,
+  "first": "20110823",
+  "last": "20260820",
+  "decision": "block",
+  "block": 173,
+  "n_blocks": 21,
+  "pvalues": {
+   "lb_level_x": 0.01,
+   "lb_level_y": 0.14,
+   "lb_scale_x": 0.005,
+   "lb_scale_y": 0.005,
+   "lb_cross": 0.06
+  }
+ },
+ "SPX-DXY": {
+  "n": 3768,
+  "first": "20110823",
+  "last": "20260820",
+  "decision": "block",
+  "block": 133,
+  "n_blocks": 28,
+  "pvalues": {
+   "lb_level_x": 0.02,
+   "lb_level_y": 0.01,
+   "lb_scale_x": 0.005,
+   "lb_scale_y": 0.005,
+   "lb_cross": 0.61
+  }
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "what": "wall-clock seconds of one permuted run of the whole two-stage procedure with the penalty and bias correction held at their observed values (Supplementary Section B.14)",
+ "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 python 00_SRC/run_e8_fullperm.py --time-one (five runs, in an isolated copy of the release)",
+ "host_cpu": "12th Gen Intel(R) Core(TM) i9-12900 (otherwise idle; 1-minute load 1.00 before the runs)",
+ "date": "2026-09-30",
+ "seconds": [
+  1.68,
+  1.68,
+  1.68,
+  1.69,
+  1.68
+ ],
+ "median": 1.68,
+ "min": 1.68,
+ "max": 1.69
+}

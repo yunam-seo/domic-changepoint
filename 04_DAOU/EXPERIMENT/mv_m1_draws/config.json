@@ -1,0 +1,12 @@
+{
+ "design": "MV-M1 d=1 (run_mv_blocks.sample_m1, scale 2)",
+ "n": 600,
+ "tau": 300,
+ "tol": 30,
+ "W": 60,
+ "D": 8,
+ "draws": 4,
+ "reps": 500,
+ "seed_offset": "10_000_000*(draw+1)",
+ "feature_seed": 2026
+}
