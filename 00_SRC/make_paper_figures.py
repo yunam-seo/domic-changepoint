@@ -103,8 +103,9 @@ def figure_2():
     axes[0].set_ylabel("localized power")
     # the legend goes below the panels: inside S4 it would cover the two curves that rise there
     handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, ncol=4, loc="upper center", bbox_to_anchor=(0.5, 0.13),
-               frameon=False, handlelength=1.4, columnspacing=1.2, handletextpad=0.4)
+    # two rows across the full width (five and four entries)
+    fig.legend(handles, labels, ncol=5, loc="upper center", bbox_to_anchor=(0.5, 0.13),
+               frameon=False, handlelength=1.4, columnspacing=1.0, handletextpad=0.4)
     save(fig, "figure_2")
 
 

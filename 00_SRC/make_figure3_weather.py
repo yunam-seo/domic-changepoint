@@ -67,7 +67,7 @@ sd_h, sd_w = np.array(sd_h), np.array(sd_w)
 brk = 2019 + (8 - 1) / 12 + 26 / 365
 COLUMN = os.environ.get("FIGURE3_LAYOUT", "") == "column"
 if COLUMN:
-    fig, ax0 = plt.subplots(1, 1, figsize=(3.45, 2.75), layout="constrained")
+    fig, ax0 = plt.subplots(1, 1, figsize=(3.45, 2.4), layout="constrained")
     ax = [ax0]
 else:
     fig, ax = plt.subplots(1, 2, figsize=(6.85, 2.6), layout="constrained",
@@ -81,6 +81,11 @@ axb = ax[0].twinx()
 axb.plot(mid2, sd_h / np.nanmean(sd_h), color="#7f8c8d", lw=1.0, ls=":", label="humidity SD (relative)")
 axb.plot(mid2, sd_w / np.nanmean(sd_w), color="#34495e", lw=1.0, ls="-.", label="wind SD (relative)")
 axb.set_ylabel("rolling SD / its mean"); axb.set_ylim(0.7, 1.45)
+if COLUMN:   # fewer, shorter y tick labels on both axes
+    from matplotlib.ticker import MultipleLocator, FormatStrFormatter
+    ax[0].yaxis.set_major_locator(MultipleLocator(0.005)); ax[0].yaxis.set_major_formatter(FormatStrFormatter("%.3f"))
+    axb.yaxis.set_major_locator(MultipleLocator(0.2))
+    axb.grid(False)   # one set of horizontal guide lines: the left axis's
 # one legend for both axes, below the plot so that it covers neither curves nor axis labels
 h0, l0 = ax[0].get_legend_handles_labels()
 h1, l1 = axb.get_legend_handles_labels()
